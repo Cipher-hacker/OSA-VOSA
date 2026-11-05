@@ -7,7 +7,7 @@ import re
 import statistics
 import sys
 
-from . import align
+from . import align, osa_grid
 
 ROOT = Path(__file__).resolve().parents[1]
 BENCH = ROOT / "bench"
@@ -59,9 +59,9 @@ def retained_verification(suite, directory, config):
     return rows
 
 
-def load_measurements(comparison, verification, archived):
+def load_comparison(comparison):
     old, aligned = align.modules(align.context(BENCH))
-    comparison, verification = map(align.absolute, (comparison, verification))
+    comparison = align.absolute(comparison)
     state = align.read(comparison / "status.json")
     old.require(state["status"], "completed", "aligned comparison")
     for name in ("manifest", "measurements"):
@@ -69,6 +69,14 @@ def load_measurements(comparison, verification, archived):
         old.require(align.digest(path), state[name + "_sha256"], name)
     agg = align.verify_combined(old, aligned, comparison)
     compare_export(agg, comparison / "measurements.csv")
+    old.require(len(agg), 216, "aligned comparison")
+    return agg
+
+
+def load_measurements(comparison, verification, archived):
+    old = align.load(BENCH / "scripts/suite.py", "verification")
+    verification = align.absolute(verification)
+    agg = load_comparison(comparison)
     config = align.read(BENCH / "config.json")
     if archived:
         roles = retained_verification(old, verification, config)
@@ -112,12 +120,19 @@ def points_for(spec, lookup):
     return points
 
 
-def generate(comparison, verification, output=None, archived=False):
+def generate(comparison, verification, output=None, archived=False, grid=None):
     rows = load_measurements(comparison, verification, archived)
+    specs = align.read(ROOT / "experiments/figures.json")
+    if grid is not None:
+        if archived:
+            raise ValueError("Historical replay cannot include new measurements")
+        extra, full, config = osa_grid.load(BENCH, align.absolute(comparison), grid)
+        compare_export(extra, grid / "measurements.csv")
+        rows.extend(extra)
+        specs.extend(osa_grid.specifications(full, config))
     lookup = {job_key(r["job_id"]): r for r in rows}
     if len(lookup) != len(rows):
         raise ValueError("Duplicate run identities")
-    specs = align.read(ROOT / "experiments/figures.json")
     expected = {}
     if archived:
         for p in read_csv(ROOT / "reference/figure-values.csv"):
@@ -144,13 +159,27 @@ def generate(comparison, verification, output=None, archived=False):
             index.append(dict(figure=spec["name"], png=stem.with_suffix(".png").as_posix(),
                               pdf=stem.with_suffix(".pdf").as_posix(), data=data.as_posix(), **info))
         count += len(points)
-    if expected or count != 1058 or len(specs) != 66:
+    expected_points, expected_figures = (1282, 82) if grid is not None else (1058, 66)
+    if expected or count != expected_points or len(specs) != expected_figures:
         raise ValueError("Incomplete publication figure coverage")
     if output is not None:
         # Keep different source schemas separate for downstream analysis.
         write_csv(output / "comparison-runs.csv", rows[:216])
-        write_csv(output / "verification-runs.csv", rows[216:])
+        write_csv(output / "verification-runs.csv", rows[216:306])
+        if grid is not None:
+            write_csv(output / "osa-grid-additional-runs.csv", rows[306:])
+            extra_ids = {r["job_id"] for r in extra}
+            write_csv(output / "osa-grid-all-runs.csv", [
+                dict(lookup[j.id], groups=";".join(groups),
+                     measurement_origin="grid" if j.id in extra_ids else "comparison")
+                for j, groups in full.items()])
+            (output / "osa-grid-sources.json").write_text(json.dumps({
+                "comparison": str(comparison.resolve()), "grid": str(grid.resolve()),
+                "comparison_manifest_sha256": align.digest(comparison / "manifest.json"),
+                "grid_manifest_sha256": align.digest(grid / "manifest.json"),
+                "overlap": 24, "additional": len(extra_ids)
+            }, indent=2), "utf-8")
         (output / "index.json").write_text(json.dumps(index, indent=2, ensure_ascii=False), "utf-8")
-        print(f"FIGURES={output} PNG=66 PDF=66")
-    print(f"MEASUREMENTS_PASS comparison=216 verification=90 figure_points={count}")
+        print(f"FIGURES={output} PNG={len(index)} PDF={len(index)}")
+    print(f"MEASUREMENTS_PASS comparison=216 verification=90 grid_additional={len(rows)-306} figure_points={count}")
 

@@ -1,6 +1,6 @@
 # OSA paper artifact
 
-This repository connects the four-protocol comparison, the separate VOSA/mPVAS verification experiments and the optional CPU federated training runs. A single entry point supports two kinds of reproduction. `replay` recreates the published figure data from recorded measurements. `paper` takes new measurements on one Linux host.
+Use `all` to run the complete final experiment plan on one Linux host. It runs 354 protocol measurements and four CPU federated training runs of 300 rounds each. Use `paper` for the 354 measurements alone, or `replay` to recreate the 66 figures supported by the bundled historical evidence.
 
 ## 用已有实验记录重新出图
 
@@ -13,7 +13,7 @@ python artifact.py test
 python artifact.py replay
 ```
 
-`verify` 检查源文件、训练数据、原生计数、门限、通信量、三次重复和 1,058 个绘图点。成功时打印 `MEASUREMENTS_PASS comparison=216 verification=90 figure_points=1058`。每次 `replay` 创建独立的 `outputs/replay_*/` 目录，包含 PNG、PDF、逐点 CSV、逐次测量和 `index.json`。
+`verify` 检查源文件、训练数据、原生计数、门限、通信量、三次重复和 1,058 个历史绘图点。每次 `replay` 创建独立的 `outputs/replay_*/` 目录，包含 66 张图的 PNG、PDF、逐点 CSV、逐次测量和 `index.json`。最终参数下新增的 48 条 OSA 网格测量需要在服务器上实际执行。
 
 ## 在 AutoDL 或 Linux 服务器上重测
 
@@ -22,32 +22,37 @@ python artifact.py replay
 ```bash
 cd /root/autodl-tmp/OSA-Paper-Artifact
 python3 --version
-python3 artifact.py plan
-python3 artifact.py setup --install-system
-python3 artifact.py build
-python3 artifact.py smoke
-python3 -u artifact.py paper
+python3 artifact.py plan &&
+python3 artifact.py setup --install-system &&
+python3 artifact.py build &&
+python3 artifact.py smoke &&
+python3 artifact.py setup-training &&
+python3 -u artifact.py all
 ```
 
 以上 `python3` 指 Python 3.10.x。若系统默认版本不同，请使用 `python3.10`。Ubuntu/Debian 上 `--install-system` 会安装系统编译依赖，已有依赖可省略此参数。构建自动使用包内 Bazel 8.1.1、项目缓存及 TACITA 锁定的 Cargo vendor 源。首次安装 Rust 1.87、Python 包以及缓存未覆盖的 Bazel 依赖需要网络。运行阶段自动切换至本仓库创建的 Python 环境。Git 检出后可直接运行，网页或网盘上传时也须包含 `.cargo` 等点目录。
 
-`build` 编译并测试四协议原生程序和真实 pairing 环境。`smoke` 以小输入执行六个协议并校验结果。`paper` 在本机新测 216 条四协议记录和 90 条验证记录，随后生成论文图。每组正式配置重复三次。长任务可在 tmux 中执行。请分别保存终端打印的 `COMBINED`、验证实验的 `RESULTS` 以及最终的 `FIGURES` 路径。
+`build` 编译并测试原生程序及真实 pairing 环境。`smoke` 以小输入执行六个协议并校验结果。`all` 依次执行四协议对比、OSA 网格补测、VOSA/mPVAS 验证、绘图和四组训练。`paper` 运行相同的 354 次协议测量和绘图，无需安装训练环境。每个配置测三次。完整绘图导出 82 张图（79 张实验图及 3 张累计工作量参考图），每张各有一份 PNG、PDF 和逐点 CSV。长任务可在 tmux 中执行。
+
+记下启动时打印的 `WORKFLOW` 目录。其中的 `workflow.json` 记录各阶段路径，`figures_*/` 为图表，`training/` 为训练结果。中断后使用 `python3 -u artifact.py all --resume /absolute/path/to/WORKFLOW`；协议实验入口对应 `paper --resume`。若缺少某阶段的检查点，请保留其日志以便定位。
 
 ### 分开运行及续跑
 
 ```bash
 python3 -u artifact.py comparison
+python3 -u artifact.py grid --comparison /absolute/path/to/combined_RUN
 python3 -u artifact.py verification
-python3 artifact.py figures --comparison /absolute/path/to/combined_RUN --verification /absolute/path/to/verification_RUN
+python3 artifact.py figures --comparison /absolute/path/to/combined_RUN --verification /absolute/path/to/verification_RUN --grid /absolute/path/to/grid_RUN
 ```
 
-如果任务中断，用 `comparison --resume /absolute/path/to/paper_aligned_RUN` 或 `verification --resume /absolute/path/to/paper_RUN`。续跑输入是该阶段打印的正式原始 `RESULTS` 目录。四协议绘图输入是合并后打印的 `COMBINED` 目录。续跑检查主机、参数、程序和已完成记录。已完成其中一组时可单独跑另一组，再用 `figures` 合并。若两组均已完成，可反复绘图，无需重复计时。
+如果同一服务器已用本项目完成原先的 216+90 条正式测量，只需运行上面的 `grid` 和 `figures`，训练可单独启动。网格阶段会核对主机、基准源码和 OSA 二进制指纹。单个阶段中断时，可给该阶段的原命令加 `--resume /absolute/path/to/raw_RESULTS`。四协议的绘图输入使用合并后打印的 `COMBINED`。网格来源与清单保存在 `osa-grid-sources.json`、`osa-grid-all-runs.csv` 和 `osa-grid-additional-runs.csv`。独立的 `figures` 在省略 `--grid` 时仍支持已完成的 306 条正式记录。
 
 ## 数据来源与读图
 
 | 实验 | 记录 | 对应图 |
 | --- | ---: | ---: |
 | OSA、OPA、Willow、TACITA-STE 统一回应人数，参与人数、委员会、向量长度和掉线率扫描，含固定配置 | 216 | 45 |
+| OSA 在 100、200、400、600、800、1000 个参与用户下分别测 0%、10%、20%、30% 掉线；另取其中 1000 人的切片 | 已有 24 条，新增 48 条 | 8 张网格图、8 张固定人数掉线图 |
 | VOSA 与 mPVAS 验证增量，含 VOSA 的人数与掉线率网格 | 90 | 18 |
 | 复用上述验证记录，计算各方累计工作量 | 同一批记录 | 3 张独立参考图 |
 
@@ -57,7 +62,7 @@ python3 artifact.py figures --comparison /absolute/path/to/combined_RUN --verifi
 
 TACITA 为本地 Fig. 7 的 STE + KAHE 实现，省略 MKLHTS。验证组的 mPVAS 使用 mPVAS-UD、K=0、MNT224 和逐坐标向量扩展。VOSA 计验证增量。使用这些结果时请保留实验范围。
 
-## 可选真实联邦学习
+## 单独运行真实联邦学习
 
 在同一台 Linux 服务器执行。此组有独立的 CPU PyTorch 环境和输出目录，按 CIFAR-10 AlexNet-BN OSA、Plain，然后 MNIST LeNet-5 OSA、Plain 的顺序各跑 300 轮。
 
@@ -74,6 +79,7 @@ python3 -u artifact.py training
 | --- | --- |
 | `artifact.py` | 公开入口，负责构建、正式实验、续跑、训练与重绘。 |
 | `experiments/align.py` | 产出最终统一门限结果的原驱动，核验原始协议输出、运行条件和合并证据。 |
+| `experiments/osa_grid.py` | 从最终计划取出 OSA 网格，排除重合测量，检查实验环境，定义网格与固定人数切片的 16 张图。 |
 | `experiments/publication.py`, `experiments/figures.json` | 读取原始日志，按实验配置匹配三次实测，将同一套图定义用于历史重放和新测结果。 |
 | `experiments/setup_training.sh`, `experiments/datasets.py` | 构建真实 FL 桥、检查训练数据。 |
 | `bench/scripts/`, `bench/config.json` | 原始 Linux 环境、Bazel、测试及原生调度代码。原运行树保留自身文件校验；最终发表口径以根目录入口为准。 |

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Run the archived paper experiments, replay evidence, or train the optional FL models."""
 import argparse
+import csv
 from datetime import datetime, timezone
 import os
 from pathlib import Path
@@ -8,8 +9,8 @@ import platform
 import subprocess
 import sys
 
-from experiments import align, datasets
-from experiments.publication import BENCH, ROOT, generate
+from experiments import align, datasets, osa_grid
+from experiments.publication import BENCH, ROOT, generate, load_comparison
 
 ALIGN = ROOT / "experiments/align.py"
 SUITE = BENCH / "scripts/suite.py"
@@ -21,13 +22,18 @@ def call(command, cwd=ROOT, env=None):
     subprocess.run([str(x) for x in command], cwd=cwd, env=env, check=True)
 
 
-def tagged(command, tag):
+def tagged(command, tag, on_run=None):
     """Stream long jobs to the terminal while retaining their exact result directory."""
     last = None
     with subprocess.Popen([str(x) for x in command], cwd=BENCH, stdout=subprocess.PIPE,
                           text=True, encoding="utf-8", errors="replace") as proc:
         for line in proc.stdout:
             print(line, end="", flush=True)
+            if on_run and line.startswith("RESULTS="):
+                run = Path(line.strip().split("=", 1)[1])
+                contract = align.read(run / "manifest.json").get("contract", {})
+                if contract.get("smoke") is False:
+                    on_run(run)
             if line.startswith(tag + "="):
                 last = Path(line.strip().split("=", 1)[1])
         if proc.wait():
@@ -37,14 +43,14 @@ def tagged(command, tag):
     return last
 
 
-def run_comparison(resume=None):
+def run_comparison(resume=None, on_run=None):
     args = ["--resume", resume.resolve()] if resume else ["--fresh-all"]
-    return tagged([PY, "-u", ALIGN, "run", "--project", BENCH, *args], "COMBINED")
+    return tagged([PY, "-u", ALIGN, "run", "--project", BENCH, *args], "COMBINED", on_run)
 
 
-def run_verification(resume=None):
+def run_verification(resume=None, on_run=None):
     args = ["--resume", resume.resolve()] if resume else []
-    return tagged([PY, "-u", SUITE, "run", "--scope", "verification", *args], "RESULTS")
+    return tagged([PY, "-u", SUITE, "run", "--scope", "verification", *args], "RESULTS", on_run)
 
 
 def validation():
@@ -110,6 +116,50 @@ def train(output, resume=False):
             call([FL_PY, "-u", "-m", "federated_training.train", "--config", config,
                   "--protocol", protocol, "--device", "cpu", "--data-root", ROOT / "datasets",
                   "--output-root", output, *args], project, env)
+            with (path / "metrics.csv").open(encoding="utf-8-sig", newline="") as handle:
+                records = list(csv.DictReader(handle))
+            rounds = align.read(config)["rounds"]
+            if ([int(r["round"]) for r in records] != list(range(1, rounds + 1))
+                    or any(r["protocol"] != protocol or r["device"] != "cpu" for r in records)):
+                raise RuntimeError(f"Incomplete training metrics: {path}")
+    print(f"TRAINING_PASS models=2 protocols=2 rounds_per_run=300 output={output}", flush=True)
+
+
+def whole_experiment(mode, dest, resume):
+    """Checkpoint the native result directories before a long stage can be interrupted."""
+    suite = align.load(SUITE, "workflow")
+    dest.mkdir(parents=True, exist_ok=resume)
+    state_file = dest / "workflow.json"
+    with suite.Lock(dest / ".workflow.lock"):
+        state = align.read(state_file) if resume else {"mode": mode}
+        suite.require(state["mode"], mode, "resume action")
+        def save(key, value):
+            state[key] = str(value)
+            suite.write_json(state_file, state)
+        def stage(name, runner):
+            if name not in state:
+                raw = state.get(name + "_raw")
+                result = runner(Path(raw) if raw else None, lambda p: save(name + "_raw", p))
+                save(name, result)
+            return Path(state[name])
+        suite.write_json(state_file, state)
+        print(f"WORKFLOW={dest}", flush=True)
+        comparison = stage("comparison", run_comparison)
+        def supplement(raw, record):
+            args = ["--resume", raw] if raw else []
+            return tagged([PY, "-u", ROOT / "artifact.py", "grid", "--comparison", comparison, *args],
+                          "RESULTS", record)
+        grid = stage("grid", supplement)
+        verification = stage("verification", run_verification)
+        if "figures" not in state:
+            figures = dest / ("figures_" + suite.stamp())
+            generate(comparison, verification, figures, grid=grid)
+            save("figures", figures)
+        if mode == "all" and "training" not in state:
+            folder = dest / "training"
+            train(folder, resume=folder.exists())
+            save("training", folder)
+        print(f"COMPLETE={dest}\nFIGURES={state['figures']}", flush=True)
 
 
 def main():
@@ -120,17 +170,32 @@ def main():
     sub.add_parser("setup").add_argument("--install-system", action="store_true")
     for name in ("comparison", "verification", "training"):
         sub.add_parser(name).add_argument("--resume", type=Path)
-    for name in ("paper", "replay", "figures"):
+    grid_parser = sub.add_parser("grid")
+    grid_parser.add_argument("--comparison", required=True, type=Path)
+    grid_parser.add_argument("--resume", type=Path)
+    for name in ("all", "paper", "replay", "figures"):
         p = sub.add_parser(name)
-        p.add_argument("--output", type=Path)
+        dest_args = p.add_mutually_exclusive_group()
+        dest_args.add_argument("--output", type=Path)
+        if name in ("all", "paper"):
+            dest_args.add_argument("--resume", type=Path)
         if name == "figures":
             p.add_argument("--comparison", required=True, type=Path, help="COMBINED directory")
             p.add_argument("--verification", required=True, type=Path, help="formal verification RESULTS directory")
+            p.add_argument("--grid", type=Path, help="OSA-only 48-run supplement for the extended figures")
     args = parser.parse_args()
     mode = args.action
     if mode == "plan":
         call([sys.executable, ALIGN, "plan", "--project", BENCH, "--fresh-all"])
         call([sys.executable, SUITE, "plan", "--scope", "verification"])
+        suite = align.load(SUITE, "plan")
+        config = align.read(BENCH / "config.json")
+        full, missing = osa_grid.plans(suite, config)
+        models = [align.read(p) for p in sorted((BENCH / "project/federated_training/configs").glob("*.json"))]
+        print(f"OSA_GRID measured={len(missing)} reused={len(full)-len(missing)} total={len(full)}")
+        print(f"PAPER unique_protocol_runs={len(suite.plan(config, 'all'))} figures=82")
+        for model in models:
+            print(f"TRAINING {model['dataset']} {model['model']} OSA + Plain, {model['rounds']} rounds each")
     elif mode == "verify":
         validation()
     elif mode == "test":
@@ -139,7 +204,8 @@ def main():
         archived = mode == "replay"
         comparison = ROOT / "reference/comparison" if archived else args.comparison
         verification = ROOT / "reference/verification" if archived else args.verification
-        generate(comparison, verification, (args.output or new_output(mode)).resolve(), archived)
+        generate(comparison, verification, (args.output or new_output(mode)).resolve(), archived,
+                 grid=getattr(args, "grid", None))
     else:
         if platform.system() != "Linux" or platform.machine() != "x86_64":
             parser.error("Native experiments require Linux x86_64")
@@ -167,13 +233,15 @@ def main():
             run_comparison(args.resume)
         elif mode == "verification":
             run_verification(args.resume)
-        elif mode == "paper":
-            output = (args.output or new_output("paper")).resolve()
-            if output.exists():
-                parser.error(f"Output path is already in use: {output}")
-            comparison = run_comparison()
-            verification = run_verification()
-            generate(comparison, verification, output)
+        elif mode == "grid":
+            directory = align.absolute(args.comparison)
+            load_comparison(directory)
+            osa_grid.run(BENCH, directory, args.resume)
+        elif mode in ("paper", "all"):
+            if mode == "all" and not FL_PY.is_file():
+                parser.error("Run setup-training first")
+            output = (args.resume or args.output or new_output(mode)).resolve()
+            whole_experiment(mode, output, resume=bool(args.resume))
 
 
 if __name__ == "__main__":
