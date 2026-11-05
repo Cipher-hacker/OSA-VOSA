@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "attempt": "attempt_20261101T102119_497659Z",
+  "utc_finished": "2026-11-01T10:21:26.843360+00:00",
+  "driver_wall_s": 7.329563960433006,
+  "evidence_sha256": {
+    "process.log": "07f29efdc52a2d1a06d32e9aa52e2afb12b009760f6c342ee1d9f90f47df309c",
+    "round_audit.json": "d041a7f0796ff39a241a0befe4f33d7f5a2b60efd2124e0f3e94684772b73982",
+    "row.json": "66c9b61363c3489ef6be9e0c6c482c33b5549f5f43da28a6103e29024acd60ac",
+    "command.json": "0f62b30c9df25076b37e71796bdb528ce9f6eb54f578671a38c5dbe38ae6659d"
+  }
+}

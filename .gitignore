@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+/outputs/
+/bench/.runtime/
+/bench/bin/
+/bench/logs/
+/bench/runs/
+/bench/.suite.lock
+/bench/tacita/target/
+/bench/tacita/bin/
+/bench/tacita/validation/
+/bench/project/source/*/bazel-*
+

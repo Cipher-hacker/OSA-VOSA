@@ -1,0 +1,30 @@
+{
+  "command": [
+    "/root/autodl-tmp/OSA_Updated_Code_20261101/.work/OSA_Paper_Experiments_CPU_20261008/bin/osa"
+  ],
+  "cwd": "/root/autodl-tmp/OSA_Updated_Code_20261101/.work/OSA_Paper_Experiments_CPU_20261008",
+  "job": {
+    "protocol": "osa",
+    "n": 1000,
+    "active": 800,
+    "m": 100,
+    "length": 10000,
+    "repeat": 1
+  },
+  "utc_started": "2026-11-01T16:23:00.707833+00:00",
+  "controlled_env": {
+    "BENCH_ROUND_AUDIT": "/root/autodl-tmp/OSA_Updated_Code_20261101/.work/OSA_Paper_Experiments_CPU_20261008/runs/paper_20261101T020252_461942Z/raw/osa_N1000_A800_M100_L10000_R1/attempt_20261101T162300_706810Z/round_audit.json",
+    "BENCH_CLIENT_WARMUP": "3",
+    "BENCH_CLIENT_SAMPLES": "20",
+    "BENCH_N_CLIENTS": "1000",
+    "BENCH_ACTIVE_CLIENTS": "800",
+    "BENCH_VECTOR_LEN": "10000",
+    "BENCH_COMMITTEE_SIZE": "100",
+    "BENCH_THRESHOLD": "85",
+    "BENCH_THREADS": "32",
+    "BENCH_OSA_PROFILE": "compact_seeded",
+    "BENCH_RSS_SECRET_DIM": "16",
+    "BENCH_OSA_DIGEST_MASK_MODE": "shake256_xof",
+    "BENCH_OSA_AUX_ENCRYPTION_MODE": "ind_cpa_shake256"
+  }
+}

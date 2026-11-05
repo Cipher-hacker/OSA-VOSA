@@ -1,0 +1,1059 @@
+figure,series,x,raw_mean,sample_sd,value
+four_protocols_main_active_client_computation,OSA,OSA,0.030805666666666665,0.00916136983934899,0.030805666666666665
+four_protocols_main_active_client_computation,OPA,OPA,0.6706933333333334,0.0028818191014242135,0.6706933333333334
+four_protocols_main_active_client_computation,Willow,Willow,0.35136566666666663,0.02432361856988663,0.35136566666666663
+four_protocols_main_active_client_computation,TACITA-STE,TACITA-STE,23.472829733,0.9033526497938582,23.472829733
+four_protocols_main_committee_responder_computation,OSA,OSA,0.050207,0.011304440322280443,0.050207
+four_protocols_main_committee_responder_computation,OPA,OPA,0.06450466666666667,0.00444435510882438,0.06450466666666667
+four_protocols_main_committee_responder_computation,Willow,Willow,0.238619,0.008079510938169462,0.238619
+four_protocols_main_committee_responder_computation,TACITA-STE,TACITA-STE,0.5698436721416666,0.005224310428824474,0.5698436721416666
+four_protocols_main_server_computation,OSA,OSA,4.251746333333333,0.33190182322538275,4.251746333333333
+four_protocols_main_server_computation,OPA,OPA,10.334958,0.4742050620554362,10.334958
+four_protocols_main_server_computation,Willow,Willow,14.613524,0.604841686874343,14.613524
+four_protocols_main_server_computation,TACITA-STE,TACITA-STE,451.6156098033333,0.7074738413843134,451.6156098033333
+four_protocols_main_server_plus_verifier_computation,OSA,OSA,4.251746333333333,0.33190182322538275,4.251746333333333
+four_protocols_main_server_plus_verifier_computation,OPA,OPA,10.334958,0.4742050620554362,10.334958
+four_protocols_main_server_plus_verifier_computation,Willow,Willow,172.25578033333332,13.648277285454402,172.25578033333332
+four_protocols_main_server_plus_verifier_computation,TACITA-STE,TACITA-STE,451.6156098033333,0.7074738413843134,451.6156098033333
+four_protocols_main_end_to_end_completion,OSA,OSA,7.501815280333333,0.9538676404387618,7.501815280333333
+four_protocols_main_end_to_end_completion,OPA,OPA,37.80858555366667,0.5697788218838166,37.80858555366667
+four_protocols_main_end_to_end_completion,Willow,Willow,197.76896569666667,13.901111062609438,197.76896569666667
+four_protocols_main_end_to_end_completion,TACITA-STE,TACITA-STE,1468.9165934622288,1.7232816766645525,1468.9165934622288
+four_protocols_main_active_client_sent,OSA,OSA,296584.0,0.0,296.584
+four_protocols_main_active_client_sent,OPA,OPA,266840.0,0.0,266.84
+four_protocols_main_active_client_sent,Willow,Willow,1279894.0,0.0,1279.894
+four_protocols_main_active_client_sent,TACITA-STE,TACITA-STE,4952336.0,0.0,4952.336
+four_protocols_main_committee_responder_sent,OSA,OSA,21208.0,0.0,21.208
+four_protocols_main_committee_responder_sent,OPA,OPA,21272.0,0.0,21.272
+four_protocols_main_committee_responder_sent,Willow,Willow,99972.0,0.0,99.972
+four_protocols_main_committee_responder_sent,TACITA-STE,TACITA-STE,328.0,0.0,0.328
+four_protocols_main_server_sent,OSA,OSA,83841200,0.0,83.8412
+four_protocols_main_server_sent,OPA,OPA,86081200,0.0,86.0812
+four_protocols_main_server_sent,Willow,Willow,791124800,0.0,791.1248
+four_protocols_main_server_sent,TACITA-STE,TACITA-STE,235965600,0.0,235.9656
+four_protocols_main_total_sent,OSA,OSA,381273520,0.0,381.27352
+four_protocols_main_total_sent,OPA,OPA,353772080,0.0,353.77208
+four_protocols_main_total_sent,Willow,Willow,2079934680,0.0,2079.93468
+four_protocols_main_total_sent,TACITA-STE,TACITA-STE,5188314720,0.0,5188.31472
+four_protocols_n_active_client_computation,OSA,100,0.024175,0.0005087759821375222,0.024175
+four_protocols_n_active_client_computation,OSA,200,0.025057333333333334,0.001335590256528302,0.025057333333333334
+four_protocols_n_active_client_computation,OSA,400,0.026387666666666667,0.00022338382513810832,0.026387666666666667
+four_protocols_n_active_client_computation,OSA,600,0.025631333333333332,0.0006266915775190651,0.025631333333333332
+four_protocols_n_active_client_computation,OSA,800,0.028471,0.0025047468934006087,0.028471
+four_protocols_n_active_client_computation,OSA,1000,0.030805666666666665,0.00916136983934899,0.030805666666666665
+four_protocols_n_active_client_computation,OPA,100,0.6625943333333333,0.016892483427055165,0.6625943333333333
+four_protocols_n_active_client_computation,OPA,200,0.6855533333333333,0.013243522731257434,0.6855533333333333
+four_protocols_n_active_client_computation,OPA,400,0.6686880000000001,0.012032721180181985,0.6686880000000001
+four_protocols_n_active_client_computation,OPA,600,0.6699443333333334,0.00971497196770706,0.6699443333333334
+four_protocols_n_active_client_computation,OPA,800,0.6658733333333333,0.017785074650766414,0.6658733333333333
+four_protocols_n_active_client_computation,OPA,1000,0.6706933333333334,0.0028818191014242135,0.6706933333333334
+four_protocols_n_active_client_computation,Willow,100,0.36024300000000004,0.01650404807918348,0.36024300000000004
+four_protocols_n_active_client_computation,Willow,200,0.3500393333333333,0.009906840885637246,0.3500393333333333
+four_protocols_n_active_client_computation,Willow,400,0.35733533333333334,0.024623297937793272,0.35733533333333334
+four_protocols_n_active_client_computation,Willow,600,0.371257,0.004972571568112418,0.371257
+four_protocols_n_active_client_computation,Willow,800,0.38042200000000004,0.012194134327618343,0.38042200000000004
+four_protocols_n_active_client_computation,Willow,1000,0.35136566666666663,0.02432361856988663,0.35136566666666663
+four_protocols_n_active_client_computation,TACITA-STE,100,23.849467755400003,0.28051305287856554,23.849467755400003
+four_protocols_n_active_client_computation,TACITA-STE,200,23.772527555583334,0.3906408536250485,23.772527555583334
+four_protocols_n_active_client_computation,TACITA-STE,400,23.93719428991667,0.3138272385284114,23.93719428991667
+four_protocols_n_active_client_computation,TACITA-STE,600,23.8749533445,0.19945716029726462,23.8749533445
+four_protocols_n_active_client_computation,TACITA-STE,800,24.442057458883333,0.7940808117581774,24.442057458883333
+four_protocols_n_active_client_computation,TACITA-STE,1000,23.472829733,0.9033526497938582,23.472829733
+four_protocols_n_committee_responder_computation,OSA,100,0.004379333333333333,0.00022091929144674822,0.004379333333333333
+four_protocols_n_committee_responder_computation,OSA,200,0.008969,0.0003686027672169588,0.008969
+four_protocols_n_committee_responder_computation,OSA,400,0.018951666666666665,0.0007575462582135391,0.018951666666666665
+four_protocols_n_committee_responder_computation,OSA,600,0.027860333333333334,0.0022823674842876057,0.027860333333333334
+four_protocols_n_committee_responder_computation,OSA,800,0.04003433333333333,0.0022886131899762657,0.04003433333333333
+four_protocols_n_committee_responder_computation,OSA,1000,0.050207,0.011304440322280443,0.050207
+four_protocols_n_committee_responder_computation,OPA,100,0.006390333333333333,0.00039931107339182724,0.006390333333333333
+four_protocols_n_committee_responder_computation,OPA,200,0.013627333333333333,0.0027161386807991483,0.013627333333333333
+four_protocols_n_committee_responder_computation,OPA,400,0.02567,0.0012092857396000334,0.02567
+four_protocols_n_committee_responder_computation,OPA,600,0.03928433333333334,0.00166925442438633,0.03928433333333334
+four_protocols_n_committee_responder_computation,OPA,800,0.04997066666666666,0.0017598571911758437,0.04997066666666666
+four_protocols_n_committee_responder_computation,OPA,1000,0.06450466666666667,0.00444435510882438,0.06450466666666667
+four_protocols_n_committee_responder_computation,Willow,100,0.23914133333333334,0.004780872340204582,0.23914133333333334
+four_protocols_n_committee_responder_computation,Willow,200,0.239061,0.010027201354316161,0.239061
+four_protocols_n_committee_responder_computation,Willow,400,0.24691766666666667,0.008930172693365638,0.24691766666666667
+four_protocols_n_committee_responder_computation,Willow,600,0.248952,0.011106830375944343,0.248952
+four_protocols_n_committee_responder_computation,Willow,800,0.24331133333333332,0.004524713287417592,0.24331133333333332
+four_protocols_n_committee_responder_computation,Willow,1000,0.238619,0.008079510938169462,0.238619
+four_protocols_n_committee_responder_computation,TACITA-STE,100,0.5666656765416667,0.0017974701198003355,0.5666656765416667
+four_protocols_n_committee_responder_computation,TACITA-STE,200,0.5712212581416667,0.00373984029465152,0.5712212581416667
+four_protocols_n_committee_responder_computation,TACITA-STE,400,0.5700738088583334,0.003383676410948353,0.5700738088583334
+four_protocols_n_committee_responder_computation,TACITA-STE,600,0.566760985225,0.00273870221659658,0.566760985225
+four_protocols_n_committee_responder_computation,TACITA-STE,800,0.57006418685,0.002353711443777493,0.57006418685
+four_protocols_n_committee_responder_computation,TACITA-STE,1000,0.5698436721416666,0.005224310428824474,0.5698436721416666
+four_protocols_n_server_computation,OSA,100,0.43541066666666667,0.01678514254730456,0.43541066666666667
+four_protocols_n_server_computation,OSA,200,0.8346353333333334,0.013206574322409756,0.8346353333333334
+four_protocols_n_server_computation,OSA,400,1.672791,0.033091596168816,1.672791
+four_protocols_n_server_computation,OSA,600,2.4808783333333335,0.04145448890450036,2.4808783333333335
+four_protocols_n_server_computation,OSA,800,3.330406,0.05719743826431392,3.330406
+four_protocols_n_server_computation,OSA,1000,4.251746333333333,0.33190182322538275,4.251746333333333
+four_protocols_n_server_computation,OPA,100,1.65472,0.10100179472167806,1.65472
+four_protocols_n_server_computation,OPA,200,2.6247653333333334,0.13976896882117051,2.6247653333333334
+four_protocols_n_server_computation,OPA,400,4.405461333333333,0.21083916347854664,4.405461333333333
+four_protocols_n_server_computation,OPA,600,6.593429,0.1351524410101421,6.593429
+four_protocols_n_server_computation,OPA,800,8.671883333333334,0.25209347532281245,8.671883333333334
+four_protocols_n_server_computation,OPA,1000,10.334958,0.4742050620554362,10.334958
+four_protocols_n_server_computation,Willow,100,1.852819,0.5442406281443899,1.852819
+four_protocols_n_server_computation,Willow,200,3.106777666666667,0.1449708647498984,3.106777666666667
+four_protocols_n_server_computation,Willow,400,6.265631333333333,0.12325842433818995,6.265631333333333
+four_protocols_n_server_computation,Willow,600,8.607182333333334,0.12180495950630842,8.607182333333334
+four_protocols_n_server_computation,Willow,800,11.723721666666666,0.18832867081072224,11.723721666666666
+four_protocols_n_server_computation,Willow,1000,14.613524,0.604841686874343,14.613524
+four_protocols_n_server_computation,TACITA-STE,100,55.884969514333335,0.2572214736401441,55.884969514333335
+four_protocols_n_server_computation,TACITA-STE,200,99.93569752833334,0.1802078935200734,99.93569752833334
+four_protocols_n_server_computation,TACITA-STE,400,188.11094787333334,0.2771996218470844,188.11094787333334
+four_protocols_n_server_computation,TACITA-STE,600,275.76004596633334,0.19905957668233784,275.76004596633334
+four_protocols_n_server_computation,TACITA-STE,800,364.7667762873333,0.8389669021007182,364.7667762873333
+four_protocols_n_server_computation,TACITA-STE,1000,451.6156098033333,0.7074738413843134,451.6156098033333
+four_protocols_n_server_plus_verifier_computation,OSA,100,0.43541066666666667,0.01678514254730456,0.43541066666666667
+four_protocols_n_server_plus_verifier_computation,OSA,200,0.8346353333333334,0.013206574322409756,0.8346353333333334
+four_protocols_n_server_plus_verifier_computation,OSA,400,1.672791,0.033091596168816,1.672791
+four_protocols_n_server_plus_verifier_computation,OSA,600,2.4808783333333335,0.04145448890450036,2.4808783333333335
+four_protocols_n_server_plus_verifier_computation,OSA,800,3.330406,0.05719743826431392,3.330406
+four_protocols_n_server_plus_verifier_computation,OSA,1000,4.251746333333333,0.33190182322538275,4.251746333333333
+four_protocols_n_server_plus_verifier_computation,OPA,100,1.65472,0.10100179472167806,1.65472
+four_protocols_n_server_plus_verifier_computation,OPA,200,2.6247653333333334,0.13976896882117051,2.6247653333333334
+four_protocols_n_server_plus_verifier_computation,OPA,400,4.405461333333333,0.21083916347854664,4.405461333333333
+four_protocols_n_server_plus_verifier_computation,OPA,600,6.593429,0.1351524410101421,6.593429
+four_protocols_n_server_plus_verifier_computation,OPA,800,8.671883333333334,0.25209347532281245,8.671883333333334
+four_protocols_n_server_plus_verifier_computation,OPA,1000,10.334958,0.4742050620554362,10.334958
+four_protocols_n_server_plus_verifier_computation,Willow,100,17.904054,1.5014572226696978,17.904054
+four_protocols_n_server_plus_verifier_computation,Willow,200,38.76326666666667,1.000515595600752,38.76326666666667
+four_protocols_n_server_plus_verifier_computation,Willow,400,70.486566,1.1908158634663029,70.486566
+four_protocols_n_server_plus_verifier_computation,Willow,600,108.634882,3.9388403435564623,108.634882
+four_protocols_n_server_plus_verifier_computation,Willow,800,138.605574,1.7101055962276221,138.605574
+four_protocols_n_server_plus_verifier_computation,Willow,1000,172.25578033333332,13.648277285454402,172.25578033333332
+four_protocols_n_server_plus_verifier_computation,TACITA-STE,100,55.884969514333335,0.2572214736401441,55.884969514333335
+four_protocols_n_server_plus_verifier_computation,TACITA-STE,200,99.93569752833334,0.1802078935200734,99.93569752833334
+four_protocols_n_server_plus_verifier_computation,TACITA-STE,400,188.11094787333334,0.2771996218470844,188.11094787333334
+four_protocols_n_server_plus_verifier_computation,TACITA-STE,600,275.76004596633334,0.19905957668233784,275.76004596633334
+four_protocols_n_server_plus_verifier_computation,TACITA-STE,800,364.7667762873333,0.8389669021007182,364.7667762873333
+four_protocols_n_server_plus_verifier_computation,TACITA-STE,1000,451.6156098033333,0.7074738413843134,451.6156098033333
+four_protocols_n_end_to_end_completion,OSA,100,0.748988442,0.026787547806707994,0.748988442
+four_protocols_n_end_to_end_completion,OSA,200,1.4547530530000001,0.032404173119542426,1.4547530530000001
+four_protocols_n_end_to_end_completion,OSA,400,2.9542669813333333,0.04659034163889836,2.9542669813333333
+four_protocols_n_end_to_end_completion,OSA,600,4.350130116333333,0.1377462511509707,4.350130116333333
+four_protocols_n_end_to_end_completion,OSA,800,5.816198527666667,0.14308942266008154,5.816198527666667
+four_protocols_n_end_to_end_completion,OSA,1000,7.501815280333333,0.9538676404387618,7.501815280333333
+four_protocols_n_end_to_end_completion,OPA,100,5.063924894333333,0.15396807974556148,5.063924894333333
+four_protocols_n_end_to_end_completion,OPA,200,8.774575479333333,0.2563665754314614,8.774575479333333
+four_protocols_n_end_to_end_completion,OPA,400,15.691591945666666,0.31622936603206175,15.691591945666666
+four_protocols_n_end_to_end_completion,OPA,600,23.049400544333334,0.16214546985550354,23.049400544333334
+four_protocols_n_end_to_end_completion,OPA,800,30.474833749333335,0.47478283245261754,30.474833749333335
+four_protocols_n_end_to_end_completion,OPA,1000,37.80858555366667,0.5697788218838166,37.80858555366667
+four_protocols_n_end_to_end_completion,Willow,100,29.795926237,1.6207263073645226,29.795926237
+four_protocols_n_end_to_end_completion,Willow,200,52.127411196333334,0.43521996114065986,52.127411196333334
+four_protocols_n_end_to_end_completion,Willow,400,87.2446109,1.392365829868376,87.2446109
+four_protocols_n_end_to_end_completion,Willow,600,128.86344057166667,4.167518442140275,128.86344057166667
+four_protocols_n_end_to_end_completion,Willow,800,161.40653684366666,2.005035141913071,161.40653684366666
+four_protocols_n_end_to_end_completion,Willow,1000,197.76896569666667,13.901111062609438,197.76896569666667
+four_protocols_n_end_to_end_completion,TACITA-STE,100,180.12181986371675,0.4144450250543089,180.12181986371675
+four_protocols_n_end_to_end_completion,TACITA-STE,200,324.68460135161877,1.1708324600477187,324.68460135161877
+four_protocols_n_end_to_end_completion,TACITA-STE,400,612.1485512753328,0.9420938317362784,612.1485512753328
+four_protocols_n_end_to_end_completion,TACITA-STE,600,898.6075327843428,0.5197984843103416,898.6075327843428
+four_protocols_n_end_to_end_completion,TACITA-STE,800,1188.5507860183716,3.131044690913,1188.5507860183716
+four_protocols_n_end_to_end_completion,TACITA-STE,1000,1468.9165934622288,1.7232816766645525,1468.9165934622288
+four_protocols_n_active_client_sent,OSA,100,296584.0,0.0,296.584
+four_protocols_n_active_client_sent,OSA,200,296584.0,0.0,296.584
+four_protocols_n_active_client_sent,OSA,400,296584.0,0.0,296.584
+four_protocols_n_active_client_sent,OSA,600,296584.0,0.0,296.584
+four_protocols_n_active_client_sent,OSA,800,296584.0,0.0,296.584
+four_protocols_n_active_client_sent,OSA,1000,296584.0,0.0,296.584
+four_protocols_n_active_client_sent,OPA,100,266840.0,0.0,266.84
+four_protocols_n_active_client_sent,OPA,200,266840.0,0.0,266.84
+four_protocols_n_active_client_sent,OPA,400,266840.0,0.0,266.84
+four_protocols_n_active_client_sent,OPA,600,266840.0,0.0,266.84
+four_protocols_n_active_client_sent,OPA,800,266840.0,0.0,266.84
+four_protocols_n_active_client_sent,OPA,1000,266840.0,0.0,266.84
+four_protocols_n_active_client_sent,Willow,100,1279894.0,0.0,1279.894
+four_protocols_n_active_client_sent,Willow,200,1279894.0,0.0,1279.894
+four_protocols_n_active_client_sent,Willow,400,1279894.0,0.0,1279.894
+four_protocols_n_active_client_sent,Willow,600,1279894.0,0.0,1279.894
+four_protocols_n_active_client_sent,Willow,800,1279894.0,0.0,1279.894
+four_protocols_n_active_client_sent,Willow,1000,1279894.0,0.0,1279.894
+four_protocols_n_active_client_sent,TACITA-STE,100,4952336.0,0.0,4952.336
+four_protocols_n_active_client_sent,TACITA-STE,200,4952336.0,0.0,4952.336
+four_protocols_n_active_client_sent,TACITA-STE,400,4952336.0,0.0,4952.336
+four_protocols_n_active_client_sent,TACITA-STE,600,4952336.0,0.0,4952.336
+four_protocols_n_active_client_sent,TACITA-STE,800,4952336.0,0.0,4952.336
+four_protocols_n_active_client_sent,TACITA-STE,1000,4952336.0,0.0,4952.336
+four_protocols_n_committee_responder_sent,OSA,100,3928.0,0.0,3.928
+four_protocols_n_committee_responder_sent,OSA,200,5848.0,0.0,5.848
+four_protocols_n_committee_responder_sent,OSA,400,9688.0,0.0,9.688
+four_protocols_n_committee_responder_sent,OSA,600,13528.0,0.0,13.528
+four_protocols_n_committee_responder_sent,OSA,800,17368.0,0.0,17.368
+four_protocols_n_committee_responder_sent,OSA,1000,21208.0,0.0,21.208
+four_protocols_n_committee_responder_sent,OPA,100,3992.0,0.0,3.992
+four_protocols_n_committee_responder_sent,OPA,200,5912.0,0.0,5.912
+four_protocols_n_committee_responder_sent,OPA,400,9752.0,0.0,9.752
+four_protocols_n_committee_responder_sent,OPA,600,13592.0,0.0,13.592
+four_protocols_n_committee_responder_sent,OPA,800,17432.0,0.0,17.432
+four_protocols_n_committee_responder_sent,OPA,1000,21272.0,0.0,21.272
+four_protocols_n_committee_responder_sent,Willow,100,99972.0,0.0,99.972
+four_protocols_n_committee_responder_sent,Willow,200,99972.0,0.0,99.972
+four_protocols_n_committee_responder_sent,Willow,400,99972.0,0.0,99.972
+four_protocols_n_committee_responder_sent,Willow,600,99972.0,0.0,99.972
+four_protocols_n_committee_responder_sent,Willow,800,99972.0,0.0,99.972
+four_protocols_n_committee_responder_sent,Willow,1000,99972.0,0.0,99.972
+four_protocols_n_committee_responder_sent,TACITA-STE,100,328.0,0.0,0.328
+four_protocols_n_committee_responder_sent,TACITA-STE,200,328.0,0.0,0.328
+four_protocols_n_committee_responder_sent,TACITA-STE,400,328.0,0.0,0.328
+four_protocols_n_committee_responder_sent,TACITA-STE,600,328.0,0.0,0.328
+four_protocols_n_committee_responder_sent,TACITA-STE,800,328.0,0.0,0.328
+four_protocols_n_committee_responder_sent,TACITA-STE,1000,328.0,0.0,0.328
+four_protocols_n_server_sent,OSA,100,8385200,0.0,8.3852
+four_protocols_n_server_sent,OSA,200,16769200,0.0,16.7692
+four_protocols_n_server_sent,OSA,400,33537200,0.0,33.5372
+four_protocols_n_server_sent,OSA,600,50305200,0.0,50.3052
+four_protocols_n_server_sent,OSA,800,67073200,0.0,67.0732
+four_protocols_n_server_sent,OSA,1000,83841200,0.0,83.8412
+four_protocols_n_server_sent,OPA,100,8609200,0.0,8.6092
+four_protocols_n_server_sent,OPA,200,17217200,0.0,17.2172
+four_protocols_n_server_sent,OPA,400,34433200,0.0,34.4332
+four_protocols_n_server_sent,OPA,600,51649200,0.0,51.6492
+four_protocols_n_server_sent,OPA,800,68865200,0.0,68.8652
+four_protocols_n_server_sent,OPA,1000,86081200,0.0,86.0812
+four_protocols_n_server_sent,Willow,100,79112480,0.0,79.11248
+four_protocols_n_server_sent,Willow,200,158224960,0.0,158.22496
+four_protocols_n_server_sent,Willow,400,316449920,0.0,316.44992
+four_protocols_n_server_sent,Willow,600,474674880,0.0,474.67488
+four_protocols_n_server_sent,Willow,800,632899840,0.0,632.89984
+four_protocols_n_server_sent,Willow,1000,791124800,0.0,791.1248
+four_protocols_n_server_sent,TACITA-STE,100,235965600,0.0,235.9656
+four_protocols_n_server_sent,TACITA-STE,200,235965600,0.0,235.9656
+four_protocols_n_server_sent,TACITA-STE,400,235965600,0.0,235.9656
+four_protocols_n_server_sent,TACITA-STE,600,235965600,0.0,235.9656
+four_protocols_n_server_sent,TACITA-STE,800,235965600,0.0,235.9656
+four_protocols_n_server_sent,TACITA-STE,1000,235965600,0.0,235.9656
+four_protocols_n_total_sent,OSA,100,38200720,0.0,38.20072
+four_protocols_n_total_sent,OSA,200,76319920,0.0,76.31992
+four_protocols_n_total_sent,OSA,400,152558320,0.0,152.55832
+four_protocols_n_total_sent,OSA,600,228796720,0.0,228.79672
+four_protocols_n_total_sent,OSA,800,305035120,0.0,305.03512
+four_protocols_n_total_sent,OSA,1000,381273520,0.0,381.27352
+four_protocols_n_total_sent,OPA,100,35452880,0.0,35.45288
+four_protocols_n_total_sent,OPA,200,70821680,0.0,70.82168
+four_protocols_n_total_sent,OPA,400,141559280,0.0,141.55928
+four_protocols_n_total_sent,OPA,600,212296880,0.0,212.29688
+four_protocols_n_total_sent,OPA,800,283034480,0.0,283.03448
+four_protocols_n_total_sent,OPA,1000,353772080,0.0,353.77208
+four_protocols_n_total_sent,Willow,100,216017760,0.0,216.01776
+four_protocols_n_total_sent,Willow,200,423119640,0.0,423.11964
+four_protocols_n_total_sent,Willow,400,837323400,0.0,837.3234
+four_protocols_n_total_sent,Willow,600,1251527160,0.0,1251.52716
+four_protocols_n_total_sent,Willow,800,1665730920,0.0,1665.73092
+four_protocols_n_total_sent,Willow,1000,2079934680,0.0,2079.93468
+four_protocols_n_total_sent,TACITA-STE,100,731212320,0.0,731.21232
+four_protocols_n_total_sent,TACITA-STE,200,1226445920,0.0,1226.44592
+four_protocols_n_total_sent,TACITA-STE,400,2216913120,0.0,2216.91312
+four_protocols_n_total_sent,TACITA-STE,600,3207380320,0.0,3207.38032
+four_protocols_n_total_sent,TACITA-STE,800,4197847520,0.0,4197.84752
+four_protocols_n_total_sent,TACITA-STE,1000,5188314720,0.0,5188.31472
+four_protocols_m_active_client_computation,OSA,40,0.033147666666666666,0.014958938543002754,0.033147666666666666
+four_protocols_m_active_client_computation,OSA,50,0.030805666666666665,0.00916136983934899,0.030805666666666665
+four_protocols_m_active_client_computation,OSA,60,0.031449,0.001637775015073804,0.031449
+four_protocols_m_active_client_computation,OSA,80,0.04681066666666667,0.0004969168273799278,0.04681066666666667
+four_protocols_m_active_client_computation,OSA,100,0.060657666666666665,0.002579348819631291,0.060657666666666665
+four_protocols_m_active_client_computation,OPA,40,0.6622743333333333,0.019732329242472448,0.6622743333333333
+four_protocols_m_active_client_computation,OPA,50,0.6706933333333334,0.0028818191014242135,0.6706933333333334
+four_protocols_m_active_client_computation,OPA,60,0.684586,0.02413832121337354,0.684586
+four_protocols_m_active_client_computation,OPA,80,0.6934606666666667,0.013352234619468514,0.6934606666666667
+four_protocols_m_active_client_computation,OPA,100,0.7919246666666666,0.09553297901946389,0.7919246666666666
+four_protocols_m_active_client_computation,Willow,40,0.486734,0.19560598648047559,0.486734
+four_protocols_m_active_client_computation,Willow,50,0.35136566666666663,0.02432361856988663,0.35136566666666663
+four_protocols_m_active_client_computation,Willow,60,0.40218933333333334,0.02023720426178806,0.40218933333333334
+four_protocols_m_active_client_computation,Willow,80,0.37399166666666667,0.013349819561826804,0.37399166666666667
+four_protocols_m_active_client_computation,Willow,100,0.43725166666666665,0.03752379224349977,0.43725166666666665
+four_protocols_m_active_client_computation,TACITA-STE,40,26.305394879850002,2.2856084650549047,26.305394879850002
+four_protocols_m_active_client_computation,TACITA-STE,50,23.472829733,0.9033526497938582,23.472829733
+four_protocols_m_active_client_computation,TACITA-STE,60,30.020001414699998,3.743347180486583,30.020001414699998
+four_protocols_m_active_client_computation,TACITA-STE,80,24.60233924963333,0.26534440642577706,24.60233924963333
+four_protocols_m_active_client_computation,TACITA-STE,100,27.832724534,2.905527827782859,27.832724534
+four_protocols_m_committee_responder_computation,OSA,40,0.06387,0.029171216412758653,0.06387
+four_protocols_m_committee_responder_computation,OSA,50,0.050207,0.011304440322280443,0.050207
+four_protocols_m_committee_responder_computation,OSA,60,0.049944,0.0029897938055993066,0.049944
+four_protocols_m_committee_responder_computation,OSA,80,0.05227433333333333,0.0012618051883445923,0.05227433333333333
+four_protocols_m_committee_responder_computation,OSA,100,0.047068,0.0003133496449654935,0.047068
+four_protocols_m_committee_responder_computation,OPA,40,0.059506666666666666,0.0009026108426854479,0.059506666666666666
+four_protocols_m_committee_responder_computation,OPA,50,0.06450466666666667,0.00444435510882438,0.06450466666666667
+four_protocols_m_committee_responder_computation,OPA,60,0.06491533333333332,0.00565407042168147,0.06491533333333332
+four_protocols_m_committee_responder_computation,OPA,80,0.06280933333333333,0.00028444741751918037,0.06280933333333333
+four_protocols_m_committee_responder_computation,OPA,100,0.071854,0.006240092867898683,0.071854
+four_protocols_m_committee_responder_computation,Willow,40,0.25532066666666664,0.006961662181787734,0.25532066666666664
+four_protocols_m_committee_responder_computation,Willow,50,0.238619,0.008079510938169462,0.238619
+four_protocols_m_committee_responder_computation,Willow,60,0.34217966666666666,0.14494448985847422,0.34217966666666666
+four_protocols_m_committee_responder_computation,Willow,80,0.2637793333333333,0.006014275545178595,0.2637793333333333
+four_protocols_m_committee_responder_computation,Willow,100,0.28231933333333337,0.040632193570287765,0.28231933333333337
+four_protocols_m_committee_responder_computation,TACITA-STE,40,0.574715047125,0.0035169384568880715,0.574715047125
+four_protocols_m_committee_responder_computation,TACITA-STE,50,0.5698436721416666,0.005224310428824474,0.5698436721416666
+four_protocols_m_committee_responder_computation,TACITA-STE,60,0.58285989625,0.005790635977798418,0.58285989625
+four_protocols_m_committee_responder_computation,TACITA-STE,80,0.5707765416974359,0.0006513324539088497,0.5707765416974359
+four_protocols_m_committee_responder_computation,TACITA-STE,100,0.7088117193137256,0.0024120699756861245,0.7088117193137256
+four_protocols_m_server_computation,OSA,40,5.727027666666666,2.69301927830759,5.727027666666666
+four_protocols_m_server_computation,OSA,50,4.251746333333333,0.33190182322538275,4.251746333333333
+four_protocols_m_server_computation,OSA,60,4.282444333333333,0.07202280062822704,4.282444333333333
+four_protocols_m_server_computation,OSA,80,4.972777,0.04256509588853273,4.972777
+four_protocols_m_server_computation,OSA,100,4.50588,0.08939194138175999,4.50588
+four_protocols_m_server_computation,OPA,40,10.228134333333333,0.3336718178904736,10.228134333333333
+four_protocols_m_server_computation,OPA,50,10.334958,0.4742050620554362,10.334958
+four_protocols_m_server_computation,OPA,60,10.610914333333334,0.7767279984938956,10.610914333333334
+four_protocols_m_server_computation,OPA,80,10.460496333333333,0.09947245938617044,10.460496333333333
+four_protocols_m_server_computation,OPA,100,12.088,1.2458036576094162,12.088
+four_protocols_m_server_computation,Willow,40,20.364002,8.378112818563796,20.364002
+four_protocols_m_server_computation,Willow,50,14.613524,0.604841686874343,14.613524
+four_protocols_m_server_computation,Willow,60,15.838801333333333,0.3120385868083194,15.838801333333333
+four_protocols_m_server_computation,Willow,80,15.548162666666666,0.4262439615904644,15.548162666666666
+four_protocols_m_server_computation,Willow,100,17.23198766666667,1.3044026922665921,17.23198766666667
+four_protocols_m_server_computation,TACITA-STE,40,512.746911388,91.45059308935485,512.746911388
+four_protocols_m_server_computation,TACITA-STE,50,451.6156098033333,0.7074738413843134,451.6156098033333
+four_protocols_m_server_computation,TACITA-STE,60,460.41843300799997,10.063273398324842,460.41843300799997
+four_protocols_m_server_computation,TACITA-STE,80,457.4533358296667,0.05137984034557536,457.4533358296667
+four_protocols_m_server_computation,TACITA-STE,100,563.0108057983333,0.5875774643333682,563.0108057983333
+four_protocols_m_server_plus_verifier_computation,OSA,40,5.727027666666666,2.69301927830759,5.727027666666666
+four_protocols_m_server_plus_verifier_computation,OSA,50,4.251746333333333,0.33190182322538275,4.251746333333333
+four_protocols_m_server_plus_verifier_computation,OSA,60,4.282444333333333,0.07202280062822704,4.282444333333333
+four_protocols_m_server_plus_verifier_computation,OSA,80,4.972777,0.04256509588853273,4.972777
+four_protocols_m_server_plus_verifier_computation,OSA,100,4.50588,0.08939194138175999,4.50588
+four_protocols_m_server_plus_verifier_computation,OPA,40,10.228134333333333,0.3336718178904736,10.228134333333333
+four_protocols_m_server_plus_verifier_computation,OPA,50,10.334958,0.4742050620554362,10.334958
+four_protocols_m_server_plus_verifier_computation,OPA,60,10.610914333333334,0.7767279984938956,10.610914333333334
+four_protocols_m_server_plus_verifier_computation,OPA,80,10.460496333333333,0.09947245938617044,10.460496333333333
+four_protocols_m_server_plus_verifier_computation,OPA,100,12.088,1.2458036576094162,12.088
+four_protocols_m_server_plus_verifier_computation,Willow,40,186.20313866666666,14.425577910769514,186.20313866666666
+four_protocols_m_server_plus_verifier_computation,Willow,50,172.25578033333332,13.648277285454402,172.25578033333332
+four_protocols_m_server_plus_verifier_computation,Willow,60,207.37904166666667,47.781189315637725,207.37904166666667
+four_protocols_m_server_plus_verifier_computation,Willow,80,179.78528799999998,9.39477729567801,179.78528799999998
+four_protocols_m_server_plus_verifier_computation,Willow,100,200.70860000000002,23.502445290810744,200.70860000000002
+four_protocols_m_server_plus_verifier_computation,TACITA-STE,40,512.746911388,91.45059308935485,512.746911388
+four_protocols_m_server_plus_verifier_computation,TACITA-STE,50,451.6156098033333,0.7074738413843134,451.6156098033333
+four_protocols_m_server_plus_verifier_computation,TACITA-STE,60,460.41843300799997,10.063273398324842,460.41843300799997
+four_protocols_m_server_plus_verifier_computation,TACITA-STE,80,457.4533358296667,0.05137984034557536,457.4533358296667
+four_protocols_m_server_plus_verifier_computation,TACITA-STE,100,563.0108057983333,0.5875774643333682,563.0108057983333
+four_protocols_m_end_to_end_completion,OSA,40,9.022880598,4.053435030190592,9.022880598
+four_protocols_m_end_to_end_completion,OSA,50,7.501815280333333,0.9538676404387618,7.501815280333333
+four_protocols_m_end_to_end_completion,OSA,60,8.105783616333333,0.1679678807262185,8.105783616333333
+four_protocols_m_end_to_end_completion,OSA,80,10.226271175333332,0.1574986473569628,10.226271175333332
+four_protocols_m_end_to_end_completion,OSA,100,10.941381626666667,0.15212822842616683,10.941381626666667
+four_protocols_m_end_to_end_completion,OPA,40,36.805127621666664,0.39458648368038446,36.805127621666664
+four_protocols_m_end_to_end_completion,OPA,50,37.80858555366667,0.5697788218838166,37.80858555366667
+four_protocols_m_end_to_end_completion,OPA,60,38.827991954,0.47255727605414566,38.827991954
+four_protocols_m_end_to_end_completion,OPA,80,40.019134877,0.047311737342030175,40.019134877
+four_protocols_m_end_to_end_completion,OPA,100,45.982216662,3.646834888572814,45.982216662
+four_protocols_m_end_to_end_completion,Willow,40,214.382266812,20.631072736477755,214.382266812
+four_protocols_m_end_to_end_completion,Willow,50,197.76896569666667,13.901111062609438,197.76896569666667
+four_protocols_m_end_to_end_completion,Willow,60,242.348636666,52.797762286464724,242.348636666
+four_protocols_m_end_to_end_completion,Willow,80,213.07365567333332,9.05585656904495,213.07365567333332
+four_protocols_m_end_to_end_completion,Willow,100,244.8164140416667,30.34812414509263,244.8164140416667
+four_protocols_m_end_to_end_completion,TACITA-STE,40,1648.1001924375694,204.7433765645339,1648.1001924375694
+four_protocols_m_end_to_end_completion,TACITA-STE,50,1468.9165934622288,1.7232816766645525,1468.9165934622288
+four_protocols_m_end_to_end_completion,TACITA-STE,60,1785.3144861857097,90.21142490235461,1785.3144861857097
+four_protocols_m_end_to_end_completion,TACITA-STE,80,1494.396554152171,1.9061699900341433,1494.396554152171
+four_protocols_m_end_to_end_completion,TACITA-STE,100,1777.464471752445,130.63313393521057,1777.464471752445
+four_protocols_m_active_client_sent,OSA,40,275784.0,0.0,275.784
+four_protocols_m_active_client_sent,OSA,50,296584.0,0.0,296.584
+four_protocols_m_active_client_sent,OSA,60,317384.0,0.0,317.384
+four_protocols_m_active_client_sent,OSA,80,358984.0,0.0,358.984
+four_protocols_m_active_client_sent,OSA,100,400584.0,0.0,400.584
+four_protocols_m_active_client_sent,OPA,40,245480.0,0.0,245.48
+four_protocols_m_active_client_sent,OPA,50,266840.0,0.0,266.84
+four_protocols_m_active_client_sent,OPA,60,288200.0,0.0,288.2
+four_protocols_m_active_client_sent,OPA,80,330920.0,0.0,330.92
+four_protocols_m_active_client_sent,OPA,100,373640.0,0.0,373.64
+four_protocols_m_active_client_sent,Willow,40,1279894.0,0.0,1279.894
+four_protocols_m_active_client_sent,Willow,50,1279894.0,0.0,1279.894
+four_protocols_m_active_client_sent,Willow,60,1279894.0,0.0,1279.894
+four_protocols_m_active_client_sent,Willow,80,1279894.0,0.0,1279.894
+four_protocols_m_active_client_sent,Willow,100,1279894.0,0.0,1279.894
+four_protocols_m_active_client_sent,TACITA-STE,40,4952336.0,0.0,4952.336
+four_protocols_m_active_client_sent,TACITA-STE,50,4952336.0,0.0,4952.336
+four_protocols_m_active_client_sent,TACITA-STE,60,4952336.0,0.0,4952.336
+four_protocols_m_active_client_sent,TACITA-STE,80,4952336.0,0.0,4952.336
+four_protocols_m_active_client_sent,TACITA-STE,100,4952336.0,0.0,4952.336
+four_protocols_m_committee_responder_sent,OSA,40,21208.0,0.0,21.208
+four_protocols_m_committee_responder_sent,OSA,50,21208.0,0.0,21.208
+four_protocols_m_committee_responder_sent,OSA,60,21208.0,0.0,21.208
+four_protocols_m_committee_responder_sent,OSA,80,21208.0,0.0,21.208
+four_protocols_m_committee_responder_sent,OSA,100,21208.0,0.0,21.208
+four_protocols_m_committee_responder_sent,OPA,40,21272.0,0.0,21.272
+four_protocols_m_committee_responder_sent,OPA,50,21272.0,0.0,21.272
+four_protocols_m_committee_responder_sent,OPA,60,21272.0,0.0,21.272
+four_protocols_m_committee_responder_sent,OPA,80,21272.0,0.0,21.272
+four_protocols_m_committee_responder_sent,OPA,100,21272.0,0.0,21.272
+four_protocols_m_committee_responder_sent,Willow,40,99652.0,0.0,99.652
+four_protocols_m_committee_responder_sent,Willow,50,99972.0,0.0,99.972
+four_protocols_m_committee_responder_sent,Willow,60,100292.0,0.0,100.292
+four_protocols_m_committee_responder_sent,Willow,80,100932.0,0.0,100.932
+four_protocols_m_committee_responder_sent,Willow,100,101572.0,0.0,101.572
+four_protocols_m_committee_responder_sent,TACITA-STE,40,328.0,0.0,0.328
+four_protocols_m_committee_responder_sent,TACITA-STE,50,328.0,0.0,0.328
+four_protocols_m_committee_responder_sent,TACITA-STE,60,328.0,0.0,0.328
+four_protocols_m_committee_responder_sent,TACITA-STE,80,328.0,0.0,0.328
+four_protocols_m_committee_responder_sent,TACITA-STE,100,328.0,0.0,0.328
+four_protocols_m_server_sent,OSA,40,67072960,0.0,67.07296
+four_protocols_m_server_sent,OSA,50,83841200,0.0,83.8412
+four_protocols_m_server_sent,OSA,60,100609440,0.0,100.60944
+four_protocols_m_server_sent,OSA,80,134145920,0.0,134.14592
+four_protocols_m_server_sent,OSA,100,167682400,0.0,167.6824
+four_protocols_m_server_sent,OPA,40,68864960,0.0,68.86496
+four_protocols_m_server_sent,OPA,50,86081200,0.0,86.0812
+four_protocols_m_server_sent,OPA,60,103297440,0.0,103.29744
+four_protocols_m_server_sent,OPA,80,137729920,0.0,137.72992
+four_protocols_m_server_sent,OPA,100,172162400,0.0,172.1624
+four_protocols_m_server_sent,Willow,40,791124800,0.0,791.1248
+four_protocols_m_server_sent,Willow,50,791124800,0.0,791.1248
+four_protocols_m_server_sent,Willow,60,791124800,0.0,791.1248
+four_protocols_m_server_sent,Willow,80,791124800,0.0,791.1248
+four_protocols_m_server_sent,Willow,100,791124800,0.0,791.1248
+four_protocols_m_server_sent,TACITA-STE,40,188772480,0.0,188.77248
+four_protocols_m_server_sent,TACITA-STE,50,235965600,0.0,235.9656
+four_protocols_m_server_sent,TACITA-STE,60,283158720,0.0,283.15872
+four_protocols_m_server_sent,TACITA-STE,80,377544960,0.0,377.54496
+four_protocols_m_server_sent,TACITA-STE,100,471931200,0.0,471.9312
+four_protocols_m_total_sent,OSA,40,343535616,0.0,343.535616
+four_protocols_m_total_sent,OSA,50,381273520,0.0,381.27352
+four_protocols_m_total_sent,OSA,60,419011424,0.0,419.011424
+four_protocols_m_total_sent,OSA,80,494508440,0.0,494.50844
+four_protocols_m_total_sent,OSA,100,570069080,0.0,570.06908
+four_protocols_m_total_sent,OPA,40,315025664,0.0,315.025664
+four_protocols_m_total_sent,OPA,50,353772080,0.0,353.77208
+four_protocols_m_total_sent,OPA,60,392518496,0.0,392.518496
+four_protocols_m_total_sent,OPA,80,470032600,0.0,470.0326
+four_protocols_m_total_sent,OPA,100,547610520,0.0,547.61052
+four_protocols_m_total_sent,Willow,40,2078141264,0.0,2078.141264
+four_protocols_m_total_sent,Willow,50,2079934680,0.0,2079.93468
+four_protocols_m_total_sent,Willow,60,2081733216,0.0,2081.733216
+four_protocols_m_total_sent,Willow,80,2085446580,0.0,2085.44658
+four_protocols_m_total_sent,Willow,100,2089486420,0.0,2089.48642
+four_protocols_m_total_sent,TACITA-STE,40,5141118976,0.0,5141.118976
+four_protocols_m_total_sent,TACITA-STE,50,5188314720,0.0,5188.31472
+four_protocols_m_total_sent,TACITA-STE,60,5235510464,0.0,5235.510464
+four_protocols_m_total_sent,TACITA-STE,80,5329902280,0.0,5329.90228
+four_protocols_m_total_sent,TACITA-STE,100,5424295080,0.0,5424.29508
+four_protocols_length_active_client_computation,OSA,10000,0.030805666666666665,0.00916136983934899,0.030805666666666665
+four_protocols_length_active_client_computation,OSA,20000,0.028023666666666665,0.001034526139511871,0.028023666666666665
+four_protocols_length_active_client_computation,OSA,40000,0.03406233333333333,0.0017455985601888349,0.03406233333333333
+four_protocols_length_active_client_computation,OSA,60000,0.041821000000000004,0.0004337084274025573,0.041821000000000004
+four_protocols_length_active_client_computation,OSA,80000,0.047497333333333336,0.0028906117576273246,0.047497333333333336
+four_protocols_length_active_client_computation,OSA,100000,0.048378333333333336,0.0007740221788381358,0.048378333333333336
+four_protocols_length_active_client_computation,OPA,10000,0.6706933333333334,0.0028818191014242135,0.6706933333333334
+four_protocols_length_active_client_computation,OPA,20000,1.6334043333333332,0.009987767635129192,1.6334043333333332
+four_protocols_length_active_client_computation,OPA,40000,3.260654333333333,0.020143252277954743,3.260654333333333
+four_protocols_length_active_client_computation,OPA,60000,4.9074436666666665,0.034300013649171165,4.9074436666666665
+four_protocols_length_active_client_computation,OPA,80000,6.515865333333333,0.015762449883610707,6.515865333333333
+four_protocols_length_active_client_computation,OPA,100000,7.114496,0.32813598586104514,7.114496
+four_protocols_length_active_client_computation,Willow,10000,0.35136566666666663,0.02432361856988663,0.35136566666666663
+four_protocols_length_active_client_computation,Willow,20000,0.385659,0.019046850789566222,0.385659
+four_protocols_length_active_client_computation,Willow,40000,0.36854200000000004,0.010828788344039227,0.36854200000000004
+four_protocols_length_active_client_computation,Willow,60000,0.388465,0.010309644368260252,0.388465
+four_protocols_length_active_client_computation,Willow,80000,0.393966,0.014153232740261153,0.393966
+four_protocols_length_active_client_computation,Willow,100000,0.40285766666666667,0.011559161272918287,0.40285766666666667
+four_protocols_length_active_client_computation,TACITA-STE,10000,23.472829733,0.9033526497938582,23.472829733
+four_protocols_length_active_client_computation,TACITA-STE,20000,24.375715983433334,0.3464297310103744,24.375715983433334
+four_protocols_length_active_client_computation,TACITA-STE,40000,24.238685198916667,0.02291181565361688,24.238685198916667
+four_protocols_length_active_client_computation,TACITA-STE,60000,24.83867270678333,0.4711281342665617,24.83867270678333
+four_protocols_length_active_client_computation,TACITA-STE,80000,24.456364254100002,0.7300649291287716,24.456364254100002
+four_protocols_length_active_client_computation,TACITA-STE,100000,23.86021991246667,0.11615188305372348,23.86021991246667
+four_protocols_length_committee_responder_computation,OSA,10000,0.050207,0.011304440322280443,0.050207
+four_protocols_length_committee_responder_computation,OSA,20000,0.051269666666666665,0.0042945887269135955,0.051269666666666665
+four_protocols_length_committee_responder_computation,OSA,40000,0.04616566666666667,0.0014950124860125165,0.04616566666666667
+four_protocols_length_committee_responder_computation,OSA,60000,0.04831,0.005472623593853315,0.04831
+four_protocols_length_committee_responder_computation,OSA,80000,0.0492,0.003886965268689702,0.0492
+four_protocols_length_committee_responder_computation,OSA,100000,0.04442633333333333,0.0020954713869039895,0.04442633333333333
+four_protocols_length_committee_responder_computation,OPA,10000,0.06450466666666667,0.00444435510882438,0.06450466666666667
+four_protocols_length_committee_responder_computation,OPA,20000,0.07845766666666668,0.002799468223311946,0.07845766666666668
+four_protocols_length_committee_responder_computation,OPA,40000,0.07811066666666666,0.0048840827525066955,0.07811066666666666
+four_protocols_length_committee_responder_computation,OPA,60000,0.075972,0.005541423192646449,0.075972
+four_protocols_length_committee_responder_computation,OPA,80000,0.079333,0.005580790356213002,0.079333
+four_protocols_length_committee_responder_computation,OPA,100000,0.06857333333333333,0.0036404518034624934,0.06857333333333333
+four_protocols_length_committee_responder_computation,Willow,10000,0.238619,0.008079510938169462,0.238619
+four_protocols_length_committee_responder_computation,Willow,20000,0.2551616666666667,0.0030661742177073453,0.2551616666666667
+four_protocols_length_committee_responder_computation,Willow,40000,0.2560963333333333,0.005815666542481022,0.2560963333333333
+four_protocols_length_committee_responder_computation,Willow,60000,0.252594,0.00624013469405908,0.252594
+four_protocols_length_committee_responder_computation,Willow,80000,0.25884566666666664,0.0023181161173102083,0.25884566666666664
+four_protocols_length_committee_responder_computation,Willow,100000,0.24661533333333333,0.003520739458314593,0.24661533333333333
+four_protocols_length_committee_responder_computation,TACITA-STE,10000,0.5698436721416666,0.005224310428824474,0.5698436721416666
+four_protocols_length_committee_responder_computation,TACITA-STE,20000,0.5712305716083333,0.004256892036308758,0.5712305716083333
+four_protocols_length_committee_responder_computation,TACITA-STE,40000,0.573235209825,0.0041174104690793545,0.573235209825
+four_protocols_length_committee_responder_computation,TACITA-STE,60000,0.572289883925,0.003451568462235393,0.572289883925
+four_protocols_length_committee_responder_computation,TACITA-STE,80000,0.5680835272416667,0.0024814377189785347,0.5680835272416667
+four_protocols_length_committee_responder_computation,TACITA-STE,100000,0.5683812985,0.00635803355323771,0.5683812985
+four_protocols_length_server_computation,OSA,10000,4.251746333333333,0.33190182322538275,4.251746333333333
+four_protocols_length_server_computation,OSA,20000,4.289983,0.18621291842404505,4.289983
+four_protocols_length_server_computation,OSA,40000,4.564543666666666,0.15886283534021817,4.564543666666666
+four_protocols_length_server_computation,OSA,60000,4.573142666666667,0.1375879776082681,4.573142666666667
+four_protocols_length_server_computation,OSA,80000,4.852820333333334,0.05001122678292666,4.852820333333334
+four_protocols_length_server_computation,OSA,100000,4.726524333333333,0.13934010059323687,4.726524333333333
+four_protocols_length_server_computation,OPA,10000,10.334958,0.4742050620554362,10.334958
+four_protocols_length_server_computation,OPA,20000,24.845685333333332,0.10199073342874523,24.845685333333332
+four_protocols_length_server_computation,OPA,40000,50.15572233333334,0.9897702833598984,50.15572233333334
+four_protocols_length_server_computation,OPA,60000,77.529014,0.46375779938670497,77.529014
+four_protocols_length_server_computation,OPA,80000,104.49132033333333,0.7242704364740603,104.49132033333333
+four_protocols_length_server_computation,OPA,100000,106.793015,0.14176115734925884,106.793015
+four_protocols_length_server_computation,Willow,10000,14.613524,0.604841686874343,14.613524
+four_protocols_length_server_computation,Willow,20000,15.820289333333333,0.2655280574182954,15.820289333333333
+four_protocols_length_server_computation,Willow,40000,15.197032333333333,0.36498743415949764,15.197032333333333
+four_protocols_length_server_computation,Willow,60000,15.726234999999999,0.27525620570842696,15.726234999999999
+four_protocols_length_server_computation,Willow,80000,16.087960333333335,0.4203942310038681,16.087960333333335
+four_protocols_length_server_computation,Willow,100000,15.819427000000001,0.6886181739244186,15.819427000000001
+four_protocols_length_server_computation,TACITA-STE,10000,451.6156098033333,0.7074738413843134,451.6156098033333
+four_protocols_length_server_computation,TACITA-STE,20000,452.127904577,0.36255378170067865,452.127904577
+four_protocols_length_server_computation,TACITA-STE,40000,452.43832536433337,0.0864543486844375,452.43832536433337
+four_protocols_length_server_computation,TACITA-STE,60000,452.3135453933333,0.2587951962496676,452.3135453933333
+four_protocols_length_server_computation,TACITA-STE,80000,453.69040689133334,0.08912544041608213,453.69040689133334
+four_protocols_length_server_computation,TACITA-STE,100000,453.514483572,1.0876450640836057,453.514483572
+four_protocols_length_server_plus_verifier_computation,OSA,10000,4.251746333333333,0.33190182322538275,4.251746333333333
+four_protocols_length_server_plus_verifier_computation,OSA,20000,4.289983,0.18621291842404505,4.289983
+four_protocols_length_server_plus_verifier_computation,OSA,40000,4.564543666666666,0.15886283534021817,4.564543666666666
+four_protocols_length_server_plus_verifier_computation,OSA,60000,4.573142666666667,0.1375879776082681,4.573142666666667
+four_protocols_length_server_plus_verifier_computation,OSA,80000,4.852820333333334,0.05001122678292666,4.852820333333334
+four_protocols_length_server_plus_verifier_computation,OSA,100000,4.726524333333333,0.13934010059323687,4.726524333333333
+four_protocols_length_server_plus_verifier_computation,OPA,10000,10.334958,0.4742050620554362,10.334958
+four_protocols_length_server_plus_verifier_computation,OPA,20000,24.845685333333332,0.10199073342874523,24.845685333333332
+four_protocols_length_server_plus_verifier_computation,OPA,40000,50.15572233333334,0.9897702833598984,50.15572233333334
+four_protocols_length_server_plus_verifier_computation,OPA,60000,77.529014,0.46375779938670497,77.529014
+four_protocols_length_server_plus_verifier_computation,OPA,80000,104.49132033333333,0.7242704364740603,104.49132033333333
+four_protocols_length_server_plus_verifier_computation,OPA,100000,106.793015,0.14176115734925884,106.793015
+four_protocols_length_server_plus_verifier_computation,Willow,10000,172.25578033333332,13.648277285454402,172.25578033333332
+four_protocols_length_server_plus_verifier_computation,Willow,20000,185.16167466666667,15.923111893784275,185.16167466666667
+four_protocols_length_server_plus_verifier_computation,Willow,40000,184.878069,16.127408761615374,184.878069
+four_protocols_length_server_plus_verifier_computation,Willow,60000,174.110071,1.8671817926203533,174.110071
+four_protocols_length_server_plus_verifier_computation,Willow,80000,183.28043566666668,13.229217369387243,183.28043566666668
+four_protocols_length_server_plus_verifier_computation,Willow,100000,173.852483,1.0776197110465149,173.852483
+four_protocols_length_server_plus_verifier_computation,TACITA-STE,10000,451.6156098033333,0.7074738413843134,451.6156098033333
+four_protocols_length_server_plus_verifier_computation,TACITA-STE,20000,452.127904577,0.36255378170067865,452.127904577
+four_protocols_length_server_plus_verifier_computation,TACITA-STE,40000,452.43832536433337,0.0864543486844375,452.43832536433337
+four_protocols_length_server_plus_verifier_computation,TACITA-STE,60000,452.3135453933333,0.2587951962496676,452.3135453933333
+four_protocols_length_server_plus_verifier_computation,TACITA-STE,80000,453.69040689133334,0.08912544041608213,453.69040689133334
+four_protocols_length_server_plus_verifier_computation,TACITA-STE,100000,453.514483572,1.0876450640836057,453.514483572
+four_protocols_length_end_to_end_completion,OSA,10000,7.501815280333333,0.9538676404387618,7.501815280333333
+four_protocols_length_end_to_end_completion,OSA,20000,7.566343519,0.3589266732341256,7.566343519
+four_protocols_length_end_to_end_completion,OSA,40000,7.954506515333334,0.21607446600089414,7.954506515333334
+four_protocols_length_end_to_end_completion,OSA,60000,8.212375490333333,0.3346391685422806,8.212375490333333
+four_protocols_length_end_to_end_completion,OSA,80000,8.790970462333334,0.16060604263349193,8.790970462333334
+four_protocols_length_end_to_end_completion,OSA,100000,8.700710188666667,0.24696455877740117,8.700710188666667
+four_protocols_length_end_to_end_completion,OPA,10000,37.80858555366667,0.5697788218838166,37.80858555366667
+four_protocols_length_end_to_end_completion,OPA,20000,83.22711773733333,0.24897663485101484,83.22711773733333
+four_protocols_length_end_to_end_completion,OPA,40000,163.67427529233333,1.1599780322441346,163.67427529233333
+four_protocols_length_end_to_end_completion,OPA,60000,247.572737102,1.8981280523817663,247.572737102
+four_protocols_length_end_to_end_completion,OPA,80000,335.13818302133336,1.0231692727424635,335.13818302133336
+four_protocols_length_end_to_end_completion,OPA,100000,357.535624503,0.11079565648129173,357.535624503
+four_protocols_length_end_to_end_completion,Willow,10000,197.76896569666667,13.901111062609438,197.76896569666667
+four_protocols_length_end_to_end_completion,Willow,20000,211.69348031666667,15.875394973636125,211.69348031666667
+four_protocols_length_end_to_end_completion,Willow,40000,211.57769614466667,16.05144797801895,211.57769614466667
+four_protocols_length_end_to_end_completion,Willow,60000,201.114115116,2.0794140221787805,201.114115116
+four_protocols_length_end_to_end_completion,Willow,80000,210.33723521,13.444868811161404,210.33723521
+four_protocols_length_end_to_end_completion,Willow,100000,200.95419221133332,1.2494562494457564,200.95419221133332
+four_protocols_length_end_to_end_completion,TACITA-STE,10000,1468.9165934622288,1.7232816766645525,1468.9165934622288
+four_protocols_length_end_to_end_completion,TACITA-STE,20000,1477.9805309126775,2.7169646114223096,1477.9805309126775
+four_protocols_length_end_to_end_completion,TACITA-STE,40000,1487.399588321646,1.9929537399928154,1487.399588321646
+four_protocols_length_end_to_end_completion,TACITA-STE,60000,1499.9797677050035,3.600718677780498,1499.9797677050035
+four_protocols_length_end_to_end_completion,TACITA-STE,80000,1513.6651606708765,1.9273916641569013,1513.6651606708765
+four_protocols_length_end_to_end_completion,TACITA-STE,100000,1519.460363432765,1.3718192913455203,1519.460363432765
+four_protocols_length_active_client_sent,OSA,10000,296584.0,0.0,296.584
+four_protocols_length_active_client_sent,OSA,20000,296584.0,0.0,296.584
+four_protocols_length_active_client_sent,OSA,40000,296584.0,0.0,296.584
+four_protocols_length_active_client_sent,OSA,60000,296584.0,0.0,296.584
+four_protocols_length_active_client_sent,OSA,80000,296584.0,0.0,296.584
+four_protocols_length_active_client_sent,OSA,100000,296584.0,0.0,296.584
+four_protocols_length_active_client_sent,OPA,10000,266840.0,0.0,266.84
+four_protocols_length_active_client_sent,OPA,20000,426840.0,0.0,426.84
+four_protocols_length_active_client_sent,OPA,40000,746840.0,0.0,746.84
+four_protocols_length_active_client_sent,OPA,60000,1066840.0,0.0,1066.84
+four_protocols_length_active_client_sent,OPA,80000,1386840.0,0.0,1386.84
+four_protocols_length_active_client_sent,OPA,100000,1706840.0,0.0,1706.84
+four_protocols_length_active_client_sent,Willow,10000,1279894.0,0.0,1279.894
+four_protocols_length_active_client_sent,Willow,20000,1279894.0,0.0,1279.894
+four_protocols_length_active_client_sent,Willow,40000,1279894.0,0.0,1279.894
+four_protocols_length_active_client_sent,Willow,60000,1279894.0,0.0,1279.894
+four_protocols_length_active_client_sent,Willow,80000,1279894.0,0.0,1279.894
+four_protocols_length_active_client_sent,Willow,100000,1279894.0,0.0,1279.894
+four_protocols_length_active_client_sent,TACITA-STE,10000,4952336.0,0.0,4952.336
+four_protocols_length_active_client_sent,TACITA-STE,20000,4952336.0,0.0,4952.336
+four_protocols_length_active_client_sent,TACITA-STE,40000,4952336.0,0.0,4952.336
+four_protocols_length_active_client_sent,TACITA-STE,60000,4952336.0,0.0,4952.336
+four_protocols_length_active_client_sent,TACITA-STE,80000,5144872.0,0.0,5144.872
+four_protocols_length_active_client_sent,TACITA-STE,100000,5144872.0,0.0,5144.872
+four_protocols_length_committee_responder_sent,OSA,10000,21208.0,0.0,21.208
+four_protocols_length_committee_responder_sent,OSA,20000,21208.0,0.0,21.208
+four_protocols_length_committee_responder_sent,OSA,40000,21208.0,0.0,21.208
+four_protocols_length_committee_responder_sent,OSA,60000,21208.0,0.0,21.208
+four_protocols_length_committee_responder_sent,OSA,80000,21208.0,0.0,21.208
+four_protocols_length_committee_responder_sent,OSA,100000,21208.0,0.0,21.208
+four_protocols_length_committee_responder_sent,OPA,10000,21272.0,0.0,21.272
+four_protocols_length_committee_responder_sent,OPA,20000,21272.0,0.0,21.272
+four_protocols_length_committee_responder_sent,OPA,40000,21272.0,0.0,21.272
+four_protocols_length_committee_responder_sent,OPA,60000,21272.0,0.0,21.272
+four_protocols_length_committee_responder_sent,OPA,80000,21272.0,0.0,21.272
+four_protocols_length_committee_responder_sent,OPA,100000,21272.0,0.0,21.272
+four_protocols_length_committee_responder_sent,Willow,10000,99972.0,0.0,99.972
+four_protocols_length_committee_responder_sent,Willow,20000,99972.0,0.0,99.972
+four_protocols_length_committee_responder_sent,Willow,40000,99972.0,0.0,99.972
+four_protocols_length_committee_responder_sent,Willow,60000,99972.0,0.0,99.972
+four_protocols_length_committee_responder_sent,Willow,80000,99972.0,0.0,99.972
+four_protocols_length_committee_responder_sent,Willow,100000,99972.0,0.0,99.972
+four_protocols_length_committee_responder_sent,TACITA-STE,10000,328.0,0.0,0.328
+four_protocols_length_committee_responder_sent,TACITA-STE,20000,328.0,0.0,0.328
+four_protocols_length_committee_responder_sent,TACITA-STE,40000,328.0,0.0,0.328
+four_protocols_length_committee_responder_sent,TACITA-STE,60000,328.0,0.0,0.328
+four_protocols_length_committee_responder_sent,TACITA-STE,80000,328.0,0.0,0.328
+four_protocols_length_committee_responder_sent,TACITA-STE,100000,328.0,0.0,0.328
+four_protocols_length_server_sent,OSA,10000,83841200,0.0,83.8412
+four_protocols_length_server_sent,OSA,20000,83841200,0.0,83.8412
+four_protocols_length_server_sent,OSA,40000,83841200,0.0,83.8412
+four_protocols_length_server_sent,OSA,60000,83841200,0.0,83.8412
+four_protocols_length_server_sent,OSA,80000,83841200,0.0,83.8412
+four_protocols_length_server_sent,OSA,100000,83841200,0.0,83.8412
+four_protocols_length_server_sent,OPA,10000,86081200,0.0,86.0812
+four_protocols_length_server_sent,OPA,20000,86081200,0.0,86.0812
+four_protocols_length_server_sent,OPA,40000,86081200,0.0,86.0812
+four_protocols_length_server_sent,OPA,60000,86081200,0.0,86.0812
+four_protocols_length_server_sent,OPA,80000,86081200,0.0,86.0812
+four_protocols_length_server_sent,OPA,100000,86081200,0.0,86.0812
+four_protocols_length_server_sent,Willow,10000,791124800,0.0,791.1248
+four_protocols_length_server_sent,Willow,20000,791124800,0.0,791.1248
+four_protocols_length_server_sent,Willow,40000,791124800,0.0,791.1248
+four_protocols_length_server_sent,Willow,60000,791124800,0.0,791.1248
+four_protocols_length_server_sent,Willow,80000,791124800,0.0,791.1248
+four_protocols_length_server_sent,Willow,100000,791124800,0.0,791.1248
+four_protocols_length_server_sent,TACITA-STE,10000,235965600,0.0,235.9656
+four_protocols_length_server_sent,TACITA-STE,20000,235965600,0.0,235.9656
+four_protocols_length_server_sent,TACITA-STE,40000,235965600,0.0,235.9656
+four_protocols_length_server_sent,TACITA-STE,60000,235965600,0.0,235.9656
+four_protocols_length_server_sent,TACITA-STE,80000,235965600,0.0,235.9656
+four_protocols_length_server_sent,TACITA-STE,100000,235965600,0.0,235.9656
+four_protocols_length_total_sent,OSA,10000,381273520,0.0,381.27352
+four_protocols_length_total_sent,OSA,20000,381273520,0.0,381.27352
+four_protocols_length_total_sent,OSA,40000,381273520,0.0,381.27352
+four_protocols_length_total_sent,OSA,60000,381273520,0.0,381.27352
+four_protocols_length_total_sent,OSA,80000,381273520,0.0,381.27352
+four_protocols_length_total_sent,OSA,100000,381273520,0.0,381.27352
+four_protocols_length_total_sent,OPA,10000,353772080,0.0,353.77208
+four_protocols_length_total_sent,OPA,20000,513772080,0.0,513.77208
+four_protocols_length_total_sent,OPA,40000,833772080,0.0,833.77208
+four_protocols_length_total_sent,OPA,60000,1153772080,0.0,1153.77208
+four_protocols_length_total_sent,OPA,80000,1473772080,0.0,1473.77208
+four_protocols_length_total_sent,OPA,100000,1793772080,0.0,1793.77208
+four_protocols_length_total_sent,Willow,10000,2079934680,0.0,2079.93468
+four_protocols_length_total_sent,Willow,20000,2079934680,0.0,2079.93468
+four_protocols_length_total_sent,Willow,40000,2079934680,0.0,2079.93468
+four_protocols_length_total_sent,Willow,60000,2079934680,0.0,2079.93468
+four_protocols_length_total_sent,Willow,80000,2079934680,0.0,2079.93468
+four_protocols_length_total_sent,Willow,100000,2079934680,0.0,2079.93468
+four_protocols_length_total_sent,TACITA-STE,10000,5188314720,0.0,5188.31472
+four_protocols_length_total_sent,TACITA-STE,20000,5188314720,0.0,5188.31472
+four_protocols_length_total_sent,TACITA-STE,40000,5188314720,0.0,5188.31472
+four_protocols_length_total_sent,TACITA-STE,60000,5188314720,0.0,5188.31472
+four_protocols_length_total_sent,TACITA-STE,80000,5380850720,0.0,5380.85072
+four_protocols_length_total_sent,TACITA-STE,100000,5380850720,0.0,5380.85072
+four_protocols_dropout_active_client_computation,OSA,10.0,0.02575,0.0009726494743739901,0.02575
+four_protocols_dropout_active_client_computation,OSA,20.0,0.030805666666666665,0.00916136983934899,0.030805666666666665
+four_protocols_dropout_active_client_computation,OSA,30.0,0.026715333333333334,0.0012274022703797369,0.026715333333333334
+four_protocols_dropout_active_client_computation,OSA,40.0,0.026087,0.001081924673902947,0.026087
+four_protocols_dropout_active_client_computation,OPA,10.0,0.6821776666666667,0.012328572071952728,0.6821776666666667
+four_protocols_dropout_active_client_computation,OPA,20.0,0.6706933333333334,0.0028818191014242135,0.6706933333333334
+four_protocols_dropout_active_client_computation,OPA,30.0,0.674914,0.015476242987236917,0.674914
+four_protocols_dropout_active_client_computation,OPA,40.0,0.6936513333333333,0.0030083166943215113,0.6936513333333333
+four_protocols_dropout_active_client_computation,Willow,10.0,0.3795116666666667,0.030023564517447508,0.3795116666666667
+four_protocols_dropout_active_client_computation,Willow,20.0,0.35136566666666663,0.02432361856988663,0.35136566666666663
+four_protocols_dropout_active_client_computation,Willow,30.0,0.37742733333333334,0.014776943944311813,0.37742733333333334
+four_protocols_dropout_active_client_computation,Willow,40.0,0.3789963333333333,0.03894998203251619,0.3789963333333333
+four_protocols_dropout_active_client_computation,TACITA-STE,10.0,23.719087316566664,1.2605055869435338,23.719087316566664
+four_protocols_dropout_active_client_computation,TACITA-STE,20.0,23.472829733,0.9033526497938582,23.472829733
+four_protocols_dropout_active_client_computation,TACITA-STE,30.0,24.03550355285,0.10362301539676466,24.03550355285
+four_protocols_dropout_active_client_computation,TACITA-STE,40.0,25.784072804366666,1.4583219010896447,25.784072804366666
+four_protocols_dropout_committee_responder_computation,OSA,10.0,0.051277666666666666,0.0015444615027035598,0.051277666666666666
+four_protocols_dropout_committee_responder_computation,OSA,20.0,0.050207,0.011304440322280443,0.050207
+four_protocols_dropout_committee_responder_computation,OSA,30.0,0.04016433333333334,0.0006034288138076725,0.04016433333333334
+four_protocols_dropout_committee_responder_computation,OSA,40.0,0.03816166666666667,0.0019406726497102334,0.03816166666666667
+four_protocols_dropout_committee_responder_computation,OPA,10.0,0.072128,0.0039047190679996455,0.072128
+four_protocols_dropout_committee_responder_computation,OPA,20.0,0.06450466666666667,0.00444435510882438,0.06450466666666667
+four_protocols_dropout_committee_responder_computation,OPA,30.0,0.05729533333333334,0.0016680288766485222,0.05729533333333334
+four_protocols_dropout_committee_responder_computation,OPA,40.0,0.04942066666666667,0.0035807429862157562,0.04942066666666667
+four_protocols_dropout_committee_responder_computation,Willow,10.0,0.24302833333333332,0.01268309663817686,0.24302833333333332
+four_protocols_dropout_committee_responder_computation,Willow,20.0,0.238619,0.008079510938169462,0.238619
+four_protocols_dropout_committee_responder_computation,Willow,30.0,0.23993899999999999,0.005160807301188448,0.23993899999999999
+four_protocols_dropout_committee_responder_computation,Willow,40.0,0.26378266666666667,0.00788967536298759,0.26378266666666667
+four_protocols_dropout_committee_responder_computation,TACITA-STE,10.0,0.5675214751666667,0.0024801713164310036,0.5675214751666667
+four_protocols_dropout_committee_responder_computation,TACITA-STE,20.0,0.5698436721416666,0.005224310428824474,0.5698436721416666
+four_protocols_dropout_committee_responder_computation,TACITA-STE,30.0,0.5715151221583333,0.0058977215391913425,0.5715151221583333
+four_protocols_dropout_committee_responder_computation,TACITA-STE,40.0,0.5972507230583334,0.03958400823839246,0.5972507230583334
+four_protocols_dropout_server_computation,OSA,10.0,4.675508333333333,0.18354027439320564,4.675508333333333
+four_protocols_dropout_server_computation,OSA,20.0,4.251746333333333,0.33190182322538275,4.251746333333333
+four_protocols_dropout_server_computation,OSA,30.0,3.766102666666667,0.0976549708941297,3.766102666666667
+four_protocols_dropout_server_computation,OSA,40.0,3.3197200000000002,0.23377044124525245,3.3197200000000002
+four_protocols_dropout_server_computation,OPA,10.0,11.583158333333333,0.30750324948581176,11.583158333333333
+four_protocols_dropout_server_computation,OPA,20.0,10.334958,0.4742050620554362,10.334958
+four_protocols_dropout_server_computation,OPA,30.0,9.500149666666667,0.08984918855689977,9.500149666666667
+four_protocols_dropout_server_computation,OPA,40.0,7.886156333333334,0.15002672202755532,7.886156333333334
+four_protocols_dropout_server_computation,Willow,10.0,16.97625366666667,0.8387618096255555,16.97625366666667
+four_protocols_dropout_server_computation,Willow,20.0,14.613524,0.604841686874343,14.613524
+four_protocols_dropout_server_computation,Willow,30.0,13.142216000000001,0.22392320784367115,13.142216000000001
+four_protocols_dropout_server_computation,Willow,40.0,12.286191,0.33755564504389474,12.286191
+four_protocols_dropout_server_computation,TACITA-STE,10.0,506.228179511,0.991773067338623,506.228179511
+four_protocols_dropout_server_computation,TACITA-STE,20.0,451.6156098033333,0.7074738413843134,451.6156098033333
+four_protocols_dropout_server_computation,TACITA-STE,30.0,397.31001053299997,0.2936233450200166,397.31001053299997
+four_protocols_dropout_server_computation,TACITA-STE,40.0,366.99724864366664,11.939829606796502,366.99724864366664
+four_protocols_dropout_server_plus_verifier_computation,OSA,10.0,4.675508333333333,0.18354027439320564,4.675508333333333
+four_protocols_dropout_server_plus_verifier_computation,OSA,20.0,4.251746333333333,0.33190182322538275,4.251746333333333
+four_protocols_dropout_server_plus_verifier_computation,OSA,30.0,3.766102666666667,0.0976549708941297,3.766102666666667
+four_protocols_dropout_server_plus_verifier_computation,OSA,40.0,3.3197200000000002,0.23377044124525245,3.3197200000000002
+four_protocols_dropout_server_plus_verifier_computation,OPA,10.0,11.583158333333333,0.30750324948581176,11.583158333333333
+four_protocols_dropout_server_plus_verifier_computation,OPA,20.0,10.334958,0.4742050620554362,10.334958
+four_protocols_dropout_server_plus_verifier_computation,OPA,30.0,9.500149666666667,0.08984918855689977,9.500149666666667
+four_protocols_dropout_server_plus_verifier_computation,OPA,40.0,7.886156333333334,0.15002672202755532,7.886156333333334
+four_protocols_dropout_server_plus_verifier_computation,Willow,10.0,200.48563333333334,13.292209901599605,200.48563333333334
+four_protocols_dropout_server_plus_verifier_computation,Willow,20.0,172.25578033333332,13.648277285454402,172.25578033333332
+four_protocols_dropout_server_plus_verifier_computation,Willow,30.0,148.10810933333335,0.6639447615467446,148.10810933333335
+four_protocols_dropout_server_plus_verifier_computation,Willow,40.0,138.51301066666667,9.41613613088352,138.51301066666667
+four_protocols_dropout_server_plus_verifier_computation,TACITA-STE,10.0,506.228179511,0.991773067338623,506.228179511
+four_protocols_dropout_server_plus_verifier_computation,TACITA-STE,20.0,451.6156098033333,0.7074738413843134,451.6156098033333
+four_protocols_dropout_server_plus_verifier_computation,TACITA-STE,30.0,397.31001053299997,0.2936233450200166,397.31001053299997
+four_protocols_dropout_server_plus_verifier_computation,TACITA-STE,40.0,366.99724864366664,11.939829606796502,366.99724864366664
+four_protocols_dropout_end_to_end_completion,OSA,10.0,7.878437125666667,0.19527459275772988,7.878437125666667
+four_protocols_dropout_end_to_end_completion,OSA,20.0,7.501815280333333,0.9538676404387618,7.501815280333333
+four_protocols_dropout_end_to_end_completion,OSA,30.0,6.512776694666667,0.12908355252651288,6.512776694666667
+four_protocols_dropout_end_to_end_completion,OSA,40.0,6.164285630666667,0.4943057511828536,6.164285630666667
+four_protocols_dropout_end_to_end_completion,OPA,10.0,39.381206225666666,0.105564387614145,39.381206225666666
+four_protocols_dropout_end_to_end_completion,OPA,20.0,37.80858555366667,0.5697788218838166,37.80858555366667
+four_protocols_dropout_end_to_end_completion,OPA,30.0,36.69511656266667,0.13142071322826976,36.69511656266667
+four_protocols_dropout_end_to_end_completion,OPA,40.0,34.89508663266667,0.22136847538639495,34.89508663266667
+four_protocols_dropout_end_to_end_completion,Willow,10.0,226.284804907,13.850883969708558,226.284804907
+four_protocols_dropout_end_to_end_completion,Willow,20.0,197.76896569666667,13.901111062609438,197.76896569666667
+four_protocols_dropout_end_to_end_completion,Willow,30.0,173.98622723933332,0.8334059468426046,173.98622723933332
+four_protocols_dropout_end_to_end_completion,Willow,40.0,166.70244897133333,12.273921299804437,166.70244897133333
+four_protocols_dropout_end_to_end_completion,TACITA-STE,10.0,1524.9171488980453,0.9933233381792971,1524.9171488980453
+four_protocols_dropout_end_to_end_completion,TACITA-STE,20.0,1468.9165934622288,1.7232816766645525,1468.9165934622288
+four_protocols_dropout_end_to_end_completion,TACITA-STE,30.0,1419.1480313837528,2.0119341983428725,1419.1480313837528
+four_protocols_dropout_end_to_end_completion,TACITA-STE,40.0,1470.9336232791345,14.08866015634008,1470.9336232791345
+four_protocols_dropout_active_client_sent,OSA,10.0,296584.0,0.0,296.584
+four_protocols_dropout_active_client_sent,OSA,20.0,296584.0,0.0,296.584
+four_protocols_dropout_active_client_sent,OSA,30.0,296584.0,0.0,296.584
+four_protocols_dropout_active_client_sent,OSA,40.0,296584.0,0.0,296.584
+four_protocols_dropout_active_client_sent,OPA,10.0,266840.0,0.0,266.84
+four_protocols_dropout_active_client_sent,OPA,20.0,266840.0,0.0,266.84
+four_protocols_dropout_active_client_sent,OPA,30.0,266840.0,0.0,266.84
+four_protocols_dropout_active_client_sent,OPA,40.0,266840.0,0.0,266.84
+four_protocols_dropout_active_client_sent,Willow,10.0,1279894.0,0.0,1279.894
+four_protocols_dropout_active_client_sent,Willow,20.0,1279894.0,0.0,1279.894
+four_protocols_dropout_active_client_sent,Willow,30.0,1279894.0,0.0,1279.894
+four_protocols_dropout_active_client_sent,Willow,40.0,1279894.0,0.0,1279.894
+four_protocols_dropout_active_client_sent,TACITA-STE,10.0,4952336.0,0.0,4952.336
+four_protocols_dropout_active_client_sent,TACITA-STE,20.0,4952336.0,0.0,4952.336
+four_protocols_dropout_active_client_sent,TACITA-STE,30.0,4952336.0,0.0,4952.336
+four_protocols_dropout_active_client_sent,TACITA-STE,40.0,4952336.0,0.0,4952.336
+four_protocols_dropout_committee_responder_sent,OSA,10.0,23608.0,0.0,23.608
+four_protocols_dropout_committee_responder_sent,OSA,20.0,21208.0,0.0,21.208
+four_protocols_dropout_committee_responder_sent,OSA,30.0,18808.0,0.0,18.808
+four_protocols_dropout_committee_responder_sent,OSA,40.0,16408.0,0.0,16.408
+four_protocols_dropout_committee_responder_sent,OPA,10.0,23672.0,0.0,23.672
+four_protocols_dropout_committee_responder_sent,OPA,20.0,21272.0,0.0,21.272
+four_protocols_dropout_committee_responder_sent,OPA,30.0,18872.0,0.0,18.872
+four_protocols_dropout_committee_responder_sent,OPA,40.0,16472.0,0.0,16.472
+four_protocols_dropout_committee_responder_sent,Willow,10.0,99972.0,0.0,99.972
+four_protocols_dropout_committee_responder_sent,Willow,20.0,99972.0,0.0,99.972
+four_protocols_dropout_committee_responder_sent,Willow,30.0,99972.0,0.0,99.972
+four_protocols_dropout_committee_responder_sent,Willow,40.0,99972.0,0.0,99.972
+four_protocols_dropout_committee_responder_sent,TACITA-STE,10.0,328.0,0.0,0.328
+four_protocols_dropout_committee_responder_sent,TACITA-STE,20.0,328.0,0.0,0.328
+four_protocols_dropout_committee_responder_sent,TACITA-STE,30.0,328.0,0.0,0.328
+four_protocols_dropout_committee_responder_sent,TACITA-STE,40.0,328.0,0.0,0.328
+four_protocols_dropout_server_sent,OSA,10.0,94321200,0.0,94.3212
+four_protocols_dropout_server_sent,OSA,20.0,83841200,0.0,83.8412
+four_protocols_dropout_server_sent,OSA,30.0,73361200,0.0,73.3612
+four_protocols_dropout_server_sent,OSA,40.0,62881200,0.0,62.8812
+four_protocols_dropout_server_sent,OPA,10.0,96841200,0.0,96.8412
+four_protocols_dropout_server_sent,OPA,20.0,86081200,0.0,86.0812
+four_protocols_dropout_server_sent,OPA,30.0,75321200,0.0,75.3212
+four_protocols_dropout_server_sent,OPA,40.0,64561200,0.0,64.5612
+four_protocols_dropout_server_sent,Willow,10.0,890015400,0.0,890.0154
+four_protocols_dropout_server_sent,Willow,20.0,791124800,0.0,791.1248
+four_protocols_dropout_server_sent,Willow,30.0,692234200,0.0,692.2342
+four_protocols_dropout_server_sent,Willow,40.0,593343600,0.0,593.3436
+four_protocols_dropout_server_sent,TACITA-STE,10.0,235965600,0.0,235.9656
+four_protocols_dropout_server_sent,TACITA-STE,20.0,235965600,0.0,235.9656
+four_protocols_dropout_server_sent,TACITA-STE,30.0,235965600,0.0,235.9656
+four_protocols_dropout_server_sent,TACITA-STE,40.0,235965600,0.0,235.9656
+four_protocols_dropout_total_sent,OSA,10.0,391849520,0.0,391.84952
+four_protocols_dropout_total_sent,OSA,20.0,381273520,0.0,381.27352
+four_protocols_dropout_total_sent,OSA,30.0,370697520,0.0,370.69752
+four_protocols_dropout_total_sent,OSA,40.0,360121520,0.0,360.12152
+four_protocols_dropout_total_sent,OPA,10.0,364628080,0.0,364.62808
+four_protocols_dropout_total_sent,OPA,20.0,353772080,0.0,353.77208
+four_protocols_dropout_total_sent,OPA,30.0,342916080,0.0,342.91608
+four_protocols_dropout_total_sent,OPA,40.0,332060080,0.0,332.06008
+four_protocols_dropout_total_sent,Willow,10.0,2178825280,0.0,2178.82528
+four_protocols_dropout_total_sent,Willow,20.0,2079934680,0.0,2079.93468
+four_protocols_dropout_total_sent,Willow,30.0,1981044080,0.0,1981.04408
+four_protocols_dropout_total_sent,Willow,40.0,1882153480,0.0,1882.15348
+four_protocols_dropout_total_sent,TACITA-STE,10.0,5188314720,0.0,5188.31472
+four_protocols_dropout_total_sent,TACITA-STE,20.0,5188314720,0.0,5188.31472
+four_protocols_dropout_total_sent,TACITA-STE,30.0,5188314720,0.0,5188.31472
+four_protocols_dropout_total_sent,TACITA-STE,40.0,5188314720,0.0,5188.31472
+verification_main_active_client_computation,VOSA,VOSA,0.03348839433333333,0.0017406595724386558,0.03348839433333333
+verification_main_active_client_computation,mPVAS,mPVAS,30.355715010333334,0.028675166199351756,30.355715010333334
+verification_main_server_computation,VOSA,VOSA,0.054117764666666665,0.0027583811387559085,0.054117764666666665
+verification_main_server_computation,mPVAS,mPVAS,956.9945672353333,7.5089414066661035,956.9945672353333
+verification_main_verifier_computation,VOSA,VOSA,2.189429122,0.12240166435827007,2.189429122
+verification_main_verifier_computation,mPVAS,mPVAS,305.59183040766663,1.9533079494141095,305.59183040766663
+verification_main_active_client_sent,VOSA,VOSA,200784.0,0.0,200.784
+verification_main_active_client_sent,mPVAS,mPVAS,300024.0,0.0,300.024
+verification_main_server_sent,VOSA,VOSA,179641.33333333334,1.761628034896508e-05,0.17964133333333335
+verification_main_server_sent,mPVAS,mPVAS,2073244,0.0,2.073244
+verification_main_total_sent,VOSA,VOSA,160806841.33333334,1.761628034896508e-05,160.80684133333335
+verification_main_total_sent,mPVAS,mPVAS,580097244,0.0,580.097244
+verification_n_active_client_computation,VOSA,100,0.03268099966666667,0.0002646324524625283,0.03268099966666667
+verification_n_active_client_computation,VOSA,200,0.033519065333333334,0.00046083970345591347,0.033519065333333334
+verification_n_active_client_computation,VOSA,400,0.032599231,0.00031763549550231613,0.032599231
+verification_n_active_client_computation,VOSA,600,0.032697986666666665,0.000112756882673891,0.032697986666666665
+verification_n_active_client_computation,VOSA,800,0.03300423533333333,0.0012321137534762523,0.03300423533333333
+verification_n_active_client_computation,VOSA,1000,0.03348839433333333,0.0017406595724386558,0.03348839433333333
+verification_n_active_client_computation,mPVAS,100,30.533549642666667,0.11366492125009374,30.533549642666667
+verification_n_active_client_computation,mPVAS,200,30.361649473666667,0.017819649060793898,30.361649473666667
+verification_n_active_client_computation,mPVAS,400,30.345934815666666,0.01395027705038484,30.345934815666666
+verification_n_active_client_computation,mPVAS,600,30.401542740333333,0.029383144238408092,30.401542740333333
+verification_n_active_client_computation,mPVAS,800,30.410995167,0.023959960756585394,30.410995167
+verification_n_active_client_computation,mPVAS,1000,30.355715010333334,0.028675166199351756,30.355715010333334
+verification_n_server_computation,VOSA,100,0.005298207666666666,0.0014956003202869187,0.005298207666666666
+verification_n_server_computation,VOSA,200,0.010627622,0.0010996565203312346,0.010627622
+verification_n_server_computation,VOSA,400,0.02184670433333333,0.002101003190764196,0.02184670433333333
+verification_n_server_computation,VOSA,600,0.032966448333333336,0.0014337429419684466,0.032966448333333336
+verification_n_server_computation,VOSA,800,0.04098948933333333,0.004338677330992975,0.04098948933333333
+verification_n_server_computation,VOSA,1000,0.054117764666666665,0.0027583811387559085,0.054117764666666665
+verification_n_server_computation,mPVAS,100,96.74054361866666,1.349537586559673,96.74054361866666
+verification_n_server_computation,mPVAS,200,190.13051755733332,0.9249632363374832,190.13051755733332
+verification_n_server_computation,mPVAS,400,386.16590898233335,3.021547620049488,386.16590898233335
+verification_n_server_computation,mPVAS,600,577.8341246993333,3.227852484953521,577.8341246993333
+verification_n_server_computation,mPVAS,800,765.2505143879999,6.780563979953593,765.2505143879999
+verification_n_server_computation,mPVAS,1000,956.9945672353333,7.5089414066661035,956.9945672353333
+verification_n_verifier_computation,VOSA,100,0.20290610533333334,0.07304635884094221,0.20290610533333334
+verification_n_verifier_computation,VOSA,200,0.42655133533333334,0.0473537772521794,0.42655133533333334
+verification_n_verifier_computation,VOSA,400,0.8819093763333333,0.04834392469858493,0.8819093763333333
+verification_n_verifier_computation,VOSA,600,1.2721820773333332,0.07931896522659235,1.2721820773333332
+verification_n_verifier_computation,VOSA,800,1.6743764473333334,0.23891912030888826,1.6743764473333334
+verification_n_verifier_computation,VOSA,1000,2.189429122,0.12240166435827007,2.189429122
+verification_n_verifier_computation,mPVAS,100,307.9074380796667,0.8518565414700203,307.9074380796667
+verification_n_verifier_computation,mPVAS,200,302.93365620533336,2.601865780547991,302.93365620533336
+verification_n_verifier_computation,mPVAS,400,306.832145239,1.8843484593969955,306.832145239
+verification_n_verifier_computation,mPVAS,600,305.4101349663333,3.070800367115434,305.4101349663333
+verification_n_verifier_computation,mPVAS,800,307.35615824166666,1.85124877104285,307.35615824166666
+verification_n_verifier_computation,mPVAS,1000,305.59183040766663,1.9533079494141095,305.59183040766663
+verification_n_active_client_sent,VOSA,100,200784.0,0.0,200.784
+verification_n_active_client_sent,VOSA,200,200784.0,0.0,200.784
+verification_n_active_client_sent,VOSA,400,200784.0,0.0,200.784
+verification_n_active_client_sent,VOSA,600,200784.0,0.0,200.784
+verification_n_active_client_sent,VOSA,800,200784.0,0.0,200.784
+verification_n_active_client_sent,VOSA,1000,200784.0,0.0,200.784
+verification_n_active_client_sent,mPVAS,100,300024.0,0.0,300.024
+verification_n_active_client_sent,mPVAS,200,300024.0,0.0,300.024
+verification_n_active_client_sent,mPVAS,400,300024.0,0.0,300.024
+verification_n_active_client_sent,mPVAS,600,300024.0,0.0,300.024
+verification_n_active_client_sent,mPVAS,800,300024.0,0.0,300.024
+verification_n_active_client_sent,mPVAS,1000,300024.0,0.0,300.024
+verification_n_server_sent,VOSA,100,169784,5.294336596779619e-05,0.169784
+verification_n_server_sent,VOSA,200,171618.66666666666,3.8591881702416803e-05,0.17161866666666667
+verification_n_server_sent,VOSA,400,174238,3.9344631145812e-05,0.174238
+verification_n_server_sent,VOSA,600,176335.66666666666,3.980368492154129e-05,0.17633566666666667
+verification_n_server_sent,VOSA,800,178063.33333333334,5.953430383680768e-05,0.17806333333333335
+verification_n_server_sent,VOSA,1000,179641.33333333334,1.761628034896508e-05,0.17964133333333335
+verification_n_server_sent,mPVAS,100,2070364,0.0,2.070364
+verification_n_server_sent,mPVAS,200,2070684,0.0,2.070684
+verification_n_server_sent,mPVAS,400,2071324,0.0,2.071324
+verification_n_server_sent,mPVAS,600,2071964,0.0,2.071964
+verification_n_server_sent,mPVAS,800,2072604,0.0,2.072604
+verification_n_server_sent,mPVAS,1000,2073244,0.0,2.073244
+verification_n_total_sent,VOSA,100,16232504,5.294336596779619e-05,16.232504
+verification_n_total_sent,VOSA,200,32297058.666666668,3.8591881702416803e-05,32.297058666666665
+verification_n_total_sent,VOSA,400,64425118,3.9344631145812e-05,64.425118
+verification_n_total_sent,VOSA,600,96552655.66666667,3.980368492154129e-05,96.55265566666667
+verification_n_total_sent,VOSA,800,128679823.33333333,5.953430383680768e-05,128.67982333333333
+verification_n_total_sent,VOSA,1000,160806841.33333334,1.761628034896508e-05,160.80684133333335
+verification_n_total_sent,mPVAS,100,59872764,0.0,59.872764
+verification_n_total_sent,mPVAS,200,117675484,0.0,117.675484
+verification_n_total_sent,mPVAS,400,233280924,0.0,233.280924
+verification_n_total_sent,mPVAS,600,348886364,0.0,348.886364
+verification_n_total_sent,mPVAS,800,464491804,0.0,464.491804
+verification_n_total_sent,mPVAS,1000,580097244,0.0,580.097244
+vosa_verification_grid_active_client_computation,k = 0%,100,0.03317312533333333,0.00042359149869341167,0.03317312533333333
+vosa_verification_grid_active_client_computation,k = 0%,200,0.032965518666666666,4.4728599288746045e-05,0.032965518666666666
+vosa_verification_grid_active_client_computation,k = 0%,400,0.032899148333333336,0.0003215429900796044,0.032899148333333336
+vosa_verification_grid_active_client_computation,k = 0%,600,0.032276935666666666,8.65505895550899e-05,0.032276935666666666
+vosa_verification_grid_active_client_computation,k = 0%,800,0.0322311,0.00012128575266287478,0.0322311
+vosa_verification_grid_active_client_computation,k = 0%,1000,0.03232691666666667,0.00010282709629437843,0.03232691666666667
+vosa_verification_grid_active_client_computation,k = 10%,100,0.032890589,0.0005409330768320603,0.032890589
+vosa_verification_grid_active_client_computation,k = 10%,200,0.032923409333333334,0.0002667672557798892,0.032923409333333334
+vosa_verification_grid_active_client_computation,k = 10%,400,0.03274332666666667,0.0002615186199763471,0.03274332666666667
+vosa_verification_grid_active_client_computation,k = 10%,600,0.032496392666666665,0.00022215613350599328,0.032496392666666665
+vosa_verification_grid_active_client_computation,k = 10%,800,0.03243342266666666,0.0003066202537934083,0.03243342266666666
+vosa_verification_grid_active_client_computation,k = 10%,1000,0.033441112333333335,0.0014262535899482699,0.033441112333333335
+vosa_verification_grid_active_client_computation,k = 20%,100,0.03268099966666667,0.0002646324524625283,0.03268099966666667
+vosa_verification_grid_active_client_computation,k = 20%,200,0.033519065333333334,0.00046083970345591347,0.033519065333333334
+vosa_verification_grid_active_client_computation,k = 20%,400,0.032599231,0.00031763549550231613,0.032599231
+vosa_verification_grid_active_client_computation,k = 20%,600,0.032697986666666665,0.000112756882673891,0.032697986666666665
+vosa_verification_grid_active_client_computation,k = 20%,800,0.03300423533333333,0.0012321137534762523,0.03300423533333333
+vosa_verification_grid_active_client_computation,k = 20%,1000,0.03348839433333333,0.0017406595724386558,0.03348839433333333
+vosa_verification_grid_active_client_computation,k = 30%,100,0.033796184666666666,0.0002844728019518444,0.033796184666666666
+vosa_verification_grid_active_client_computation,k = 30%,200,0.033090187,0.00035527399603545434,0.033090187
+vosa_verification_grid_active_client_computation,k = 30%,400,0.032550301,0.00016089157094453414,0.032550301
+vosa_verification_grid_active_client_computation,k = 30%,600,0.032803881666666666,0.0006939231362869601,0.032803881666666666
+vosa_verification_grid_active_client_computation,k = 30%,800,0.032423238,0.00015114046567018608,0.032423238
+vosa_verification_grid_active_client_computation,k = 30%,1000,0.03441464733333333,0.00370826287815391,0.03441464733333333
+vosa_verification_grid_server_computation,k = 0%,100,0.006973779666666667,0.0004968029605229152,0.006973779666666667
+vosa_verification_grid_server_computation,k = 0%,200,0.013969515,0.0007796980397134518,0.013969515
+vosa_verification_grid_server_computation,k = 0%,400,0.028530575333333336,0.0010878920630588008,0.028530575333333336
+vosa_verification_grid_server_computation,k = 0%,600,0.040880858,0.0035810617602282414,0.040880858
+vosa_verification_grid_server_computation,k = 0%,800,0.05565558066666666,0.0019368792978945123,0.05565558066666666
+vosa_verification_grid_server_computation,k = 0%,1000,0.06024169333333333,0.01064686357692914,0.06024169333333333
+vosa_verification_grid_server_computation,k = 10%,100,0.006487585666666667,0.0006351764851695417,0.006487585666666667
+vosa_verification_grid_server_computation,k = 10%,200,0.012894035666666666,0.00050535439040077,0.012894035666666666
+vosa_verification_grid_server_computation,k = 10%,400,0.02516283,0.0018198222857556733,0.02516283
+vosa_verification_grid_server_computation,k = 10%,600,0.033768744,0.004501278173707108,0.033768744
+vosa_verification_grid_server_computation,k = 10%,800,0.050600381,0.0009418398577587394,0.050600381
+vosa_verification_grid_server_computation,k = 10%,1000,0.060320818,0.005779335329331825,0.060320818
+vosa_verification_grid_server_computation,k = 20%,100,0.005298207666666666,0.0014956003202869187,0.005298207666666666
+vosa_verification_grid_server_computation,k = 20%,200,0.010627622,0.0010996565203312346,0.010627622
+vosa_verification_grid_server_computation,k = 20%,400,0.02184670433333333,0.002101003190764196,0.02184670433333333
+vosa_verification_grid_server_computation,k = 20%,600,0.032966448333333336,0.0014337429419684466,0.032966448333333336
+vosa_verification_grid_server_computation,k = 20%,800,0.04098948933333333,0.004338677330992975,0.04098948933333333
+vosa_verification_grid_server_computation,k = 20%,1000,0.054117764666666665,0.0027583811387559085,0.054117764666666665
+vosa_verification_grid_server_computation,k = 30%,100,0.004933579666666667,0.00014501158407635375,0.004933579666666667
+vosa_verification_grid_server_computation,k = 30%,200,0.009834483666666666,0.0008238663373511106,0.009834483666666666
+vosa_verification_grid_server_computation,k = 30%,400,0.019435207,0.0008129766046123333,0.019435207
+vosa_verification_grid_server_computation,k = 30%,600,0.030201424666666667,0.00011375769402696683,0.030201424666666667
+vosa_verification_grid_server_computation,k = 30%,800,0.030112160000000002,0.005440840816965977,0.030112160000000002
+vosa_verification_grid_server_computation,k = 30%,1000,0.045293298333333336,0.0023682770886037222,0.045293298333333336
+vosa_verification_grid_verifier_computation,k = 0%,100,0.289439502,0.016269766211462925,0.289439502
+vosa_verification_grid_verifier_computation,k = 0%,200,0.5781201613333333,0.001460148886788344,0.5781201613333333
+vosa_verification_grid_verifier_computation,k = 0%,400,1.0055453826666667,0.11607322350257049,1.0055453826666667
+vosa_verification_grid_verifier_computation,k = 0%,600,1.561600533,0.2002204630021931,1.561600533
+vosa_verification_grid_verifier_computation,k = 0%,800,2.1198430486666666,0.20152446689052977,2.1198430486666666
+vosa_verification_grid_verifier_computation,k = 0%,1000,2.498763596,0.23377497521554666,2.498763596
+vosa_verification_grid_verifier_computation,k = 10%,100,0.258651986,0.030084562229726705,0.258651986
+vosa_verification_grid_verifier_computation,k = 10%,200,0.48786819766666667,0.06639498601001806,0.48786819766666667
+vosa_verification_grid_verifier_computation,k = 10%,400,0.8901463033333333,0.12419077233128023,0.8901463033333333
+vosa_verification_grid_verifier_computation,k = 10%,600,1.2224458679999999,0.03379612655708366,1.2224458679999999
+vosa_verification_grid_verifier_computation,k = 10%,800,1.8924678733333333,0.18642046998547707,1.8924678733333333
+vosa_verification_grid_verifier_computation,k = 10%,1000,2.323163415,0.29772559415385214,2.323163415
+vosa_verification_grid_verifier_computation,k = 20%,100,0.20290610533333334,0.07304635884094221,0.20290610533333334
+vosa_verification_grid_verifier_computation,k = 20%,200,0.42655133533333334,0.0473537772521794,0.42655133533333334
+vosa_verification_grid_verifier_computation,k = 20%,400,0.8819093763333333,0.04834392469858493,0.8819093763333333
+vosa_verification_grid_verifier_computation,k = 20%,600,1.2721820773333332,0.07931896522659235,1.2721820773333332
+vosa_verification_grid_verifier_computation,k = 20%,800,1.6743764473333334,0.23891912030888826,1.6743764473333334
+vosa_verification_grid_verifier_computation,k = 20%,1000,2.189429122,0.12240166435827007,2.189429122
+vosa_verification_grid_verifier_computation,k = 30%,100,0.194798391,0.026191106954016805,0.194798391
+vosa_verification_grid_verifier_computation,k = 30%,200,0.38348215566666666,0.03038172973729548,0.38348215566666666
+vosa_verification_grid_verifier_computation,k = 30%,400,0.718175366,0.1023524709967561,0.718175366
+vosa_verification_grid_verifier_computation,k = 30%,600,1.1228254083333333,0.06835673374942504,1.1228254083333333
+vosa_verification_grid_verifier_computation,k = 30%,800,1.4345832073333333,0.17113769739270154,1.4345832073333333
+vosa_verification_grid_verifier_computation,k = 30%,1000,1.762521999,0.19534682337832726,1.762521999
+vosa_verification_grid_active_client_sent,k = 0%,100,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 0%,200,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 0%,400,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 0%,600,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 0%,800,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 0%,1000,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 10%,100,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 10%,200,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 10%,400,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 10%,600,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 10%,800,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 10%,1000,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 20%,100,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 20%,200,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 20%,400,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 20%,600,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 20%,800,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 20%,1000,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 30%,100,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 30%,200,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 30%,400,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 30%,600,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 30%,800,200784.0,0.0,200.784
+vosa_verification_grid_active_client_sent,k = 30%,1000,200784.0,0.0,200.784
+vosa_verification_grid_server_sent,k = 0%,100,170288.66666666666,5.643875736879165e-05,0.17028866666666664
+vosa_verification_grid_server_sent,k = 0%,200,172421.66666666666,3.208322510804257e-05,0.17242166666666667
+vosa_verification_grid_server_sent,k = 0%,400,175347.66666666666,7.234178138070235e-06,0.17534766666666665
+vosa_verification_grid_server_sent,k = 0%,600,177598,4.687216658103186e-05,0.177598
+vosa_verification_grid_server_sent,k = 0%,800,179669.33333333334,3.0566866593312e-05,0.17966933333333335
+vosa_verification_grid_server_sent,k = 0%,1000,181569.66666666666,3.920884254008696e-05,0.18156966666666666
+vosa_verification_grid_server_sent,k = 10%,100,170031.66666666666,2.742869543622761e-05,0.17003166666666666
+vosa_verification_grid_server_sent,k = 10%,200,172054,2.8354893757515652e-05,0.172054
+vosa_verification_grid_server_sent,k = 10%,400,174802,4.011234224026316e-05,0.174802
+vosa_verification_grid_server_sent,k = 10%,600,176995,6.102458520956943e-05,0.176995
+vosa_verification_grid_server_sent,k = 10%,800,178852.33333333334,3.4990474894367085e-05,0.17885233333333334
+vosa_verification_grid_server_sent,k = 10%,1000,180630.66666666666,2.8919428302325296e-05,0.18063066666666666
+vosa_verification_grid_server_sent,k = 20%,100,169784,5.294336596779619e-05,0.169784
+vosa_verification_grid_server_sent,k = 20%,200,171618.66666666666,3.8591881702416803e-05,0.17161866666666667
+vosa_verification_grid_server_sent,k = 20%,400,174238,3.9344631145812e-05,0.174238
+vosa_verification_grid_server_sent,k = 20%,600,176335.66666666666,3.980368492154129e-05,0.17633566666666667
+vosa_verification_grid_server_sent,k = 20%,800,178063.33333333334,5.953430383680768e-05,0.17806333333333335
+vosa_verification_grid_server_sent,k = 20%,1000,179641.33333333334,1.761628034896508e-05,0.17964133333333335
+vosa_verification_grid_server_sent,k = 30%,100,169529.33333333334,1.9655363983740755e-05,0.16952933333333334
+vosa_verification_grid_server_sent,k = 30%,200,171251.33333333334,2.2941955743426352e-05,0.17125133333333334
+vosa_verification_grid_server_sent,k = 30%,400,173711.33333333334,3.0989245446337236e-05,0.17371133333333336
+vosa_verification_grid_server_sent,k = 30%,600,175594.66666666666,2.0502032419575706e-05,0.17559466666666665
+vosa_verification_grid_server_sent,k = 30%,800,177183.33333333334,1.7214335111567142e-05,0.17718333333333333
+vosa_verification_grid_server_sent,k = 30%,1000,178679.66666666666,5.0362022728771864e-05,0.17867966666666665
+vosa_verification_grid_total_sent,k = 0%,100,20248688.666666668,5.643875736879165e-05,20.248688666666666
+vosa_verification_grid_total_sent,k = 0%,200,40329221.666666664,3.208322510804257e-05,40.32922166666666
+vosa_verification_grid_total_sent,k = 0%,400,80488947.66666667,7.234178138070235e-06,80.48894766666668
+vosa_verification_grid_total_sent,k = 0%,600,120647998,4.687216658103186e-05,120.647998
+vosa_verification_grid_total_sent,k = 0%,800,160806869.33333334,3.0566866593312e-05,160.80686933333334
+vosa_verification_grid_total_sent,k = 0%,1000,200965569.66666666,3.920884254008696e-05,200.96556966666665
+vosa_verification_grid_total_sent,k = 10%,100,18240591.666666668,2.742869543622761e-05,18.240591666666667
+vosa_verification_grid_total_sent,k = 10%,200,36313174,2.8354893757515652e-05,36.313174
+vosa_verification_grid_total_sent,k = 10%,400,72457042,4.011234224026316e-05,72.457042
+vosa_verification_grid_total_sent,k = 10%,600,108600355,6.102458520956943e-05,108.600355
+vosa_verification_grid_total_sent,k = 10%,800,144743332.33333334,3.4990474894367085e-05,144.74333233333334
+vosa_verification_grid_total_sent,k = 10%,1000,180886230.66666666,2.8919428302325296e-05,180.88623066666665
+vosa_verification_grid_total_sent,k = 20%,100,16232504,5.294336596779619e-05,16.232504
+vosa_verification_grid_total_sent,k = 20%,200,32297058.666666668,3.8591881702416803e-05,32.297058666666665
+vosa_verification_grid_total_sent,k = 20%,400,64425118,3.9344631145812e-05,64.425118
+vosa_verification_grid_total_sent,k = 20%,600,96552655.66666667,3.980368492154129e-05,96.55265566666667
+vosa_verification_grid_total_sent,k = 20%,800,128679823.33333333,5.953430383680768e-05,128.67982333333333
+vosa_verification_grid_total_sent,k = 20%,1000,160806841.33333334,1.761628034896508e-05,160.80684133333335
+vosa_verification_grid_total_sent,k = 30%,100,14224409.333333334,1.9655363983740755e-05,14.224409333333334
+vosa_verification_grid_total_sent,k = 30%,200,28281011.333333332,2.2941955743426352e-05,28.281011333333332
+vosa_verification_grid_total_sent,k = 30%,400,56393231.333333336,3.0989245446337236e-05,56.39323133333333
+vosa_verification_grid_total_sent,k = 30%,600,84504874.66666667,2.0502032419575706e-05,84.50487466666667
+vosa_verification_grid_total_sent,k = 30%,800,112616223.33333333,1.7214335111567142e-05,112.61622333333332
+vosa_verification_grid_total_sent,k = 30%,1000,140727479.66666666,5.0362022728771864e-05,140.72747966666665
+measured_total_computation_verification_main_total_sent,VOSA,VOSA,29.03426255333333,1.4238375008541926,29.03426255333333
+measured_total_computation_verification_main_total_sent,mPVAS,mPVAS,47801.48886617633,124.55228080331365,47801.48886617633
+measured_total_computation_verification_n_total_sent,VOSA,100,2.822683979666667,0.05825548983558197,2.822683979666667
+measured_total_computation_verification_n_total_sent,VOSA,200,5.800229624,0.11478673328459289,5.800229624
+measured_total_computation_verification_n_total_sent,VOSA,400,11.335509747333333,0.052708100602138666,11.335509747333333
+measured_total_computation_verification_n_total_sent,VOSA,600,17.000182192333334,0.09072951682039558,17.000182192333334
+measured_total_computation_verification_n_total_sent,VOSA,800,22.838076270000002,0.8488966459427101,22.838076270000002
+measured_total_computation_verification_n_total_sent,VOSA,1000,29.03426255333333,1.4238375008541926,29.03426255333333
+measured_total_computation_verification_n_total_sent,mPVAS,100,5069.834962905,19.34372502822286,5069.834962905
+measured_total_computation_verification_n_total_sent,mPVAS,200,9809.066952829333,9.485384666832834,9809.066952829333
+measured_total_computation_verification_n_total_sent,mPVAS,400,19346.660466541332,34.87389053145052,19346.660466541332
+measured_total_computation_verification_n_total_sent,mPVAS,600,28833.43324678567,96.26804633855934,28833.43324678567
+measured_total_computation_verification_n_total_sent,mPVAS,800,38426.025505856334,46.823830170941385,38426.025505856334
+measured_total_computation_verification_n_total_sent,mPVAS,1000,47801.48886617633,124.55228080331365,47801.48886617633
+measured_total_computation_vosa_verification_grid_total_sent,k = 0%,100,3.613725615,0.05886109458751211,3.613725615
+measured_total_computation_vosa_verification_grid_total_sent,k = 0%,200,7.185193343,0.007444152192137679,7.185193343
+measured_total_computation_vosa_verification_grid_total_sent,k = 0%,400,14.193735291333333,0.07752810040966941,14.193735291333333
+measured_total_computation_vosa_verification_grid_total_sent,k = 0%,600,20.968642724333332,0.25513396863361076,20.968642724333332
+measured_total_computation_vosa_verification_grid_total_sent,k = 0%,800,27.960378296,0.29952467142382755,27.960378296
+measured_total_computation_vosa_verification_grid_total_sent,k = 0%,1000,34.885921956,0.2668021309428275,34.885921956
+measured_total_computation_vosa_verification_grid_total_sent,k = 10%,100,3.225292571666667,0.0665842351276516,3.225292571666667
+measured_total_computation_vosa_verification_grid_total_sent,k = 10%,200,6.4269759,0.027898734623026004,6.4269759
+measured_total_computation_vosa_verification_grid_total_sent,k = 10%,400,12.702906466666667,0.21795377599612514,12.702906466666667
+measured_total_computation_vosa_verification_grid_total_sent,k = 10%,600,18.804266612,0.10202034908889744,18.804266612
+measured_total_computation_vosa_verification_grid_total_sent,k = 10%,800,25.295132587666668,0.06510597904924119,25.295132587666668
+measured_total_computation_vosa_verification_grid_total_sent,k = 10%,1000,32.480485232999996,0.9804901048692192,32.480485232999996
+measured_total_computation_vosa_verification_grid_total_sent,k = 20%,100,2.822683979666667,0.05825548983558197,2.822683979666667
+measured_total_computation_vosa_verification_grid_total_sent,k = 20%,200,5.800229624,0.11478673328459289,5.800229624
+measured_total_computation_vosa_verification_grid_total_sent,k = 20%,400,11.335509747333333,0.052708100602138666,11.335509747333333
+measured_total_computation_vosa_verification_grid_total_sent,k = 20%,600,17.000182192333334,0.09072951682039558,17.000182192333334
+measured_total_computation_vosa_verification_grid_total_sent,k = 20%,800,22.838076270000002,0.8488966459427101,22.838076270000002
+measured_total_computation_vosa_verification_grid_total_sent,k = 20%,1000,29.03426255333333,1.4238375008541926,29.03426255333333
+measured_total_computation_vosa_verification_grid_total_sent,k = 30%,100,2.565464637333333,0.017374173020516505,2.565464637333333
+measured_total_computation_vosa_verification_grid_total_sent,k = 30%,200,5.025942972666667,0.05796952410458621,5.025942972666667
+measured_total_computation_vosa_verification_grid_total_sent,k = 30%,400,9.851694573,0.1211942098935823,9.851694573
+measured_total_computation_vosa_verification_grid_total_sent,k = 30%,600,14.930657166333333,0.3490175478843064,14.930657166333333
+measured_total_computation_vosa_verification_grid_total_sent,k = 30%,800,19.621708700666666,0.21131123543552677,19.621708700666666
+measured_total_computation_vosa_verification_grid_total_sent,k = 30%,1000,25.89806829733333,2.750931902612828,25.89806829733333

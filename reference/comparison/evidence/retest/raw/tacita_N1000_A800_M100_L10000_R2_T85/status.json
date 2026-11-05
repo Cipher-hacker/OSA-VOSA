@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "attempt": "attempt_aligned_20261104T072214_620245Z",
+  "utc_finished": "2026-11-04T08:06:15.574093+00:00",
+  "driver_wall_s": 2640.932575851679,
+  "evidence_sha256": {
+    "process.log": "d803ba30830dbfa07289ffaa3ddc295716707f47ee9fe8e4e103131fd5b45997",
+    "ste/formal_20261104T072214_719582Z/n1000_a800_m100_t85_r1/metrics.json": "e159ee4761ce2fe5a4ce47fdf9814ef30e3b4674f31a127947cfb3a9f221b126",
+    "ste/formal_20261104T072214_719582Z/n1000_a800_m100_t85_r1/status.json": "e4ad5dd7aafa1febcba440b48961d7dea706081dc66406b8d4bd6a5db4b5d310",
+    "ste/formal_20261104T072214_719582Z/manifest.json": "7d044837c2ec87f3fe642cdbef0ffa32a1395fe4dea0b930fb485f3b87a2573d",
+    "round_audit.json": "505b52787f8a857c7b7935598599db8157572d22238c74208684db3cf64230ca",
+    "row.json": "0012f4e1aa7d3e97ec547c02a2f517705f7a1a14115914c10bfa6697d0d6680c",
+    "command.json": "4c6bdc19185152ee79a405c6eaba006eeb12a34d727c93547a7aac6b65ef3cdf"
+  }
+}

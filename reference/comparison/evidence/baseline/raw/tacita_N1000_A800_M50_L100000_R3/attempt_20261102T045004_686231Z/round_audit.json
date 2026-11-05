@@ -1,0 +1,6155 @@
+{
+  "schema": "round-v2",
+  "dropout_model": "whole_upload_delivery_loss_prefix",
+  "clients": [
+    {
+      "client_id": 1,
+      "sent_bytes": 5144872,
+      "compute_s": 31.867073941999998,
+      "delivered": true
+    },
+    {
+      "client_id": 2,
+      "sent_bytes": 5144872,
+      "compute_s": 31.122166144,
+      "delivered": true
+    },
+    {
+      "client_id": 3,
+      "sent_bytes": 5144872,
+      "compute_s": 30.857272027,
+      "delivered": true
+    },
+    {
+      "client_id": 4,
+      "sent_bytes": 5144872,
+      "compute_s": 31.136882108000002,
+      "delivered": true
+    },
+    {
+      "client_id": 5,
+      "sent_bytes": 5144872,
+      "compute_s": 31.580562463,
+      "delivered": true
+    },
+    {
+      "client_id": 6,
+      "sent_bytes": 5144872,
+      "compute_s": 31.296315195000002,
+      "delivered": true
+    },
+    {
+      "client_id": 7,
+      "sent_bytes": 5144872,
+      "compute_s": 30.958803077000002,
+      "delivered": true
+    },
+    {
+      "client_id": 8,
+      "sent_bytes": 5144872,
+      "compute_s": 31.23191106,
+      "delivered": true
+    },
+    {
+      "client_id": 9,
+      "sent_bytes": 5144872,
+      "compute_s": 718.832720973,
+      "delivered": true
+    },
+    {
+      "client_id": 10,
+      "sent_bytes": 5144872,
+      "compute_s": 1.3582490749999998,
+      "delivered": true
+    },
+    {
+      "client_id": 11,
+      "sent_bytes": 5144872,
+      "compute_s": 1.361191759,
+      "delivered": true
+    },
+    {
+      "client_id": 12,
+      "sent_bytes": 5144872,
+      "compute_s": 1.356318081,
+      "delivered": true
+    },
+    {
+      "client_id": 13,
+      "sent_bytes": 5144872,
+      "compute_s": 1.352276041,
+      "delivered": true
+    },
+    {
+      "client_id": 14,
+      "sent_bytes": 5144872,
+      "compute_s": 1.387606423,
+      "delivered": true
+    },
+    {
+      "client_id": 15,
+      "sent_bytes": 5144872,
+      "compute_s": 1.411997603,
+      "delivered": true
+    },
+    {
+      "client_id": 16,
+      "sent_bytes": 5144872,
+      "compute_s": 31.815581566,
+      "delivered": true
+    },
+    {
+      "client_id": 17,
+      "sent_bytes": 5144872,
+      "compute_s": 31.754261547000002,
+      "delivered": true
+    },
+    {
+      "client_id": 18,
+      "sent_bytes": 5144872,
+      "compute_s": 31.293201727,
+      "delivered": true
+    },
+    {
+      "client_id": 19,
+      "sent_bytes": 5144872,
+      "compute_s": 30.935701747,
+      "delivered": true
+    },
+    {
+      "client_id": 20,
+      "sent_bytes": 5144872,
+      "compute_s": 31.749651658,
+      "delivered": true
+    },
+    {
+      "client_id": 21,
+      "sent_bytes": 5144872,
+      "compute_s": 30.876355524,
+      "delivered": true
+    },
+    {
+      "client_id": 22,
+      "sent_bytes": 5144872,
+      "compute_s": 30.62688016,
+      "delivered": true
+    },
+    {
+      "client_id": 23,
+      "sent_bytes": 5144872,
+      "compute_s": 31.566013645,
+      "delivered": true
+    },
+    {
+      "client_id": 24,
+      "sent_bytes": 5144872,
+      "compute_s": 30.751945554,
+      "delivered": true
+    },
+    {
+      "client_id": 25,
+      "sent_bytes": 5144872,
+      "compute_s": 30.969185325,
+      "delivered": true
+    },
+    {
+      "client_id": 26,
+      "sent_bytes": 5144872,
+      "compute_s": 31.559503363999998,
+      "delivered": true
+    },
+    {
+      "client_id": 27,
+      "sent_bytes": 5144872,
+      "compute_s": 31.222868183,
+      "delivered": true
+    },
+    {
+      "client_id": 28,
+      "sent_bytes": 5144872,
+      "compute_s": 31.375940356,
+      "delivered": true
+    },
+    {
+      "client_id": 29,
+      "sent_bytes": 5144872,
+      "compute_s": 31.08635384,
+      "delivered": true
+    },
+    {
+      "client_id": 30,
+      "sent_bytes": 5144872,
+      "compute_s": 31.458410089999997,
+      "delivered": true
+    },
+    {
+      "client_id": 31,
+      "sent_bytes": 5144872,
+      "compute_s": 30.768754274000003,
+      "delivered": true
+    },
+    {
+      "client_id": 32,
+      "sent_bytes": 5144872,
+      "compute_s": 31.108065315,
+      "delivered": true
+    },
+    {
+      "client_id": 33,
+      "sent_bytes": 5144872,
+      "compute_s": 31.389124736,
+      "delivered": true
+    },
+    {
+      "client_id": 34,
+      "sent_bytes": 5144872,
+      "compute_s": 31.408750135,
+      "delivered": true
+    },
+    {
+      "client_id": 35,
+      "sent_bytes": 5144872,
+      "compute_s": 31.284454248,
+      "delivered": true
+    },
+    {
+      "client_id": 36,
+      "sent_bytes": 5144872,
+      "compute_s": 30.916376353,
+      "delivered": true
+    },
+    {
+      "client_id": 37,
+      "sent_bytes": 5144872,
+      "compute_s": 31.275511986999998,
+      "delivered": true
+    },
+    {
+      "client_id": 38,
+      "sent_bytes": 5144872,
+      "compute_s": 30.688995007000003,
+      "delivered": true
+    },
+    {
+      "client_id": 39,
+      "sent_bytes": 5144872,
+      "compute_s": 31.654262879999997,
+      "delivered": true
+    },
+    {
+      "client_id": 40,
+      "sent_bytes": 5144872,
+      "compute_s": 30.90225491,
+      "delivered": true
+    },
+    {
+      "client_id": 41,
+      "sent_bytes": 5144872,
+      "compute_s": 31.182652942,
+      "delivered": true
+    },
+    {
+      "client_id": 42,
+      "sent_bytes": 5144872,
+      "compute_s": 32.210905864000004,
+      "delivered": true
+    },
+    {
+      "client_id": 43,
+      "sent_bytes": 5144872,
+      "compute_s": 31.233366545000003,
+      "delivered": true
+    },
+    {
+      "client_id": 44,
+      "sent_bytes": 5144872,
+      "compute_s": 31.486588533,
+      "delivered": true
+    },
+    {
+      "client_id": 45,
+      "sent_bytes": 5144872,
+      "compute_s": 30.838983846999998,
+      "delivered": true
+    },
+    {
+      "client_id": 46,
+      "sent_bytes": 5144872,
+      "compute_s": 31.355459088,
+      "delivered": true
+    },
+    {
+      "client_id": 47,
+      "sent_bytes": 5144872,
+      "compute_s": 31.504719887,
+      "delivered": true
+    },
+    {
+      "client_id": 48,
+      "sent_bytes": 5144872,
+      "compute_s": 31.482332175,
+      "delivered": true
+    },
+    {
+      "client_id": 49,
+      "sent_bytes": 5144872,
+      "compute_s": 31.722737564000003,
+      "delivered": true
+    },
+    {
+      "client_id": 50,
+      "sent_bytes": 5144872,
+      "compute_s": 31.149181260000002,
+      "delivered": true
+    },
+    {
+      "client_id": 51,
+      "sent_bytes": 5144872,
+      "compute_s": 30.874574212000002,
+      "delivered": true
+    },
+    {
+      "client_id": 52,
+      "sent_bytes": 5144872,
+      "compute_s": 31.055806267999998,
+      "delivered": true
+    },
+    {
+      "client_id": 53,
+      "sent_bytes": 5144872,
+      "compute_s": 31.073300847,
+      "delivered": true
+    },
+    {
+      "client_id": 54,
+      "sent_bytes": 5144872,
+      "compute_s": 31.303875487000003,
+      "delivered": true
+    },
+    {
+      "client_id": 55,
+      "sent_bytes": 5144872,
+      "compute_s": 30.629095407,
+      "delivered": true
+    },
+    {
+      "client_id": 56,
+      "sent_bytes": 5144872,
+      "compute_s": 31.041276818,
+      "delivered": true
+    },
+    {
+      "client_id": 57,
+      "sent_bytes": 5144872,
+      "compute_s": 30.885036698999997,
+      "delivered": true
+    },
+    {
+      "client_id": 58,
+      "sent_bytes": 5144872,
+      "compute_s": 30.976162311,
+      "delivered": true
+    },
+    {
+      "client_id": 59,
+      "sent_bytes": 5144872,
+      "compute_s": 30.882886382,
+      "delivered": true
+    },
+    {
+      "client_id": 60,
+      "sent_bytes": 5144872,
+      "compute_s": 30.856434652999997,
+      "delivered": true
+    },
+    {
+      "client_id": 61,
+      "sent_bytes": 5144872,
+      "compute_s": 31.61790796,
+      "delivered": true
+    },
+    {
+      "client_id": 62,
+      "sent_bytes": 5144872,
+      "compute_s": 654.762406632,
+      "delivered": true
+    },
+    {
+      "client_id": 63,
+      "sent_bytes": 5144872,
+      "compute_s": 31.63368863,
+      "delivered": true
+    },
+    {
+      "client_id": 64,
+      "sent_bytes": 5144872,
+      "compute_s": 30.847788323,
+      "delivered": true
+    },
+    {
+      "client_id": 65,
+      "sent_bytes": 5144872,
+      "compute_s": 31.124911129,
+      "delivered": true
+    },
+    {
+      "client_id": 66,
+      "sent_bytes": 5144872,
+      "compute_s": 31.102977006,
+      "delivered": true
+    },
+    {
+      "client_id": 67,
+      "sent_bytes": 5144872,
+      "compute_s": 30.950864793,
+      "delivered": true
+    },
+    {
+      "client_id": 68,
+      "sent_bytes": 5144872,
+      "compute_s": 31.198275886999998,
+      "delivered": true
+    },
+    {
+      "client_id": 69,
+      "sent_bytes": 5144872,
+      "compute_s": 31.110290822,
+      "delivered": true
+    },
+    {
+      "client_id": 70,
+      "sent_bytes": 5144872,
+      "compute_s": 32.002541212000004,
+      "delivered": true
+    },
+    {
+      "client_id": 71,
+      "sent_bytes": 5144872,
+      "compute_s": 31.282299698,
+      "delivered": true
+    },
+    {
+      "client_id": 72,
+      "sent_bytes": 5144872,
+      "compute_s": 30.966233638,
+      "delivered": true
+    },
+    {
+      "client_id": 73,
+      "sent_bytes": 5144872,
+      "compute_s": 30.926145321,
+      "delivered": true
+    },
+    {
+      "client_id": 74,
+      "sent_bytes": 5144872,
+      "compute_s": 31.223502924,
+      "delivered": true
+    },
+    {
+      "client_id": 75,
+      "sent_bytes": 5144872,
+      "compute_s": 30.971316446,
+      "delivered": true
+    },
+    {
+      "client_id": 76,
+      "sent_bytes": 5144872,
+      "compute_s": 31.310159520000003,
+      "delivered": true
+    },
+    {
+      "client_id": 77,
+      "sent_bytes": 5144872,
+      "compute_s": 15.785433248,
+      "delivered": true
+    },
+    {
+      "client_id": 78,
+      "sent_bytes": 5144872,
+      "compute_s": 30.904392976,
+      "delivered": true
+    },
+    {
+      "client_id": 79,
+      "sent_bytes": 5144872,
+      "compute_s": 31.131029835,
+      "delivered": true
+    },
+    {
+      "client_id": 80,
+      "sent_bytes": 5144872,
+      "compute_s": 30.928799173,
+      "delivered": true
+    },
+    {
+      "client_id": 81,
+      "sent_bytes": 5144872,
+      "compute_s": 31.331038571,
+      "delivered": true
+    },
+    {
+      "client_id": 82,
+      "sent_bytes": 5144872,
+      "compute_s": 31.621740354,
+      "delivered": true
+    },
+    {
+      "client_id": 83,
+      "sent_bytes": 5144872,
+      "compute_s": 31.152899707,
+      "delivered": true
+    },
+    {
+      "client_id": 84,
+      "sent_bytes": 5144872,
+      "compute_s": 31.051058702,
+      "delivered": true
+    },
+    {
+      "client_id": 85,
+      "sent_bytes": 5144872,
+      "compute_s": 31.469541767,
+      "delivered": true
+    },
+    {
+      "client_id": 86,
+      "sent_bytes": 5144872,
+      "compute_s": 30.703208361999998,
+      "delivered": true
+    },
+    {
+      "client_id": 87,
+      "sent_bytes": 5144872,
+      "compute_s": 30.882250446,
+      "delivered": true
+    },
+    {
+      "client_id": 88,
+      "sent_bytes": 5144872,
+      "compute_s": 31.457084738,
+      "delivered": true
+    },
+    {
+      "client_id": 89,
+      "sent_bytes": 5144872,
+      "compute_s": 31.776510386,
+      "delivered": true
+    },
+    {
+      "client_id": 90,
+      "sent_bytes": 5144872,
+      "compute_s": 31.487498688,
+      "delivered": true
+    },
+    {
+      "client_id": 91,
+      "sent_bytes": 5144872,
+      "compute_s": 596.7360955949999,
+      "delivered": true
+    },
+    {
+      "client_id": 92,
+      "sent_bytes": 5144872,
+      "compute_s": 31.487597284000003,
+      "delivered": true
+    },
+    {
+      "client_id": 93,
+      "sent_bytes": 5144872,
+      "compute_s": 457.401097,
+      "delivered": true
+    },
+    {
+      "client_id": 94,
+      "sent_bytes": 5144872,
+      "compute_s": 31.912495114,
+      "delivered": true
+    },
+    {
+      "client_id": 95,
+      "sent_bytes": 5144872,
+      "compute_s": 31.515296045,
+      "delivered": true
+    },
+    {
+      "client_id": 96,
+      "sent_bytes": 5144872,
+      "compute_s": 31.031496253,
+      "delivered": true
+    },
+    {
+      "client_id": 97,
+      "sent_bytes": 5144872,
+      "compute_s": 31.258151971999997,
+      "delivered": true
+    },
+    {
+      "client_id": 98,
+      "sent_bytes": 5144872,
+      "compute_s": 31.443775239,
+      "delivered": true
+    },
+    {
+      "client_id": 99,
+      "sent_bytes": 5144872,
+      "compute_s": 31.523271868,
+      "delivered": true
+    },
+    {
+      "client_id": 100,
+      "sent_bytes": 5144872,
+      "compute_s": 31.145541197,
+      "delivered": true
+    },
+    {
+      "client_id": 101,
+      "sent_bytes": 5144872,
+      "compute_s": 31.514012836,
+      "delivered": true
+    },
+    {
+      "client_id": 102,
+      "sent_bytes": 5144872,
+      "compute_s": 31.230365681,
+      "delivered": true
+    },
+    {
+      "client_id": 103,
+      "sent_bytes": 5144872,
+      "compute_s": 31.780101121,
+      "delivered": true
+    },
+    {
+      "client_id": 104,
+      "sent_bytes": 5144872,
+      "compute_s": 31.307847922,
+      "delivered": true
+    },
+    {
+      "client_id": 105,
+      "sent_bytes": 5144872,
+      "compute_s": 31.501793379,
+      "delivered": true
+    },
+    {
+      "client_id": 106,
+      "sent_bytes": 5144872,
+      "compute_s": 31.030947634,
+      "delivered": true
+    },
+    {
+      "client_id": 107,
+      "sent_bytes": 5144872,
+      "compute_s": 31.105221543,
+      "delivered": true
+    },
+    {
+      "client_id": 108,
+      "sent_bytes": 5144872,
+      "compute_s": 30.783355887000003,
+      "delivered": true
+    },
+    {
+      "client_id": 109,
+      "sent_bytes": 5144872,
+      "compute_s": 31.669753215,
+      "delivered": true
+    },
+    {
+      "client_id": 110,
+      "sent_bytes": 5144872,
+      "compute_s": 31.331704281999997,
+      "delivered": true
+    },
+    {
+      "client_id": 111,
+      "sent_bytes": 5144872,
+      "compute_s": 33.143443886,
+      "delivered": true
+    },
+    {
+      "client_id": 112,
+      "sent_bytes": 5144872,
+      "compute_s": 31.725707903,
+      "delivered": true
+    },
+    {
+      "client_id": 113,
+      "sent_bytes": 5144872,
+      "compute_s": 31.12718185,
+      "delivered": true
+    },
+    {
+      "client_id": 114,
+      "sent_bytes": 5144872,
+      "compute_s": 31.420391237999997,
+      "delivered": true
+    },
+    {
+      "client_id": 115,
+      "sent_bytes": 5144872,
+      "compute_s": 719.392351424,
+      "delivered": true
+    },
+    {
+      "client_id": 116,
+      "sent_bytes": 5144872,
+      "compute_s": 31.478115991,
+      "delivered": true
+    },
+    {
+      "client_id": 117,
+      "sent_bytes": 5144872,
+      "compute_s": 31.17634629,
+      "delivered": true
+    },
+    {
+      "client_id": 118,
+      "sent_bytes": 5144872,
+      "compute_s": 30.849607327,
+      "delivered": true
+    },
+    {
+      "client_id": 119,
+      "sent_bytes": 5144872,
+      "compute_s": 31.214687570000002,
+      "delivered": true
+    },
+    {
+      "client_id": 120,
+      "sent_bytes": 5144872,
+      "compute_s": 31.211774211999998,
+      "delivered": true
+    },
+    {
+      "client_id": 121,
+      "sent_bytes": 5144872,
+      "compute_s": 31.465589286,
+      "delivered": true
+    },
+    {
+      "client_id": 122,
+      "sent_bytes": 5144872,
+      "compute_s": 31.274629180999998,
+      "delivered": true
+    },
+    {
+      "client_id": 123,
+      "sent_bytes": 5144872,
+      "compute_s": 31.809079196,
+      "delivered": true
+    },
+    {
+      "client_id": 124,
+      "sent_bytes": 5144872,
+      "compute_s": 30.677950871,
+      "delivered": true
+    },
+    {
+      "client_id": 125,
+      "sent_bytes": 5144872,
+      "compute_s": 31.829056036999997,
+      "delivered": true
+    },
+    {
+      "client_id": 126,
+      "sent_bytes": 5144872,
+      "compute_s": 31.20659933,
+      "delivered": true
+    },
+    {
+      "client_id": 127,
+      "sent_bytes": 5144872,
+      "compute_s": 31.799832325,
+      "delivered": true
+    },
+    {
+      "client_id": 128,
+      "sent_bytes": 5144872,
+      "compute_s": 31.495711082,
+      "delivered": true
+    },
+    {
+      "client_id": 129,
+      "sent_bytes": 5144872,
+      "compute_s": 31.93116368,
+      "delivered": true
+    },
+    {
+      "client_id": 130,
+      "sent_bytes": 5144872,
+      "compute_s": 31.077119952999997,
+      "delivered": true
+    },
+    {
+      "client_id": 131,
+      "sent_bytes": 5144872,
+      "compute_s": 30.843828474000002,
+      "delivered": true
+    },
+    {
+      "client_id": 132,
+      "sent_bytes": 5144872,
+      "compute_s": 140.089229236,
+      "delivered": true
+    },
+    {
+      "client_id": 133,
+      "sent_bytes": 5144872,
+      "compute_s": 31.767182666,
+      "delivered": true
+    },
+    {
+      "client_id": 134,
+      "sent_bytes": 5144872,
+      "compute_s": 31.200527147000003,
+      "delivered": true
+    },
+    {
+      "client_id": 135,
+      "sent_bytes": 5144872,
+      "compute_s": 31.193996178,
+      "delivered": true
+    },
+    {
+      "client_id": 136,
+      "sent_bytes": 5144872,
+      "compute_s": 31.305168888,
+      "delivered": true
+    },
+    {
+      "client_id": 137,
+      "sent_bytes": 5144872,
+      "compute_s": 30.845992037,
+      "delivered": true
+    },
+    {
+      "client_id": 138,
+      "sent_bytes": 5144872,
+      "compute_s": 31.243585701,
+      "delivered": true
+    },
+    {
+      "client_id": 139,
+      "sent_bytes": 5144872,
+      "compute_s": 31.157079443,
+      "delivered": true
+    },
+    {
+      "client_id": 140,
+      "sent_bytes": 5144872,
+      "compute_s": 30.817501680000003,
+      "delivered": true
+    },
+    {
+      "client_id": 141,
+      "sent_bytes": 5144872,
+      "compute_s": 31.480068431,
+      "delivered": true
+    },
+    {
+      "client_id": 142,
+      "sent_bytes": 5144872,
+      "compute_s": 31.256886172,
+      "delivered": true
+    },
+    {
+      "client_id": 143,
+      "sent_bytes": 5144872,
+      "compute_s": 31.228055654,
+      "delivered": true
+    },
+    {
+      "client_id": 144,
+      "sent_bytes": 5144872,
+      "compute_s": 31.561963187,
+      "delivered": true
+    },
+    {
+      "client_id": 145,
+      "sent_bytes": 5144872,
+      "compute_s": 31.371361038000003,
+      "delivered": true
+    },
+    {
+      "client_id": 146,
+      "sent_bytes": 5144872,
+      "compute_s": 31.625303795,
+      "delivered": true
+    },
+    {
+      "client_id": 147,
+      "sent_bytes": 5144872,
+      "compute_s": 31.120432496,
+      "delivered": true
+    },
+    {
+      "client_id": 148,
+      "sent_bytes": 5144872,
+      "compute_s": 31.244360234,
+      "delivered": true
+    },
+    {
+      "client_id": 149,
+      "sent_bytes": 5144872,
+      "compute_s": 31.516245561999998,
+      "delivered": true
+    },
+    {
+      "client_id": 150,
+      "sent_bytes": 5144872,
+      "compute_s": 30.91960613,
+      "delivered": true
+    },
+    {
+      "client_id": 151,
+      "sent_bytes": 5144872,
+      "compute_s": 30.935383721,
+      "delivered": true
+    },
+    {
+      "client_id": 152,
+      "sent_bytes": 5144872,
+      "compute_s": 31.532155058,
+      "delivered": true
+    },
+    {
+      "client_id": 153,
+      "sent_bytes": 5144872,
+      "compute_s": 31.886272820000002,
+      "delivered": true
+    },
+    {
+      "client_id": 154,
+      "sent_bytes": 5144872,
+      "compute_s": 31.190338492000002,
+      "delivered": true
+    },
+    {
+      "client_id": 155,
+      "sent_bytes": 5144872,
+      "compute_s": 30.801331350999998,
+      "delivered": true
+    },
+    {
+      "client_id": 156,
+      "sent_bytes": 5144872,
+      "compute_s": 30.624127247,
+      "delivered": true
+    },
+    {
+      "client_id": 157,
+      "sent_bytes": 5144872,
+      "compute_s": 31.814409410000003,
+      "delivered": true
+    },
+    {
+      "client_id": 158,
+      "sent_bytes": 5144872,
+      "compute_s": 30.781108544,
+      "delivered": true
+    },
+    {
+      "client_id": 159,
+      "sent_bytes": 5144872,
+      "compute_s": 31.552120773,
+      "delivered": true
+    },
+    {
+      "client_id": 160,
+      "sent_bytes": 5144872,
+      "compute_s": 30.972281451999997,
+      "delivered": true
+    },
+    {
+      "client_id": 161,
+      "sent_bytes": 5144872,
+      "compute_s": 30.717443935,
+      "delivered": true
+    },
+    {
+      "client_id": 162,
+      "sent_bytes": 5144872,
+      "compute_s": 31.265070362000003,
+      "delivered": true
+    },
+    {
+      "client_id": 163,
+      "sent_bytes": 5144872,
+      "compute_s": 30.656849823,
+      "delivered": true
+    },
+    {
+      "client_id": 164,
+      "sent_bytes": 5144872,
+      "compute_s": 31.317042187,
+      "delivered": true
+    },
+    {
+      "client_id": 165,
+      "sent_bytes": 5144872,
+      "compute_s": 31.34016911,
+      "delivered": true
+    },
+    {
+      "client_id": 166,
+      "sent_bytes": 5144872,
+      "compute_s": 30.849742193,
+      "delivered": true
+    },
+    {
+      "client_id": 167,
+      "sent_bytes": 5144872,
+      "compute_s": 32.30382595,
+      "delivered": true
+    },
+    {
+      "client_id": 168,
+      "sent_bytes": 5144872,
+      "compute_s": 30.855163886,
+      "delivered": true
+    },
+    {
+      "client_id": 169,
+      "sent_bytes": 5144872,
+      "compute_s": 31.546509856,
+      "delivered": true
+    },
+    {
+      "client_id": 170,
+      "sent_bytes": 5144872,
+      "compute_s": 719.29617857,
+      "delivered": true
+    },
+    {
+      "client_id": 171,
+      "sent_bytes": 5144872,
+      "compute_s": 31.23543831,
+      "delivered": true
+    },
+    {
+      "client_id": 172,
+      "sent_bytes": 5144872,
+      "compute_s": 31.007228087999998,
+      "delivered": true
+    },
+    {
+      "client_id": 173,
+      "sent_bytes": 5144872,
+      "compute_s": 31.53540522,
+      "delivered": true
+    },
+    {
+      "client_id": 174,
+      "sent_bytes": 5144872,
+      "compute_s": 31.03050063,
+      "delivered": true
+    },
+    {
+      "client_id": 175,
+      "sent_bytes": 5144872,
+      "compute_s": 31.188408274,
+      "delivered": true
+    },
+    {
+      "client_id": 176,
+      "sent_bytes": 5144872,
+      "compute_s": 31.129355503,
+      "delivered": true
+    },
+    {
+      "client_id": 177,
+      "sent_bytes": 5144872,
+      "compute_s": 31.382369139999998,
+      "delivered": true
+    },
+    {
+      "client_id": 178,
+      "sent_bytes": 5144872,
+      "compute_s": 31.508976537,
+      "delivered": true
+    },
+    {
+      "client_id": 179,
+      "sent_bytes": 5144872,
+      "compute_s": 31.117037773000003,
+      "delivered": true
+    },
+    {
+      "client_id": 180,
+      "sent_bytes": 5144872,
+      "compute_s": 30.98712848,
+      "delivered": true
+    },
+    {
+      "client_id": 181,
+      "sent_bytes": 5144872,
+      "compute_s": 31.137361933,
+      "delivered": true
+    },
+    {
+      "client_id": 182,
+      "sent_bytes": 5144872,
+      "compute_s": 30.634229941999997,
+      "delivered": true
+    },
+    {
+      "client_id": 183,
+      "sent_bytes": 5144872,
+      "compute_s": 30.975145688,
+      "delivered": true
+    },
+    {
+      "client_id": 184,
+      "sent_bytes": 5144872,
+      "compute_s": 30.809552441,
+      "delivered": true
+    },
+    {
+      "client_id": 185,
+      "sent_bytes": 5144872,
+      "compute_s": 31.127399603,
+      "delivered": true
+    },
+    {
+      "client_id": 186,
+      "sent_bytes": 5144872,
+      "compute_s": 469.504192134,
+      "delivered": true
+    },
+    {
+      "client_id": 187,
+      "sent_bytes": 5144872,
+      "compute_s": 30.954265705,
+      "delivered": true
+    },
+    {
+      "client_id": 188,
+      "sent_bytes": 5144872,
+      "compute_s": 31.452939995,
+      "delivered": true
+    },
+    {
+      "client_id": 189,
+      "sent_bytes": 5144872,
+      "compute_s": 31.019763383,
+      "delivered": true
+    },
+    {
+      "client_id": 190,
+      "sent_bytes": 5144872,
+      "compute_s": 31.125843283000002,
+      "delivered": true
+    },
+    {
+      "client_id": 191,
+      "sent_bytes": 5144872,
+      "compute_s": 31.491233922,
+      "delivered": true
+    },
+    {
+      "client_id": 192,
+      "sent_bytes": 5144872,
+      "compute_s": 30.555891272,
+      "delivered": true
+    },
+    {
+      "client_id": 193,
+      "sent_bytes": 5144872,
+      "compute_s": 31.238413153,
+      "delivered": true
+    },
+    {
+      "client_id": 194,
+      "sent_bytes": 5144872,
+      "compute_s": 811.651967932,
+      "delivered": true
+    },
+    {
+      "client_id": 195,
+      "sent_bytes": 5144872,
+      "compute_s": 31.550313668999998,
+      "delivered": true
+    },
+    {
+      "client_id": 196,
+      "sent_bytes": 5144872,
+      "compute_s": 31.030654545,
+      "delivered": true
+    },
+    {
+      "client_id": 197,
+      "sent_bytes": 5144872,
+      "compute_s": 31.663283360999998,
+      "delivered": true
+    },
+    {
+      "client_id": 198,
+      "sent_bytes": 5144872,
+      "compute_s": 717.808894225,
+      "delivered": true
+    },
+    {
+      "client_id": 199,
+      "sent_bytes": 5144872,
+      "compute_s": 31.428663452,
+      "delivered": true
+    },
+    {
+      "client_id": 200,
+      "sent_bytes": 5144872,
+      "compute_s": 716.53743353,
+      "delivered": true
+    },
+    {
+      "client_id": 201,
+      "sent_bytes": 5144872,
+      "compute_s": 31.248048247000003,
+      "delivered": true
+    },
+    {
+      "client_id": 202,
+      "sent_bytes": 5144872,
+      "compute_s": 30.85849543,
+      "delivered": true
+    },
+    {
+      "client_id": 203,
+      "sent_bytes": 5144872,
+      "compute_s": 30.895579781,
+      "delivered": true
+    },
+    {
+      "client_id": 204,
+      "sent_bytes": 5144872,
+      "compute_s": 31.306722018,
+      "delivered": true
+    },
+    {
+      "client_id": 205,
+      "sent_bytes": 5144872,
+      "compute_s": 31.516485395,
+      "delivered": true
+    },
+    {
+      "client_id": 206,
+      "sent_bytes": 5144872,
+      "compute_s": 30.683510879,
+      "delivered": true
+    },
+    {
+      "client_id": 207,
+      "sent_bytes": 5144872,
+      "compute_s": 31.002516987,
+      "delivered": true
+    },
+    {
+      "client_id": 208,
+      "sent_bytes": 5144872,
+      "compute_s": 30.800437040000002,
+      "delivered": true
+    },
+    {
+      "client_id": 209,
+      "sent_bytes": 5144872,
+      "compute_s": 31.467668365999998,
+      "delivered": true
+    },
+    {
+      "client_id": 210,
+      "sent_bytes": 5144872,
+      "compute_s": 30.87228436,
+      "delivered": true
+    },
+    {
+      "client_id": 211,
+      "sent_bytes": 5144872,
+      "compute_s": 30.703505414000002,
+      "delivered": true
+    },
+    {
+      "client_id": 212,
+      "sent_bytes": 5144872,
+      "compute_s": 30.937146205,
+      "delivered": true
+    },
+    {
+      "client_id": 213,
+      "sent_bytes": 5144872,
+      "compute_s": 31.069822013,
+      "delivered": true
+    },
+    {
+      "client_id": 214,
+      "sent_bytes": 5144872,
+      "compute_s": 31.566366118999998,
+      "delivered": true
+    },
+    {
+      "client_id": 215,
+      "sent_bytes": 5144872,
+      "compute_s": 31.307125164,
+      "delivered": true
+    },
+    {
+      "client_id": 216,
+      "sent_bytes": 5144872,
+      "compute_s": 31.136681532999997,
+      "delivered": true
+    },
+    {
+      "client_id": 217,
+      "sent_bytes": 5144872,
+      "compute_s": 133.109439072,
+      "delivered": true
+    },
+    {
+      "client_id": 218,
+      "sent_bytes": 5144872,
+      "compute_s": 74.936005826,
+      "delivered": true
+    },
+    {
+      "client_id": 219,
+      "sent_bytes": 5144872,
+      "compute_s": 31.053921426,
+      "delivered": true
+    },
+    {
+      "client_id": 220,
+      "sent_bytes": 5144872,
+      "compute_s": 31.168352813000002,
+      "delivered": true
+    },
+    {
+      "client_id": 221,
+      "sent_bytes": 5144872,
+      "compute_s": 30.906347029,
+      "delivered": true
+    },
+    {
+      "client_id": 222,
+      "sent_bytes": 5144872,
+      "compute_s": 30.986086241000002,
+      "delivered": true
+    },
+    {
+      "client_id": 223,
+      "sent_bytes": 5144872,
+      "compute_s": 30.843566470000003,
+      "delivered": true
+    },
+    {
+      "client_id": 224,
+      "sent_bytes": 5144872,
+      "compute_s": 31.498868419,
+      "delivered": true
+    },
+    {
+      "client_id": 225,
+      "sent_bytes": 5144872,
+      "compute_s": 31.248204188,
+      "delivered": true
+    },
+    {
+      "client_id": 226,
+      "sent_bytes": 5144872,
+      "compute_s": 31.021276896,
+      "delivered": true
+    },
+    {
+      "client_id": 227,
+      "sent_bytes": 5144872,
+      "compute_s": 31.122566964,
+      "delivered": true
+    },
+    {
+      "client_id": 228,
+      "sent_bytes": 5144872,
+      "compute_s": 30.821035951,
+      "delivered": true
+    },
+    {
+      "client_id": 229,
+      "sent_bytes": 5144872,
+      "compute_s": 31.375347976999997,
+      "delivered": true
+    },
+    {
+      "client_id": 230,
+      "sent_bytes": 5144872,
+      "compute_s": 717.5316000400001,
+      "delivered": true
+    },
+    {
+      "client_id": 231,
+      "sent_bytes": 5144872,
+      "compute_s": 31.232994045,
+      "delivered": true
+    },
+    {
+      "client_id": 232,
+      "sent_bytes": 5144872,
+      "compute_s": 31.090907366,
+      "delivered": true
+    },
+    {
+      "client_id": 233,
+      "sent_bytes": 5144872,
+      "compute_s": 31.124754603000003,
+      "delivered": true
+    },
+    {
+      "client_id": 234,
+      "sent_bytes": 5144872,
+      "compute_s": 31.231657269,
+      "delivered": true
+    },
+    {
+      "client_id": 235,
+      "sent_bytes": 5144872,
+      "compute_s": 31.612189309,
+      "delivered": true
+    },
+    {
+      "client_id": 236,
+      "sent_bytes": 5144872,
+      "compute_s": 31.290700834,
+      "delivered": true
+    },
+    {
+      "client_id": 237,
+      "sent_bytes": 5144872,
+      "compute_s": 31.377297124,
+      "delivered": true
+    },
+    {
+      "client_id": 238,
+      "sent_bytes": 5144872,
+      "compute_s": 31.121490036,
+      "delivered": true
+    },
+    {
+      "client_id": 239,
+      "sent_bytes": 5144872,
+      "compute_s": 30.830765462,
+      "delivered": true
+    },
+    {
+      "client_id": 240,
+      "sent_bytes": 5144872,
+      "compute_s": 31.504352859,
+      "delivered": true
+    },
+    {
+      "client_id": 241,
+      "sent_bytes": 5144872,
+      "compute_s": 31.122772955000002,
+      "delivered": true
+    },
+    {
+      "client_id": 242,
+      "sent_bytes": 5144872,
+      "compute_s": 629.315326057,
+      "delivered": true
+    },
+    {
+      "client_id": 243,
+      "sent_bytes": 5144872,
+      "compute_s": 31.103858173,
+      "delivered": true
+    },
+    {
+      "client_id": 244,
+      "sent_bytes": 5144872,
+      "compute_s": 30.946763076,
+      "delivered": true
+    },
+    {
+      "client_id": 245,
+      "sent_bytes": 5144872,
+      "compute_s": 30.993297265,
+      "delivered": true
+    },
+    {
+      "client_id": 246,
+      "sent_bytes": 5144872,
+      "compute_s": 47.764507482999996,
+      "delivered": true
+    },
+    {
+      "client_id": 247,
+      "sent_bytes": 5144872,
+      "compute_s": 31.676497857999998,
+      "delivered": true
+    },
+    {
+      "client_id": 248,
+      "sent_bytes": 5144872,
+      "compute_s": 31.456137641999998,
+      "delivered": true
+    },
+    {
+      "client_id": 249,
+      "sent_bytes": 5144872,
+      "compute_s": 31.077710980000003,
+      "delivered": true
+    },
+    {
+      "client_id": 250,
+      "sent_bytes": 5144872,
+      "compute_s": 31.224545991,
+      "delivered": true
+    },
+    {
+      "client_id": 251,
+      "sent_bytes": 5144872,
+      "compute_s": 31.487257053999997,
+      "delivered": true
+    },
+    {
+      "client_id": 252,
+      "sent_bytes": 5144872,
+      "compute_s": 31.607242983000003,
+      "delivered": true
+    },
+    {
+      "client_id": 253,
+      "sent_bytes": 5144872,
+      "compute_s": 241.728711713,
+      "delivered": true
+    },
+    {
+      "client_id": 254,
+      "sent_bytes": 5144872,
+      "compute_s": 31.846768446,
+      "delivered": true
+    },
+    {
+      "client_id": 255,
+      "sent_bytes": 5144872,
+      "compute_s": 30.906846597,
+      "delivered": true
+    },
+    {
+      "client_id": 256,
+      "sent_bytes": 5144872,
+      "compute_s": 31.330798688,
+      "delivered": true
+    },
+    {
+      "client_id": 257,
+      "sent_bytes": 5144872,
+      "compute_s": 31.028200946,
+      "delivered": true
+    },
+    {
+      "client_id": 258,
+      "sent_bytes": 5144872,
+      "compute_s": 31.643119678999998,
+      "delivered": true
+    },
+    {
+      "client_id": 259,
+      "sent_bytes": 5144872,
+      "compute_s": 31.032807774000002,
+      "delivered": true
+    },
+    {
+      "client_id": 260,
+      "sent_bytes": 5144872,
+      "compute_s": 30.71417444,
+      "delivered": true
+    },
+    {
+      "client_id": 261,
+      "sent_bytes": 5144872,
+      "compute_s": 31.233082717,
+      "delivered": true
+    },
+    {
+      "client_id": 262,
+      "sent_bytes": 5144872,
+      "compute_s": 31.357766178000002,
+      "delivered": true
+    },
+    {
+      "client_id": 263,
+      "sent_bytes": 5144872,
+      "compute_s": 31.323875958,
+      "delivered": true
+    },
+    {
+      "client_id": 264,
+      "sent_bytes": 5144872,
+      "compute_s": 31.766668677000002,
+      "delivered": true
+    },
+    {
+      "client_id": 265,
+      "sent_bytes": 5144872,
+      "compute_s": 31.048433826,
+      "delivered": true
+    },
+    {
+      "client_id": 266,
+      "sent_bytes": 5144872,
+      "compute_s": 31.429955749,
+      "delivered": true
+    },
+    {
+      "client_id": 267,
+      "sent_bytes": 5144872,
+      "compute_s": 30.77657132,
+      "delivered": true
+    },
+    {
+      "client_id": 268,
+      "sent_bytes": 5144872,
+      "compute_s": 31.153605359,
+      "delivered": true
+    },
+    {
+      "client_id": 269,
+      "sent_bytes": 5144872,
+      "compute_s": 936.380752234,
+      "delivered": true
+    },
+    {
+      "client_id": 270,
+      "sent_bytes": 5144872,
+      "compute_s": 31.006137426,
+      "delivered": true
+    },
+    {
+      "client_id": 271,
+      "sent_bytes": 5144872,
+      "compute_s": 31.283286906999997,
+      "delivered": true
+    },
+    {
+      "client_id": 272,
+      "sent_bytes": 5144872,
+      "compute_s": 31.735428301,
+      "delivered": true
+    },
+    {
+      "client_id": 273,
+      "sent_bytes": 5144872,
+      "compute_s": 30.711678591,
+      "delivered": true
+    },
+    {
+      "client_id": 274,
+      "sent_bytes": 5144872,
+      "compute_s": 31.474164948,
+      "delivered": true
+    },
+    {
+      "client_id": 275,
+      "sent_bytes": 5144872,
+      "compute_s": 31.238983546999997,
+      "delivered": true
+    },
+    {
+      "client_id": 276,
+      "sent_bytes": 5144872,
+      "compute_s": 31.09958083,
+      "delivered": true
+    },
+    {
+      "client_id": 277,
+      "sent_bytes": 5144872,
+      "compute_s": 32.069842452,
+      "delivered": true
+    },
+    {
+      "client_id": 278,
+      "sent_bytes": 5144872,
+      "compute_s": 30.849547980999997,
+      "delivered": true
+    },
+    {
+      "client_id": 279,
+      "sent_bytes": 5144872,
+      "compute_s": 31.50127614,
+      "delivered": true
+    },
+    {
+      "client_id": 280,
+      "sent_bytes": 5144872,
+      "compute_s": 31.462749589999998,
+      "delivered": true
+    },
+    {
+      "client_id": 281,
+      "sent_bytes": 5144872,
+      "compute_s": 30.906650636000002,
+      "delivered": true
+    },
+    {
+      "client_id": 282,
+      "sent_bytes": 5144872,
+      "compute_s": 32.185793616,
+      "delivered": true
+    },
+    {
+      "client_id": 283,
+      "sent_bytes": 5144872,
+      "compute_s": 30.972994259,
+      "delivered": true
+    },
+    {
+      "client_id": 284,
+      "sent_bytes": 5144872,
+      "compute_s": 31.38350938,
+      "delivered": true
+    },
+    {
+      "client_id": 285,
+      "sent_bytes": 5144872,
+      "compute_s": 32.417816735,
+      "delivered": true
+    },
+    {
+      "client_id": 286,
+      "sent_bytes": 5144872,
+      "compute_s": 31.647305657999997,
+      "delivered": true
+    },
+    {
+      "client_id": 287,
+      "sent_bytes": 5144872,
+      "compute_s": 31.198413710999997,
+      "delivered": true
+    },
+    {
+      "client_id": 288,
+      "sent_bytes": 5144872,
+      "compute_s": 30.811169625999998,
+      "delivered": true
+    },
+    {
+      "client_id": 289,
+      "sent_bytes": 5144872,
+      "compute_s": 32.070957886,
+      "delivered": true
+    },
+    {
+      "client_id": 290,
+      "sent_bytes": 5144872,
+      "compute_s": 31.364245739999998,
+      "delivered": true
+    },
+    {
+      "client_id": 291,
+      "sent_bytes": 5144872,
+      "compute_s": 31.14460096,
+      "delivered": true
+    },
+    {
+      "client_id": 292,
+      "sent_bytes": 5144872,
+      "compute_s": 31.587820151,
+      "delivered": true
+    },
+    {
+      "client_id": 293,
+      "sent_bytes": 5144872,
+      "compute_s": 31.149382108,
+      "delivered": true
+    },
+    {
+      "client_id": 294,
+      "sent_bytes": 5144872,
+      "compute_s": 31.463229939,
+      "delivered": true
+    },
+    {
+      "client_id": 295,
+      "sent_bytes": 5144872,
+      "compute_s": 31.247517264,
+      "delivered": true
+    },
+    {
+      "client_id": 296,
+      "sent_bytes": 5144872,
+      "compute_s": 30.991011382,
+      "delivered": true
+    },
+    {
+      "client_id": 297,
+      "sent_bytes": 5144872,
+      "compute_s": 30.838557137000002,
+      "delivered": true
+    },
+    {
+      "client_id": 298,
+      "sent_bytes": 5144872,
+      "compute_s": 31.216402838,
+      "delivered": true
+    },
+    {
+      "client_id": 299,
+      "sent_bytes": 5144872,
+      "compute_s": 30.919172597,
+      "delivered": true
+    },
+    {
+      "client_id": 300,
+      "sent_bytes": 5144872,
+      "compute_s": 31.621516632000002,
+      "delivered": true
+    },
+    {
+      "client_id": 301,
+      "sent_bytes": 5144872,
+      "compute_s": 31.062870795,
+      "delivered": true
+    },
+    {
+      "client_id": 302,
+      "sent_bytes": 5144872,
+      "compute_s": 31.227317242,
+      "delivered": true
+    },
+    {
+      "client_id": 303,
+      "sent_bytes": 5144872,
+      "compute_s": 30.870604508000003,
+      "delivered": true
+    },
+    {
+      "client_id": 304,
+      "sent_bytes": 5144872,
+      "compute_s": 31.378857306,
+      "delivered": true
+    },
+    {
+      "client_id": 305,
+      "sent_bytes": 5144872,
+      "compute_s": 31.665204017,
+      "delivered": true
+    },
+    {
+      "client_id": 306,
+      "sent_bytes": 5144872,
+      "compute_s": 31.510951494,
+      "delivered": true
+    },
+    {
+      "client_id": 307,
+      "sent_bytes": 5144872,
+      "compute_s": 30.969913733,
+      "delivered": true
+    },
+    {
+      "client_id": 308,
+      "sent_bytes": 5144872,
+      "compute_s": 31.576950943,
+      "delivered": true
+    },
+    {
+      "client_id": 309,
+      "sent_bytes": 5144872,
+      "compute_s": 31.100549822,
+      "delivered": true
+    },
+    {
+      "client_id": 310,
+      "sent_bytes": 5144872,
+      "compute_s": 31.518273601,
+      "delivered": true
+    },
+    {
+      "client_id": 311,
+      "sent_bytes": 5144872,
+      "compute_s": 92.395039667,
+      "delivered": true
+    },
+    {
+      "client_id": 312,
+      "sent_bytes": 5144872,
+      "compute_s": 31.122467864999997,
+      "delivered": true
+    },
+    {
+      "client_id": 313,
+      "sent_bytes": 5144872,
+      "compute_s": 31.591869761999998,
+      "delivered": true
+    },
+    {
+      "client_id": 314,
+      "sent_bytes": 5144872,
+      "compute_s": 31.149154413,
+      "delivered": true
+    },
+    {
+      "client_id": 315,
+      "sent_bytes": 5144872,
+      "compute_s": 31.137341159,
+      "delivered": true
+    },
+    {
+      "client_id": 316,
+      "sent_bytes": 5144872,
+      "compute_s": 31.823186158,
+      "delivered": true
+    },
+    {
+      "client_id": 317,
+      "sent_bytes": 5144872,
+      "compute_s": 30.69530241,
+      "delivered": true
+    },
+    {
+      "client_id": 318,
+      "sent_bytes": 5144872,
+      "compute_s": 31.147315503999998,
+      "delivered": true
+    },
+    {
+      "client_id": 319,
+      "sent_bytes": 5144872,
+      "compute_s": 31.061386391000003,
+      "delivered": true
+    },
+    {
+      "client_id": 320,
+      "sent_bytes": 5144872,
+      "compute_s": 31.598296296,
+      "delivered": true
+    },
+    {
+      "client_id": 321,
+      "sent_bytes": 5144872,
+      "compute_s": 31.141877095,
+      "delivered": true
+    },
+    {
+      "client_id": 322,
+      "sent_bytes": 5144872,
+      "compute_s": 31.277250865,
+      "delivered": true
+    },
+    {
+      "client_id": 323,
+      "sent_bytes": 5144872,
+      "compute_s": 30.54148881,
+      "delivered": true
+    },
+    {
+      "client_id": 324,
+      "sent_bytes": 5144872,
+      "compute_s": 31.465850922,
+      "delivered": true
+    },
+    {
+      "client_id": 325,
+      "sent_bytes": 5144872,
+      "compute_s": 30.814736974,
+      "delivered": true
+    },
+    {
+      "client_id": 326,
+      "sent_bytes": 5144872,
+      "compute_s": 31.078601826,
+      "delivered": true
+    },
+    {
+      "client_id": 327,
+      "sent_bytes": 5144872,
+      "compute_s": 562.238551415,
+      "delivered": true
+    },
+    {
+      "client_id": 328,
+      "sent_bytes": 5144872,
+      "compute_s": 30.741850381,
+      "delivered": true
+    },
+    {
+      "client_id": 329,
+      "sent_bytes": 5144872,
+      "compute_s": 31.406041512999998,
+      "delivered": true
+    },
+    {
+      "client_id": 330,
+      "sent_bytes": 5144872,
+      "compute_s": 31.097029327,
+      "delivered": true
+    },
+    {
+      "client_id": 331,
+      "sent_bytes": 5144872,
+      "compute_s": 31.030508839000003,
+      "delivered": true
+    },
+    {
+      "client_id": 332,
+      "sent_bytes": 5144872,
+      "compute_s": 30.676195799000002,
+      "delivered": true
+    },
+    {
+      "client_id": 333,
+      "sent_bytes": 5144872,
+      "compute_s": 31.477227645,
+      "delivered": true
+    },
+    {
+      "client_id": 334,
+      "sent_bytes": 5144872,
+      "compute_s": 139.37203014,
+      "delivered": true
+    },
+    {
+      "client_id": 335,
+      "sent_bytes": 5144872,
+      "compute_s": 440.190092777,
+      "delivered": true
+    },
+    {
+      "client_id": 336,
+      "sent_bytes": 5144872,
+      "compute_s": 31.105429922,
+      "delivered": true
+    },
+    {
+      "client_id": 337,
+      "sent_bytes": 5144872,
+      "compute_s": 31.200482788,
+      "delivered": true
+    },
+    {
+      "client_id": 338,
+      "sent_bytes": 5144872,
+      "compute_s": 31.383162301,
+      "delivered": true
+    },
+    {
+      "client_id": 339,
+      "sent_bytes": 5144872,
+      "compute_s": 31.600449879000003,
+      "delivered": true
+    },
+    {
+      "client_id": 340,
+      "sent_bytes": 5144872,
+      "compute_s": 31.535267038,
+      "delivered": true
+    },
+    {
+      "client_id": 341,
+      "sent_bytes": 5144872,
+      "compute_s": 31.301947568,
+      "delivered": true
+    },
+    {
+      "client_id": 342,
+      "sent_bytes": 5144872,
+      "compute_s": 31.381225159,
+      "delivered": true
+    },
+    {
+      "client_id": 343,
+      "sent_bytes": 5144872,
+      "compute_s": 31.619148219,
+      "delivered": true
+    },
+    {
+      "client_id": 344,
+      "sent_bytes": 5144872,
+      "compute_s": 31.774604913,
+      "delivered": true
+    },
+    {
+      "client_id": 345,
+      "sent_bytes": 5144872,
+      "compute_s": 30.960911665,
+      "delivered": true
+    },
+    {
+      "client_id": 346,
+      "sent_bytes": 5144872,
+      "compute_s": 31.103362206,
+      "delivered": true
+    },
+    {
+      "client_id": 347,
+      "sent_bytes": 5144872,
+      "compute_s": 30.711852042,
+      "delivered": true
+    },
+    {
+      "client_id": 348,
+      "sent_bytes": 5144872,
+      "compute_s": 30.724900579,
+      "delivered": true
+    },
+    {
+      "client_id": 349,
+      "sent_bytes": 5144872,
+      "compute_s": 31.035042961000002,
+      "delivered": true
+    },
+    {
+      "client_id": 350,
+      "sent_bytes": 5144872,
+      "compute_s": 31.152762115,
+      "delivered": true
+    },
+    {
+      "client_id": 351,
+      "sent_bytes": 5144872,
+      "compute_s": 31.320179736,
+      "delivered": true
+    },
+    {
+      "client_id": 352,
+      "sent_bytes": 5144872,
+      "compute_s": 30.819777096000003,
+      "delivered": true
+    },
+    {
+      "client_id": 353,
+      "sent_bytes": 5144872,
+      "compute_s": 69.818300496,
+      "delivered": true
+    },
+    {
+      "client_id": 354,
+      "sent_bytes": 5144872,
+      "compute_s": 31.190765085,
+      "delivered": true
+    },
+    {
+      "client_id": 355,
+      "sent_bytes": 5144872,
+      "compute_s": 30.657997882,
+      "delivered": true
+    },
+    {
+      "client_id": 356,
+      "sent_bytes": 5144872,
+      "compute_s": 31.310670935,
+      "delivered": true
+    },
+    {
+      "client_id": 357,
+      "sent_bytes": 5144872,
+      "compute_s": 31.011322353,
+      "delivered": true
+    },
+    {
+      "client_id": 358,
+      "sent_bytes": 5144872,
+      "compute_s": 31.369498883,
+      "delivered": true
+    },
+    {
+      "client_id": 359,
+      "sent_bytes": 5144872,
+      "compute_s": 31.257132723999998,
+      "delivered": true
+    },
+    {
+      "client_id": 360,
+      "sent_bytes": 5144872,
+      "compute_s": 31.361103373,
+      "delivered": true
+    },
+    {
+      "client_id": 361,
+      "sent_bytes": 5144872,
+      "compute_s": 31.322855297,
+      "delivered": true
+    },
+    {
+      "client_id": 362,
+      "sent_bytes": 5144872,
+      "compute_s": 30.907539053,
+      "delivered": true
+    },
+    {
+      "client_id": 363,
+      "sent_bytes": 5144872,
+      "compute_s": 31.269152118,
+      "delivered": true
+    },
+    {
+      "client_id": 364,
+      "sent_bytes": 5144872,
+      "compute_s": 30.977070453,
+      "delivered": true
+    },
+    {
+      "client_id": 365,
+      "sent_bytes": 5144872,
+      "compute_s": 31.170339749,
+      "delivered": true
+    },
+    {
+      "client_id": 366,
+      "sent_bytes": 5144872,
+      "compute_s": 31.374376287,
+      "delivered": true
+    },
+    {
+      "client_id": 367,
+      "sent_bytes": 5144872,
+      "compute_s": 426.321826065,
+      "delivered": true
+    },
+    {
+      "client_id": 368,
+      "sent_bytes": 5144872,
+      "compute_s": 31.089808992000002,
+      "delivered": true
+    },
+    {
+      "client_id": 369,
+      "sent_bytes": 5144872,
+      "compute_s": 31.092419239,
+      "delivered": true
+    },
+    {
+      "client_id": 370,
+      "sent_bytes": 5144872,
+      "compute_s": 31.768560677,
+      "delivered": true
+    },
+    {
+      "client_id": 371,
+      "sent_bytes": 5144872,
+      "compute_s": 30.832827245,
+      "delivered": true
+    },
+    {
+      "client_id": 372,
+      "sent_bytes": 5144872,
+      "compute_s": 31.211509611,
+      "delivered": true
+    },
+    {
+      "client_id": 373,
+      "sent_bytes": 5144872,
+      "compute_s": 30.724000166,
+      "delivered": true
+    },
+    {
+      "client_id": 374,
+      "sent_bytes": 5144872,
+      "compute_s": 31.044761820999998,
+      "delivered": true
+    },
+    {
+      "client_id": 375,
+      "sent_bytes": 5144872,
+      "compute_s": 155.901482033,
+      "delivered": true
+    },
+    {
+      "client_id": 376,
+      "sent_bytes": 5144872,
+      "compute_s": 31.261651431,
+      "delivered": true
+    },
+    {
+      "client_id": 377,
+      "sent_bytes": 5144872,
+      "compute_s": 31.203971287999998,
+      "delivered": true
+    },
+    {
+      "client_id": 378,
+      "sent_bytes": 5144872,
+      "compute_s": 31.586246429,
+      "delivered": true
+    },
+    {
+      "client_id": 379,
+      "sent_bytes": 5144872,
+      "compute_s": 31.126746132,
+      "delivered": true
+    },
+    {
+      "client_id": 380,
+      "sent_bytes": 5144872,
+      "compute_s": 31.015357167999998,
+      "delivered": true
+    },
+    {
+      "client_id": 381,
+      "sent_bytes": 5144872,
+      "compute_s": 31.405194048,
+      "delivered": true
+    },
+    {
+      "client_id": 382,
+      "sent_bytes": 5144872,
+      "compute_s": 31.025602641,
+      "delivered": true
+    },
+    {
+      "client_id": 383,
+      "sent_bytes": 5144872,
+      "compute_s": 30.921186032,
+      "delivered": true
+    },
+    {
+      "client_id": 384,
+      "sent_bytes": 5144872,
+      "compute_s": 31.457953531999998,
+      "delivered": true
+    },
+    {
+      "client_id": 385,
+      "sent_bytes": 5144872,
+      "compute_s": 30.903469738,
+      "delivered": true
+    },
+    {
+      "client_id": 386,
+      "sent_bytes": 5144872,
+      "compute_s": 31.311015104000003,
+      "delivered": true
+    },
+    {
+      "client_id": 387,
+      "sent_bytes": 5144872,
+      "compute_s": 31.630112954,
+      "delivered": true
+    },
+    {
+      "client_id": 388,
+      "sent_bytes": 5144872,
+      "compute_s": 31.315821589000002,
+      "delivered": true
+    },
+    {
+      "client_id": 389,
+      "sent_bytes": 5144872,
+      "compute_s": 31.277031206,
+      "delivered": true
+    },
+    {
+      "client_id": 390,
+      "sent_bytes": 5144872,
+      "compute_s": 31.196504514999997,
+      "delivered": true
+    },
+    {
+      "client_id": 391,
+      "sent_bytes": 5144872,
+      "compute_s": 31.080973804,
+      "delivered": true
+    },
+    {
+      "client_id": 392,
+      "sent_bytes": 5144872,
+      "compute_s": 31.571884998999998,
+      "delivered": true
+    },
+    {
+      "client_id": 393,
+      "sent_bytes": 5144872,
+      "compute_s": 31.279880783,
+      "delivered": true
+    },
+    {
+      "client_id": 394,
+      "sent_bytes": 5144872,
+      "compute_s": 31.37085121,
+      "delivered": true
+    },
+    {
+      "client_id": 395,
+      "sent_bytes": 5144872,
+      "compute_s": 31.008501436,
+      "delivered": true
+    },
+    {
+      "client_id": 396,
+      "sent_bytes": 5144872,
+      "compute_s": 343.57098243999997,
+      "delivered": true
+    },
+    {
+      "client_id": 397,
+      "sent_bytes": 5144872,
+      "compute_s": 30.555617210999998,
+      "delivered": true
+    },
+    {
+      "client_id": 398,
+      "sent_bytes": 5144872,
+      "compute_s": 31.057429726,
+      "delivered": true
+    },
+    {
+      "client_id": 399,
+      "sent_bytes": 5144872,
+      "compute_s": 30.735032338,
+      "delivered": true
+    },
+    {
+      "client_id": 400,
+      "sent_bytes": 5144872,
+      "compute_s": 30.932898511999998,
+      "delivered": true
+    },
+    {
+      "client_id": 401,
+      "sent_bytes": 5144872,
+      "compute_s": 31.037097746999997,
+      "delivered": true
+    },
+    {
+      "client_id": 402,
+      "sent_bytes": 5144872,
+      "compute_s": 31.279145692,
+      "delivered": true
+    },
+    {
+      "client_id": 403,
+      "sent_bytes": 5144872,
+      "compute_s": 31.107237097,
+      "delivered": true
+    },
+    {
+      "client_id": 404,
+      "sent_bytes": 5144872,
+      "compute_s": 30.646941674,
+      "delivered": true
+    },
+    {
+      "client_id": 405,
+      "sent_bytes": 5144872,
+      "compute_s": 30.792708424999997,
+      "delivered": true
+    },
+    {
+      "client_id": 406,
+      "sent_bytes": 5144872,
+      "compute_s": 30.882810900000003,
+      "delivered": true
+    },
+    {
+      "client_id": 407,
+      "sent_bytes": 5144872,
+      "compute_s": 31.533540993000003,
+      "delivered": true
+    },
+    {
+      "client_id": 408,
+      "sent_bytes": 5144872,
+      "compute_s": 31.142855889,
+      "delivered": true
+    },
+    {
+      "client_id": 409,
+      "sent_bytes": 5144872,
+      "compute_s": 31.073529418,
+      "delivered": true
+    },
+    {
+      "client_id": 410,
+      "sent_bytes": 5144872,
+      "compute_s": 31.198349379,
+      "delivered": true
+    },
+    {
+      "client_id": 411,
+      "sent_bytes": 5144872,
+      "compute_s": 31.568961967,
+      "delivered": true
+    },
+    {
+      "client_id": 412,
+      "sent_bytes": 5144872,
+      "compute_s": 31.413848852999998,
+      "delivered": true
+    },
+    {
+      "client_id": 413,
+      "sent_bytes": 5144872,
+      "compute_s": 31.127514199,
+      "delivered": true
+    },
+    {
+      "client_id": 414,
+      "sent_bytes": 5144872,
+      "compute_s": 31.336072866,
+      "delivered": true
+    },
+    {
+      "client_id": 415,
+      "sent_bytes": 5144872,
+      "compute_s": 31.490706274,
+      "delivered": true
+    },
+    {
+      "client_id": 416,
+      "sent_bytes": 5144872,
+      "compute_s": 31.044373014,
+      "delivered": true
+    },
+    {
+      "client_id": 417,
+      "sent_bytes": 5144872,
+      "compute_s": 31.387400938,
+      "delivered": true
+    },
+    {
+      "client_id": 418,
+      "sent_bytes": 5144872,
+      "compute_s": 31.391047653,
+      "delivered": true
+    },
+    {
+      "client_id": 419,
+      "sent_bytes": 5144872,
+      "compute_s": 31.575487464000002,
+      "delivered": true
+    },
+    {
+      "client_id": 420,
+      "sent_bytes": 5144872,
+      "compute_s": 31.115312358,
+      "delivered": true
+    },
+    {
+      "client_id": 421,
+      "sent_bytes": 5144872,
+      "compute_s": 30.896960477,
+      "delivered": true
+    },
+    {
+      "client_id": 422,
+      "sent_bytes": 5144872,
+      "compute_s": 31.233625997999997,
+      "delivered": true
+    },
+    {
+      "client_id": 423,
+      "sent_bytes": 5144872,
+      "compute_s": 31.100920838,
+      "delivered": true
+    },
+    {
+      "client_id": 424,
+      "sent_bytes": 5144872,
+      "compute_s": 31.649339004,
+      "delivered": true
+    },
+    {
+      "client_id": 425,
+      "sent_bytes": 5144872,
+      "compute_s": 31.019933667,
+      "delivered": true
+    },
+    {
+      "client_id": 426,
+      "sent_bytes": 5144872,
+      "compute_s": 31.300096003,
+      "delivered": true
+    },
+    {
+      "client_id": 427,
+      "sent_bytes": 5144872,
+      "compute_s": 31.176146275,
+      "delivered": true
+    },
+    {
+      "client_id": 428,
+      "sent_bytes": 5144872,
+      "compute_s": 31.177522236999998,
+      "delivered": true
+    },
+    {
+      "client_id": 429,
+      "sent_bytes": 5144872,
+      "compute_s": 30.851886619,
+      "delivered": true
+    },
+    {
+      "client_id": 430,
+      "sent_bytes": 5144872,
+      "compute_s": 31.049762252999997,
+      "delivered": true
+    },
+    {
+      "client_id": 431,
+      "sent_bytes": 5144872,
+      "compute_s": 30.632312887,
+      "delivered": true
+    },
+    {
+      "client_id": 432,
+      "sent_bytes": 5144872,
+      "compute_s": 30.734103464999997,
+      "delivered": true
+    },
+    {
+      "client_id": 433,
+      "sent_bytes": 5144872,
+      "compute_s": 30.871736364,
+      "delivered": true
+    },
+    {
+      "client_id": 434,
+      "sent_bytes": 5144872,
+      "compute_s": 31.13367119,
+      "delivered": true
+    },
+    {
+      "client_id": 435,
+      "sent_bytes": 5144872,
+      "compute_s": 31.527152313,
+      "delivered": true
+    },
+    {
+      "client_id": 436,
+      "sent_bytes": 5144872,
+      "compute_s": 30.687496434,
+      "delivered": true
+    },
+    {
+      "client_id": 437,
+      "sent_bytes": 5144872,
+      "compute_s": 31.102206143,
+      "delivered": true
+    },
+    {
+      "client_id": 438,
+      "sent_bytes": 5144872,
+      "compute_s": 31.392088695,
+      "delivered": true
+    },
+    {
+      "client_id": 439,
+      "sent_bytes": 5144872,
+      "compute_s": 30.385769379,
+      "delivered": true
+    },
+    {
+      "client_id": 440,
+      "sent_bytes": 5144872,
+      "compute_s": 31.386366847999998,
+      "delivered": true
+    },
+    {
+      "client_id": 441,
+      "sent_bytes": 5144872,
+      "compute_s": 31.262030197999998,
+      "delivered": true
+    },
+    {
+      "client_id": 442,
+      "sent_bytes": 5144872,
+      "compute_s": 31.406395706999998,
+      "delivered": true
+    },
+    {
+      "client_id": 443,
+      "sent_bytes": 5144872,
+      "compute_s": 30.841773707999998,
+      "delivered": true
+    },
+    {
+      "client_id": 444,
+      "sent_bytes": 5144872,
+      "compute_s": 30.922759212000003,
+      "delivered": true
+    },
+    {
+      "client_id": 445,
+      "sent_bytes": 5144872,
+      "compute_s": 31.171721748,
+      "delivered": true
+    },
+    {
+      "client_id": 446,
+      "sent_bytes": 5144872,
+      "compute_s": 31.882191878,
+      "delivered": true
+    },
+    {
+      "client_id": 447,
+      "sent_bytes": 5144872,
+      "compute_s": 30.97376019,
+      "delivered": true
+    },
+    {
+      "client_id": 448,
+      "sent_bytes": 5144872,
+      "compute_s": 31.385340522,
+      "delivered": true
+    },
+    {
+      "client_id": 449,
+      "sent_bytes": 5144872,
+      "compute_s": 30.801775242999998,
+      "delivered": true
+    },
+    {
+      "client_id": 450,
+      "sent_bytes": 5144872,
+      "compute_s": 31.838501922,
+      "delivered": true
+    },
+    {
+      "client_id": 451,
+      "sent_bytes": 5144872,
+      "compute_s": 31.380625265,
+      "delivered": true
+    },
+    {
+      "client_id": 452,
+      "sent_bytes": 5144872,
+      "compute_s": 31.382957626,
+      "delivered": true
+    },
+    {
+      "client_id": 453,
+      "sent_bytes": 5144872,
+      "compute_s": 30.59695713,
+      "delivered": true
+    },
+    {
+      "client_id": 454,
+      "sent_bytes": 5144872,
+      "compute_s": 31.261231372,
+      "delivered": true
+    },
+    {
+      "client_id": 455,
+      "sent_bytes": 5144872,
+      "compute_s": 30.836022134,
+      "delivered": true
+    },
+    {
+      "client_id": 456,
+      "sent_bytes": 5144872,
+      "compute_s": 31.291926974,
+      "delivered": true
+    },
+    {
+      "client_id": 457,
+      "sent_bytes": 5144872,
+      "compute_s": 30.819557426,
+      "delivered": true
+    },
+    {
+      "client_id": 458,
+      "sent_bytes": 5144872,
+      "compute_s": 30.359995994000002,
+      "delivered": true
+    },
+    {
+      "client_id": 459,
+      "sent_bytes": 5144872,
+      "compute_s": 30.824770879,
+      "delivered": true
+    },
+    {
+      "client_id": 460,
+      "sent_bytes": 5144872,
+      "compute_s": 31.178022057,
+      "delivered": true
+    },
+    {
+      "client_id": 461,
+      "sent_bytes": 5144872,
+      "compute_s": 31.926694286,
+      "delivered": true
+    },
+    {
+      "client_id": 462,
+      "sent_bytes": 5144872,
+      "compute_s": 30.823578547999997,
+      "delivered": true
+    },
+    {
+      "client_id": 463,
+      "sent_bytes": 5144872,
+      "compute_s": 30.681087834,
+      "delivered": true
+    },
+    {
+      "client_id": 464,
+      "sent_bytes": 5144872,
+      "compute_s": 30.963506087,
+      "delivered": true
+    },
+    {
+      "client_id": 465,
+      "sent_bytes": 5144872,
+      "compute_s": 30.786346504,
+      "delivered": true
+    },
+    {
+      "client_id": 466,
+      "sent_bytes": 5144872,
+      "compute_s": 30.751436579,
+      "delivered": true
+    },
+    {
+      "client_id": 467,
+      "sent_bytes": 5144872,
+      "compute_s": 31.039242723999998,
+      "delivered": true
+    },
+    {
+      "client_id": 468,
+      "sent_bytes": 5144872,
+      "compute_s": 31.130842724,
+      "delivered": true
+    },
+    {
+      "client_id": 469,
+      "sent_bytes": 5144872,
+      "compute_s": 31.652662964,
+      "delivered": true
+    },
+    {
+      "client_id": 470,
+      "sent_bytes": 5144872,
+      "compute_s": 30.982591667999998,
+      "delivered": true
+    },
+    {
+      "client_id": 471,
+      "sent_bytes": 5144872,
+      "compute_s": 31.113145347,
+      "delivered": true
+    },
+    {
+      "client_id": 472,
+      "sent_bytes": 5144872,
+      "compute_s": 30.647054367000003,
+      "delivered": true
+    },
+    {
+      "client_id": 473,
+      "sent_bytes": 5144872,
+      "compute_s": 30.984832209999997,
+      "delivered": true
+    },
+    {
+      "client_id": 474,
+      "sent_bytes": 5144872,
+      "compute_s": 30.950648536,
+      "delivered": true
+    },
+    {
+      "client_id": 475,
+      "sent_bytes": 5144872,
+      "compute_s": 30.980966749,
+      "delivered": true
+    },
+    {
+      "client_id": 476,
+      "sent_bytes": 5144872,
+      "compute_s": 85.579636209,
+      "delivered": true
+    },
+    {
+      "client_id": 477,
+      "sent_bytes": 5144872,
+      "compute_s": 30.706875104999998,
+      "delivered": true
+    },
+    {
+      "client_id": 478,
+      "sent_bytes": 5144872,
+      "compute_s": 30.711419254,
+      "delivered": true
+    },
+    {
+      "client_id": 479,
+      "sent_bytes": 5144872,
+      "compute_s": 30.645138763,
+      "delivered": true
+    },
+    {
+      "client_id": 480,
+      "sent_bytes": 5144872,
+      "compute_s": 31.099716576000002,
+      "delivered": true
+    },
+    {
+      "client_id": 481,
+      "sent_bytes": 5144872,
+      "compute_s": 31.217271074000003,
+      "delivered": true
+    },
+    {
+      "client_id": 482,
+      "sent_bytes": 5144872,
+      "compute_s": 30.796459857,
+      "delivered": true
+    },
+    {
+      "client_id": 483,
+      "sent_bytes": 5144872,
+      "compute_s": 30.597366985,
+      "delivered": true
+    },
+    {
+      "client_id": 484,
+      "sent_bytes": 5144872,
+      "compute_s": 245.416924271,
+      "delivered": true
+    },
+    {
+      "client_id": 485,
+      "sent_bytes": 5144872,
+      "compute_s": 30.620751143,
+      "delivered": true
+    },
+    {
+      "client_id": 486,
+      "sent_bytes": 5144872,
+      "compute_s": 31.159050803000003,
+      "delivered": true
+    },
+    {
+      "client_id": 487,
+      "sent_bytes": 5144872,
+      "compute_s": 30.734281084,
+      "delivered": true
+    },
+    {
+      "client_id": 488,
+      "sent_bytes": 5144872,
+      "compute_s": 31.852827179,
+      "delivered": true
+    },
+    {
+      "client_id": 489,
+      "sent_bytes": 5144872,
+      "compute_s": 31.087450331,
+      "delivered": true
+    },
+    {
+      "client_id": 490,
+      "sent_bytes": 5144872,
+      "compute_s": 30.835542207,
+      "delivered": true
+    },
+    {
+      "client_id": 491,
+      "sent_bytes": 5144872,
+      "compute_s": 31.18307958,
+      "delivered": true
+    },
+    {
+      "client_id": 492,
+      "sent_bytes": 5144872,
+      "compute_s": 31.097916596,
+      "delivered": true
+    },
+    {
+      "client_id": 493,
+      "sent_bytes": 5144872,
+      "compute_s": 31.399525321,
+      "delivered": true
+    },
+    {
+      "client_id": 494,
+      "sent_bytes": 5144872,
+      "compute_s": 31.512657352999998,
+      "delivered": true
+    },
+    {
+      "client_id": 495,
+      "sent_bytes": 5144872,
+      "compute_s": 31.224636766,
+      "delivered": true
+    },
+    {
+      "client_id": 496,
+      "sent_bytes": 5144872,
+      "compute_s": 30.938045007,
+      "delivered": true
+    },
+    {
+      "client_id": 497,
+      "sent_bytes": 5144872,
+      "compute_s": 30.686873805,
+      "delivered": true
+    },
+    {
+      "client_id": 498,
+      "sent_bytes": 5144872,
+      "compute_s": 70.80391464,
+      "delivered": true
+    },
+    {
+      "client_id": 499,
+      "sent_bytes": 5144872,
+      "compute_s": 30.838065643999997,
+      "delivered": true
+    },
+    {
+      "client_id": 500,
+      "sent_bytes": 5144872,
+      "compute_s": 63.548826476,
+      "delivered": true
+    },
+    {
+      "client_id": 501,
+      "sent_bytes": 5144872,
+      "compute_s": 31.667759542000002,
+      "delivered": true
+    },
+    {
+      "client_id": 502,
+      "sent_bytes": 5144872,
+      "compute_s": 30.740326137,
+      "delivered": true
+    },
+    {
+      "client_id": 503,
+      "sent_bytes": 5144872,
+      "compute_s": 31.153016857,
+      "delivered": true
+    },
+    {
+      "client_id": 504,
+      "sent_bytes": 5144872,
+      "compute_s": 31.103942739,
+      "delivered": true
+    },
+    {
+      "client_id": 505,
+      "sent_bytes": 5144872,
+      "compute_s": 30.885876639,
+      "delivered": true
+    },
+    {
+      "client_id": 506,
+      "sent_bytes": 5144872,
+      "compute_s": 30.908241666000002,
+      "delivered": true
+    },
+    {
+      "client_id": 507,
+      "sent_bytes": 5144872,
+      "compute_s": 30.775167088,
+      "delivered": true
+    },
+    {
+      "client_id": 508,
+      "sent_bytes": 5144872,
+      "compute_s": 31.620864172,
+      "delivered": true
+    },
+    {
+      "client_id": 509,
+      "sent_bytes": 5144872,
+      "compute_s": 30.978767927,
+      "delivered": true
+    },
+    {
+      "client_id": 510,
+      "sent_bytes": 5144872,
+      "compute_s": 31.000582152000003,
+      "delivered": true
+    },
+    {
+      "client_id": 511,
+      "sent_bytes": 5144872,
+      "compute_s": 31.345696197,
+      "delivered": true
+    },
+    {
+      "client_id": 512,
+      "sent_bytes": 5144872,
+      "compute_s": 31.101189635,
+      "delivered": true
+    },
+    {
+      "client_id": 513,
+      "sent_bytes": 5144872,
+      "compute_s": 31.062467548,
+      "delivered": true
+    },
+    {
+      "client_id": 514,
+      "sent_bytes": 5144872,
+      "compute_s": 31.182910297000003,
+      "delivered": true
+    },
+    {
+      "client_id": 515,
+      "sent_bytes": 5144872,
+      "compute_s": 31.488514597,
+      "delivered": true
+    },
+    {
+      "client_id": 516,
+      "sent_bytes": 5144872,
+      "compute_s": 30.830041205,
+      "delivered": true
+    },
+    {
+      "client_id": 517,
+      "sent_bytes": 5144872,
+      "compute_s": 30.82985649,
+      "delivered": true
+    },
+    {
+      "client_id": 518,
+      "sent_bytes": 5144872,
+      "compute_s": 31.196005303,
+      "delivered": true
+    },
+    {
+      "client_id": 519,
+      "sent_bytes": 5144872,
+      "compute_s": 31.225324139,
+      "delivered": true
+    },
+    {
+      "client_id": 520,
+      "sent_bytes": 5144872,
+      "compute_s": 31.25988251,
+      "delivered": true
+    },
+    {
+      "client_id": 521,
+      "sent_bytes": 5144872,
+      "compute_s": 30.768625831999998,
+      "delivered": true
+    },
+    {
+      "client_id": 522,
+      "sent_bytes": 5144872,
+      "compute_s": 30.465018979,
+      "delivered": true
+    },
+    {
+      "client_id": 523,
+      "sent_bytes": 5144872,
+      "compute_s": 27.488695734,
+      "delivered": true
+    },
+    {
+      "client_id": 524,
+      "sent_bytes": 5144872,
+      "compute_s": 31.144474911,
+      "delivered": true
+    },
+    {
+      "client_id": 525,
+      "sent_bytes": 5144872,
+      "compute_s": 31.016693969,
+      "delivered": true
+    },
+    {
+      "client_id": 526,
+      "sent_bytes": 5144872,
+      "compute_s": 31.090084612000002,
+      "delivered": true
+    },
+    {
+      "client_id": 527,
+      "sent_bytes": 5144872,
+      "compute_s": 30.919252656999998,
+      "delivered": true
+    },
+    {
+      "client_id": 528,
+      "sent_bytes": 5144872,
+      "compute_s": 31.333466449,
+      "delivered": true
+    },
+    {
+      "client_id": 529,
+      "sent_bytes": 5144872,
+      "compute_s": 31.198033482,
+      "delivered": true
+    },
+    {
+      "client_id": 530,
+      "sent_bytes": 5144872,
+      "compute_s": 31.345464387,
+      "delivered": true
+    },
+    {
+      "client_id": 531,
+      "sent_bytes": 5144872,
+      "compute_s": 30.73939602,
+      "delivered": true
+    },
+    {
+      "client_id": 532,
+      "sent_bytes": 5144872,
+      "compute_s": 30.893450915,
+      "delivered": true
+    },
+    {
+      "client_id": 533,
+      "sent_bytes": 5144872,
+      "compute_s": 31.133323634,
+      "delivered": true
+    },
+    {
+      "client_id": 534,
+      "sent_bytes": 5144872,
+      "compute_s": 30.841792819000002,
+      "delivered": true
+    },
+    {
+      "client_id": 535,
+      "sent_bytes": 5144872,
+      "compute_s": 31.262788718,
+      "delivered": true
+    },
+    {
+      "client_id": 536,
+      "sent_bytes": 5144872,
+      "compute_s": 31.135324117,
+      "delivered": true
+    },
+    {
+      "client_id": 537,
+      "sent_bytes": 5144872,
+      "compute_s": 30.770125437,
+      "delivered": true
+    },
+    {
+      "client_id": 538,
+      "sent_bytes": 5144872,
+      "compute_s": 30.973111189999997,
+      "delivered": true
+    },
+    {
+      "client_id": 539,
+      "sent_bytes": 5144872,
+      "compute_s": 31.388841200999998,
+      "delivered": true
+    },
+    {
+      "client_id": 540,
+      "sent_bytes": 5144872,
+      "compute_s": 30.846236313,
+      "delivered": true
+    },
+    {
+      "client_id": 541,
+      "sent_bytes": 5144872,
+      "compute_s": 30.690621331,
+      "delivered": true
+    },
+    {
+      "client_id": 542,
+      "sent_bytes": 5144872,
+      "compute_s": 31.317879000999998,
+      "delivered": true
+    },
+    {
+      "client_id": 543,
+      "sent_bytes": 5144872,
+      "compute_s": 31.230588585,
+      "delivered": true
+    },
+    {
+      "client_id": 544,
+      "sent_bytes": 5144872,
+      "compute_s": 31.386783684999997,
+      "delivered": true
+    },
+    {
+      "client_id": 545,
+      "sent_bytes": 5144872,
+      "compute_s": 30.955005420000003,
+      "delivered": true
+    },
+    {
+      "client_id": 546,
+      "sent_bytes": 5144872,
+      "compute_s": 30.359287629,
+      "delivered": true
+    },
+    {
+      "client_id": 547,
+      "sent_bytes": 5144872,
+      "compute_s": 31.727340601999998,
+      "delivered": true
+    },
+    {
+      "client_id": 548,
+      "sent_bytes": 5144872,
+      "compute_s": 31.420587295,
+      "delivered": true
+    },
+    {
+      "client_id": 549,
+      "sent_bytes": 5144872,
+      "compute_s": 30.98306731,
+      "delivered": true
+    },
+    {
+      "client_id": 550,
+      "sent_bytes": 5144872,
+      "compute_s": 31.631527552999998,
+      "delivered": true
+    },
+    {
+      "client_id": 551,
+      "sent_bytes": 5144872,
+      "compute_s": 31.167705044999998,
+      "delivered": true
+    },
+    {
+      "client_id": 552,
+      "sent_bytes": 5144872,
+      "compute_s": 31.495846744,
+      "delivered": true
+    },
+    {
+      "client_id": 553,
+      "sent_bytes": 5144872,
+      "compute_s": 30.825480634999998,
+      "delivered": true
+    },
+    {
+      "client_id": 554,
+      "sent_bytes": 5144872,
+      "compute_s": 31.518699856,
+      "delivered": true
+    },
+    {
+      "client_id": 555,
+      "sent_bytes": 5144872,
+      "compute_s": 31.341756677000003,
+      "delivered": true
+    },
+    {
+      "client_id": 556,
+      "sent_bytes": 5144872,
+      "compute_s": 30.953998995,
+      "delivered": true
+    },
+    {
+      "client_id": 557,
+      "sent_bytes": 5144872,
+      "compute_s": 31.719921196,
+      "delivered": true
+    },
+    {
+      "client_id": 558,
+      "sent_bytes": 5144872,
+      "compute_s": 31.026651371,
+      "delivered": true
+    },
+    {
+      "client_id": 559,
+      "sent_bytes": 5144872,
+      "compute_s": 30.893620807,
+      "delivered": true
+    },
+    {
+      "client_id": 560,
+      "sent_bytes": 5144872,
+      "compute_s": 30.575584404,
+      "delivered": true
+    },
+    {
+      "client_id": 561,
+      "sent_bytes": 5144872,
+      "compute_s": 31.058684074,
+      "delivered": true
+    },
+    {
+      "client_id": 562,
+      "sent_bytes": 5144872,
+      "compute_s": 30.993968484,
+      "delivered": true
+    },
+    {
+      "client_id": 563,
+      "sent_bytes": 5144872,
+      "compute_s": 30.832148164,
+      "delivered": true
+    },
+    {
+      "client_id": 564,
+      "sent_bytes": 5144872,
+      "compute_s": 30.971056727,
+      "delivered": true
+    },
+    {
+      "client_id": 565,
+      "sent_bytes": 5144872,
+      "compute_s": 31.006635382,
+      "delivered": true
+    },
+    {
+      "client_id": 566,
+      "sent_bytes": 5144872,
+      "compute_s": 31.142054342999998,
+      "delivered": true
+    },
+    {
+      "client_id": 567,
+      "sent_bytes": 5144872,
+      "compute_s": 31.068108888,
+      "delivered": true
+    },
+    {
+      "client_id": 568,
+      "sent_bytes": 5144872,
+      "compute_s": 31.540271541,
+      "delivered": true
+    },
+    {
+      "client_id": 569,
+      "sent_bytes": 5144872,
+      "compute_s": 31.075596314,
+      "delivered": true
+    },
+    {
+      "client_id": 570,
+      "sent_bytes": 5144872,
+      "compute_s": 31.142122175,
+      "delivered": true
+    },
+    {
+      "client_id": 571,
+      "sent_bytes": 5144872,
+      "compute_s": 31.165832642,
+      "delivered": true
+    },
+    {
+      "client_id": 572,
+      "sent_bytes": 5144872,
+      "compute_s": 31.306930228,
+      "delivered": true
+    },
+    {
+      "client_id": 573,
+      "sent_bytes": 5144872,
+      "compute_s": 31.887988351999997,
+      "delivered": true
+    },
+    {
+      "client_id": 574,
+      "sent_bytes": 5144872,
+      "compute_s": 31.245019357,
+      "delivered": true
+    },
+    {
+      "client_id": 575,
+      "sent_bytes": 5144872,
+      "compute_s": 31.298303421,
+      "delivered": true
+    },
+    {
+      "client_id": 576,
+      "sent_bytes": 5144872,
+      "compute_s": 32.012680671,
+      "delivered": true
+    },
+    {
+      "client_id": 577,
+      "sent_bytes": 5144872,
+      "compute_s": 30.739645284,
+      "delivered": true
+    },
+    {
+      "client_id": 578,
+      "sent_bytes": 5144872,
+      "compute_s": 31.068217991,
+      "delivered": true
+    },
+    {
+      "client_id": 579,
+      "sent_bytes": 5144872,
+      "compute_s": 31.123407008,
+      "delivered": true
+    },
+    {
+      "client_id": 580,
+      "sent_bytes": 5144872,
+      "compute_s": 31.296018799,
+      "delivered": true
+    },
+    {
+      "client_id": 581,
+      "sent_bytes": 5144872,
+      "compute_s": 31.472948113,
+      "delivered": true
+    },
+    {
+      "client_id": 582,
+      "sent_bytes": 5144872,
+      "compute_s": 30.691447337,
+      "delivered": true
+    },
+    {
+      "client_id": 583,
+      "sent_bytes": 5144872,
+      "compute_s": 31.284453202,
+      "delivered": true
+    },
+    {
+      "client_id": 584,
+      "sent_bytes": 5144872,
+      "compute_s": 30.651239265,
+      "delivered": true
+    },
+    {
+      "client_id": 585,
+      "sent_bytes": 5144872,
+      "compute_s": 31.275099472,
+      "delivered": true
+    },
+    {
+      "client_id": 586,
+      "sent_bytes": 5144872,
+      "compute_s": 31.070176794,
+      "delivered": true
+    },
+    {
+      "client_id": 587,
+      "sent_bytes": 5144872,
+      "compute_s": 31.214721418,
+      "delivered": true
+    },
+    {
+      "client_id": 588,
+      "sent_bytes": 5144872,
+      "compute_s": 31.285781716,
+      "delivered": true
+    },
+    {
+      "client_id": 589,
+      "sent_bytes": 5144872,
+      "compute_s": 31.11850896,
+      "delivered": true
+    },
+    {
+      "client_id": 590,
+      "sent_bytes": 5144872,
+      "compute_s": 31.273835632,
+      "delivered": true
+    },
+    {
+      "client_id": 591,
+      "sent_bytes": 5144872,
+      "compute_s": 31.324413479,
+      "delivered": true
+    },
+    {
+      "client_id": 592,
+      "sent_bytes": 5144872,
+      "compute_s": 30.710521128,
+      "delivered": true
+    },
+    {
+      "client_id": 593,
+      "sent_bytes": 5144872,
+      "compute_s": 30.719060182,
+      "delivered": true
+    },
+    {
+      "client_id": 594,
+      "sent_bytes": 5144872,
+      "compute_s": 30.895061522,
+      "delivered": true
+    },
+    {
+      "client_id": 595,
+      "sent_bytes": 5144872,
+      "compute_s": 31.730145849000003,
+      "delivered": true
+    },
+    {
+      "client_id": 596,
+      "sent_bytes": 5144872,
+      "compute_s": 31.129321932,
+      "delivered": true
+    },
+    {
+      "client_id": 597,
+      "sent_bytes": 5144872,
+      "compute_s": 31.694114409,
+      "delivered": true
+    },
+    {
+      "client_id": 598,
+      "sent_bytes": 5144872,
+      "compute_s": 30.839848771,
+      "delivered": true
+    },
+    {
+      "client_id": 599,
+      "sent_bytes": 5144872,
+      "compute_s": 30.581497648000003,
+      "delivered": true
+    },
+    {
+      "client_id": 600,
+      "sent_bytes": 5144872,
+      "compute_s": 31.185604378,
+      "delivered": true
+    },
+    {
+      "client_id": 601,
+      "sent_bytes": 5144872,
+      "compute_s": 30.496735717,
+      "delivered": true
+    },
+    {
+      "client_id": 602,
+      "sent_bytes": 5144872,
+      "compute_s": 31.521497811,
+      "delivered": true
+    },
+    {
+      "client_id": 603,
+      "sent_bytes": 5144872,
+      "compute_s": 30.805493642000002,
+      "delivered": true
+    },
+    {
+      "client_id": 604,
+      "sent_bytes": 5144872,
+      "compute_s": 31.285211061000002,
+      "delivered": true
+    },
+    {
+      "client_id": 605,
+      "sent_bytes": 5144872,
+      "compute_s": 30.832962423,
+      "delivered": true
+    },
+    {
+      "client_id": 606,
+      "sent_bytes": 5144872,
+      "compute_s": 31.388569742999998,
+      "delivered": true
+    },
+    {
+      "client_id": 607,
+      "sent_bytes": 5144872,
+      "compute_s": 31.322052302,
+      "delivered": true
+    },
+    {
+      "client_id": 608,
+      "sent_bytes": 5144872,
+      "compute_s": 31.014243722,
+      "delivered": true
+    },
+    {
+      "client_id": 609,
+      "sent_bytes": 5144872,
+      "compute_s": 347.224959883,
+      "delivered": true
+    },
+    {
+      "client_id": 610,
+      "sent_bytes": 5144872,
+      "compute_s": 31.114941961000003,
+      "delivered": true
+    },
+    {
+      "client_id": 611,
+      "sent_bytes": 5144872,
+      "compute_s": 31.141967275,
+      "delivered": true
+    },
+    {
+      "client_id": 612,
+      "sent_bytes": 5144872,
+      "compute_s": 31.270442550000002,
+      "delivered": true
+    },
+    {
+      "client_id": 613,
+      "sent_bytes": 5144872,
+      "compute_s": 30.699545554,
+      "delivered": true
+    },
+    {
+      "client_id": 614,
+      "sent_bytes": 5144872,
+      "compute_s": 31.015428617999998,
+      "delivered": true
+    },
+    {
+      "client_id": 615,
+      "sent_bytes": 5144872,
+      "compute_s": 31.292409389,
+      "delivered": true
+    },
+    {
+      "client_id": 616,
+      "sent_bytes": 5144872,
+      "compute_s": 31.684407858,
+      "delivered": true
+    },
+    {
+      "client_id": 617,
+      "sent_bytes": 5144872,
+      "compute_s": 31.119138442,
+      "delivered": true
+    },
+    {
+      "client_id": 618,
+      "sent_bytes": 5144872,
+      "compute_s": 31.241405131,
+      "delivered": true
+    },
+    {
+      "client_id": 619,
+      "sent_bytes": 5144872,
+      "compute_s": 31.634435731,
+      "delivered": true
+    },
+    {
+      "client_id": 620,
+      "sent_bytes": 5144872,
+      "compute_s": 31.094163461,
+      "delivered": true
+    },
+    {
+      "client_id": 621,
+      "sent_bytes": 5144872,
+      "compute_s": 31.128938738000002,
+      "delivered": true
+    },
+    {
+      "client_id": 622,
+      "sent_bytes": 5144872,
+      "compute_s": 31.102851155,
+      "delivered": true
+    },
+    {
+      "client_id": 623,
+      "sent_bytes": 5144872,
+      "compute_s": 31.144873245,
+      "delivered": true
+    },
+    {
+      "client_id": 624,
+      "sent_bytes": 5144872,
+      "compute_s": 31.3398501,
+      "delivered": true
+    },
+    {
+      "client_id": 625,
+      "sent_bytes": 5144872,
+      "compute_s": 31.193845128,
+      "delivered": true
+    },
+    {
+      "client_id": 626,
+      "sent_bytes": 5144872,
+      "compute_s": 31.348092226,
+      "delivered": true
+    },
+    {
+      "client_id": 627,
+      "sent_bytes": 5144872,
+      "compute_s": 31.526200504,
+      "delivered": true
+    },
+    {
+      "client_id": 628,
+      "sent_bytes": 5144872,
+      "compute_s": 30.823550345,
+      "delivered": true
+    },
+    {
+      "client_id": 629,
+      "sent_bytes": 5144872,
+      "compute_s": 31.735592523999998,
+      "delivered": true
+    },
+    {
+      "client_id": 630,
+      "sent_bytes": 5144872,
+      "compute_s": 31.356630118,
+      "delivered": true
+    },
+    {
+      "client_id": 631,
+      "sent_bytes": 5144872,
+      "compute_s": 31.151640726,
+      "delivered": true
+    },
+    {
+      "client_id": 632,
+      "sent_bytes": 5144872,
+      "compute_s": 31.039133919999998,
+      "delivered": true
+    },
+    {
+      "client_id": 633,
+      "sent_bytes": 5144872,
+      "compute_s": 31.278292885,
+      "delivered": true
+    },
+    {
+      "client_id": 634,
+      "sent_bytes": 5144872,
+      "compute_s": 30.675486367,
+      "delivered": true
+    },
+    {
+      "client_id": 635,
+      "sent_bytes": 5144872,
+      "compute_s": 31.21048398,
+      "delivered": true
+    },
+    {
+      "client_id": 636,
+      "sent_bytes": 5144872,
+      "compute_s": 31.400542181,
+      "delivered": true
+    },
+    {
+      "client_id": 637,
+      "sent_bytes": 5144872,
+      "compute_s": 30.838037648,
+      "delivered": true
+    },
+    {
+      "client_id": 638,
+      "sent_bytes": 5144872,
+      "compute_s": 31.290185726,
+      "delivered": true
+    },
+    {
+      "client_id": 639,
+      "sent_bytes": 5144872,
+      "compute_s": 31.273654842,
+      "delivered": true
+    },
+    {
+      "client_id": 640,
+      "sent_bytes": 5144872,
+      "compute_s": 31.270978365,
+      "delivered": true
+    },
+    {
+      "client_id": 641,
+      "sent_bytes": 5144872,
+      "compute_s": 31.024188783,
+      "delivered": true
+    },
+    {
+      "client_id": 642,
+      "sent_bytes": 5144872,
+      "compute_s": 30.67549908,
+      "delivered": true
+    },
+    {
+      "client_id": 643,
+      "sent_bytes": 5144872,
+      "compute_s": 30.793022043,
+      "delivered": true
+    },
+    {
+      "client_id": 644,
+      "sent_bytes": 5144872,
+      "compute_s": 30.989054217,
+      "delivered": true
+    },
+    {
+      "client_id": 645,
+      "sent_bytes": 5144872,
+      "compute_s": 31.18227311,
+      "delivered": true
+    },
+    {
+      "client_id": 646,
+      "sent_bytes": 5144872,
+      "compute_s": 30.745067433,
+      "delivered": true
+    },
+    {
+      "client_id": 647,
+      "sent_bytes": 5144872,
+      "compute_s": 31.323882872,
+      "delivered": true
+    },
+    {
+      "client_id": 648,
+      "sent_bytes": 5144872,
+      "compute_s": 95.80632157000001,
+      "delivered": true
+    },
+    {
+      "client_id": 649,
+      "sent_bytes": 5144872,
+      "compute_s": 31.725127074,
+      "delivered": true
+    },
+    {
+      "client_id": 650,
+      "sent_bytes": 5144872,
+      "compute_s": 31.547195696,
+      "delivered": true
+    },
+    {
+      "client_id": 651,
+      "sent_bytes": 5144872,
+      "compute_s": 31.109335884,
+      "delivered": true
+    },
+    {
+      "client_id": 652,
+      "sent_bytes": 5144872,
+      "compute_s": 86.098067133,
+      "delivered": true
+    },
+    {
+      "client_id": 653,
+      "sent_bytes": 5144872,
+      "compute_s": 31.612963442,
+      "delivered": true
+    },
+    {
+      "client_id": 654,
+      "sent_bytes": 5144872,
+      "compute_s": 54.986971456999996,
+      "delivered": true
+    },
+    {
+      "client_id": 655,
+      "sent_bytes": 5144872,
+      "compute_s": 88.894536916,
+      "delivered": true
+    },
+    {
+      "client_id": 656,
+      "sent_bytes": 5144872,
+      "compute_s": 87.410604902,
+      "delivered": true
+    },
+    {
+      "client_id": 657,
+      "sent_bytes": 5144872,
+      "compute_s": 31.031460506000002,
+      "delivered": true
+    },
+    {
+      "client_id": 658,
+      "sent_bytes": 5144872,
+      "compute_s": 30.784051650000002,
+      "delivered": true
+    },
+    {
+      "client_id": 659,
+      "sent_bytes": 5144872,
+      "compute_s": 30.75848871,
+      "delivered": true
+    },
+    {
+      "client_id": 660,
+      "sent_bytes": 5144872,
+      "compute_s": 30.771254044,
+      "delivered": true
+    },
+    {
+      "client_id": 661,
+      "sent_bytes": 5144872,
+      "compute_s": 31.332758801,
+      "delivered": true
+    },
+    {
+      "client_id": 662,
+      "sent_bytes": 5144872,
+      "compute_s": 30.941477517,
+      "delivered": true
+    },
+    {
+      "client_id": 663,
+      "sent_bytes": 5144872,
+      "compute_s": 31.200488077000003,
+      "delivered": true
+    },
+    {
+      "client_id": 664,
+      "sent_bytes": 5144872,
+      "compute_s": 30.989725461000003,
+      "delivered": true
+    },
+    {
+      "client_id": 665,
+      "sent_bytes": 5144872,
+      "compute_s": 72.57520085700001,
+      "delivered": true
+    },
+    {
+      "client_id": 666,
+      "sent_bytes": 5144872,
+      "compute_s": 73.24769252300001,
+      "delivered": true
+    },
+    {
+      "client_id": 667,
+      "sent_bytes": 5144872,
+      "compute_s": 61.027575296,
+      "delivered": true
+    },
+    {
+      "client_id": 668,
+      "sent_bytes": 5144872,
+      "compute_s": 93.73965427,
+      "delivered": true
+    },
+    {
+      "client_id": 669,
+      "sent_bytes": 5144872,
+      "compute_s": 81.271957486,
+      "delivered": true
+    },
+    {
+      "client_id": 670,
+      "sent_bytes": 5144872,
+      "compute_s": 82.32134743200001,
+      "delivered": true
+    },
+    {
+      "client_id": 671,
+      "sent_bytes": 5144872,
+      "compute_s": 75.833226533,
+      "delivered": true
+    },
+    {
+      "client_id": 672,
+      "sent_bytes": 5144872,
+      "compute_s": 31.312990564,
+      "delivered": true
+    },
+    {
+      "client_id": 673,
+      "sent_bytes": 5144872,
+      "compute_s": 30.956189886,
+      "delivered": true
+    },
+    {
+      "client_id": 674,
+      "sent_bytes": 5144872,
+      "compute_s": 30.548318770999998,
+      "delivered": true
+    },
+    {
+      "client_id": 675,
+      "sent_bytes": 5144872,
+      "compute_s": 69.098034605,
+      "delivered": true
+    },
+    {
+      "client_id": 676,
+      "sent_bytes": 5144872,
+      "compute_s": 31.450089278999997,
+      "delivered": true
+    },
+    {
+      "client_id": 677,
+      "sent_bytes": 5144872,
+      "compute_s": 26.558812549000002,
+      "delivered": true
+    },
+    {
+      "client_id": 678,
+      "sent_bytes": 5144872,
+      "compute_s": 70.617340005,
+      "delivered": true
+    },
+    {
+      "client_id": 679,
+      "sent_bytes": 5144872,
+      "compute_s": 67.697600015,
+      "delivered": true
+    },
+    {
+      "client_id": 680,
+      "sent_bytes": 5144872,
+      "compute_s": 30.912551450000002,
+      "delivered": true
+    },
+    {
+      "client_id": 681,
+      "sent_bytes": 5144872,
+      "compute_s": 30.947362420999998,
+      "delivered": true
+    },
+    {
+      "client_id": 682,
+      "sent_bytes": 5144872,
+      "compute_s": 55.289305891000005,
+      "delivered": true
+    },
+    {
+      "client_id": 683,
+      "sent_bytes": 5144872,
+      "compute_s": 47.242379389,
+      "delivered": true
+    },
+    {
+      "client_id": 684,
+      "sent_bytes": 5144872,
+      "compute_s": 52.337611841000005,
+      "delivered": true
+    },
+    {
+      "client_id": 685,
+      "sent_bytes": 5144872,
+      "compute_s": 50.253135249,
+      "delivered": true
+    },
+    {
+      "client_id": 686,
+      "sent_bytes": 5144872,
+      "compute_s": 51.30260608,
+      "delivered": true
+    },
+    {
+      "client_id": 687,
+      "sent_bytes": 5144872,
+      "compute_s": 46.673764311,
+      "delivered": true
+    },
+    {
+      "client_id": 688,
+      "sent_bytes": 5144872,
+      "compute_s": 30.911522903999998,
+      "delivered": true
+    },
+    {
+      "client_id": 689,
+      "sent_bytes": 5144872,
+      "compute_s": 31.306943992,
+      "delivered": true
+    },
+    {
+      "client_id": 690,
+      "sent_bytes": 5144872,
+      "compute_s": 30.851635579,
+      "delivered": true
+    },
+    {
+      "client_id": 691,
+      "sent_bytes": 5144872,
+      "compute_s": 30.823770063,
+      "delivered": true
+    },
+    {
+      "client_id": 692,
+      "sent_bytes": 5144872,
+      "compute_s": 31.047057795,
+      "delivered": true
+    },
+    {
+      "client_id": 693,
+      "sent_bytes": 5144872,
+      "compute_s": 30.845588576,
+      "delivered": true
+    },
+    {
+      "client_id": 694,
+      "sent_bytes": 5144872,
+      "compute_s": 30.711746693000002,
+      "delivered": true
+    },
+    {
+      "client_id": 695,
+      "sent_bytes": 5144872,
+      "compute_s": 31.205910703,
+      "delivered": true
+    },
+    {
+      "client_id": 696,
+      "sent_bytes": 5144872,
+      "compute_s": 31.017303549,
+      "delivered": true
+    },
+    {
+      "client_id": 697,
+      "sent_bytes": 5144872,
+      "compute_s": 31.71894442,
+      "delivered": true
+    },
+    {
+      "client_id": 698,
+      "sent_bytes": 5144872,
+      "compute_s": 30.356764746,
+      "delivered": true
+    },
+    {
+      "client_id": 699,
+      "sent_bytes": 5144872,
+      "compute_s": 31.152403923,
+      "delivered": true
+    },
+    {
+      "client_id": 700,
+      "sent_bytes": 5144872,
+      "compute_s": 189.08048796999998,
+      "delivered": true
+    },
+    {
+      "client_id": 701,
+      "sent_bytes": 5144872,
+      "compute_s": 30.978807674000002,
+      "delivered": true
+    },
+    {
+      "client_id": 702,
+      "sent_bytes": 5144872,
+      "compute_s": 31.337902664,
+      "delivered": true
+    },
+    {
+      "client_id": 703,
+      "sent_bytes": 5144872,
+      "compute_s": 31.074750779000002,
+      "delivered": true
+    },
+    {
+      "client_id": 704,
+      "sent_bytes": 5144872,
+      "compute_s": 31.215580262,
+      "delivered": true
+    },
+    {
+      "client_id": 705,
+      "sent_bytes": 5144872,
+      "compute_s": 30.362921286,
+      "delivered": true
+    },
+    {
+      "client_id": 706,
+      "sent_bytes": 5144872,
+      "compute_s": 31.029534501,
+      "delivered": true
+    },
+    {
+      "client_id": 707,
+      "sent_bytes": 5144872,
+      "compute_s": 30.946816247999998,
+      "delivered": true
+    },
+    {
+      "client_id": 708,
+      "sent_bytes": 5144872,
+      "compute_s": 30.771620688,
+      "delivered": true
+    },
+    {
+      "client_id": 709,
+      "sent_bytes": 5144872,
+      "compute_s": 31.010477693000002,
+      "delivered": true
+    },
+    {
+      "client_id": 710,
+      "sent_bytes": 5144872,
+      "compute_s": 30.946551538,
+      "delivered": true
+    },
+    {
+      "client_id": 711,
+      "sent_bytes": 5144872,
+      "compute_s": 31.013757584,
+      "delivered": true
+    },
+    {
+      "client_id": 712,
+      "sent_bytes": 5144872,
+      "compute_s": 31.176886351,
+      "delivered": true
+    },
+    {
+      "client_id": 713,
+      "sent_bytes": 5144872,
+      "compute_s": 30.492838547999998,
+      "delivered": true
+    },
+    {
+      "client_id": 714,
+      "sent_bytes": 5144872,
+      "compute_s": 38.428389841000005,
+      "delivered": true
+    },
+    {
+      "client_id": 715,
+      "sent_bytes": 5144872,
+      "compute_s": 30.824438542000003,
+      "delivered": true
+    },
+    {
+      "client_id": 716,
+      "sent_bytes": 5144872,
+      "compute_s": 31.519021442,
+      "delivered": true
+    },
+    {
+      "client_id": 717,
+      "sent_bytes": 5144872,
+      "compute_s": 31.047626251,
+      "delivered": true
+    },
+    {
+      "client_id": 718,
+      "sent_bytes": 5144872,
+      "compute_s": 96.036147276,
+      "delivered": true
+    },
+    {
+      "client_id": 719,
+      "sent_bytes": 5144872,
+      "compute_s": 31.437458555000003,
+      "delivered": true
+    },
+    {
+      "client_id": 720,
+      "sent_bytes": 5144872,
+      "compute_s": 31.352927089999998,
+      "delivered": true
+    },
+    {
+      "client_id": 721,
+      "sent_bytes": 5144872,
+      "compute_s": 31.292827001000003,
+      "delivered": true
+    },
+    {
+      "client_id": 722,
+      "sent_bytes": 5144872,
+      "compute_s": 30.98555138,
+      "delivered": true
+    },
+    {
+      "client_id": 723,
+      "sent_bytes": 5144872,
+      "compute_s": 31.402803214,
+      "delivered": true
+    },
+    {
+      "client_id": 724,
+      "sent_bytes": 5144872,
+      "compute_s": 31.053130851,
+      "delivered": true
+    },
+    {
+      "client_id": 725,
+      "sent_bytes": 5144872,
+      "compute_s": 32.028836573,
+      "delivered": true
+    },
+    {
+      "client_id": 726,
+      "sent_bytes": 5144872,
+      "compute_s": 31.103284916,
+      "delivered": true
+    },
+    {
+      "client_id": 727,
+      "sent_bytes": 5144872,
+      "compute_s": 30.601735544,
+      "delivered": true
+    },
+    {
+      "client_id": 728,
+      "sent_bytes": 5144872,
+      "compute_s": 104.02793113599999,
+      "delivered": true
+    },
+    {
+      "client_id": 729,
+      "sent_bytes": 5144872,
+      "compute_s": 30.745325130999998,
+      "delivered": true
+    },
+    {
+      "client_id": 730,
+      "sent_bytes": 5144872,
+      "compute_s": 116.174741619,
+      "delivered": true
+    },
+    {
+      "client_id": 731,
+      "sent_bytes": 5144872,
+      "compute_s": 30.738381994,
+      "delivered": true
+    },
+    {
+      "client_id": 732,
+      "sent_bytes": 5144872,
+      "compute_s": 102.924596087,
+      "delivered": true
+    },
+    {
+      "client_id": 733,
+      "sent_bytes": 5144872,
+      "compute_s": 31.081559773000002,
+      "delivered": true
+    },
+    {
+      "client_id": 734,
+      "sent_bytes": 5144872,
+      "compute_s": 30.938053374,
+      "delivered": true
+    },
+    {
+      "client_id": 735,
+      "sent_bytes": 5144872,
+      "compute_s": 31.692287869,
+      "delivered": true
+    },
+    {
+      "client_id": 736,
+      "sent_bytes": 5144872,
+      "compute_s": 30.810230481,
+      "delivered": true
+    },
+    {
+      "client_id": 737,
+      "sent_bytes": 5144872,
+      "compute_s": 30.938911586,
+      "delivered": true
+    },
+    {
+      "client_id": 738,
+      "sent_bytes": 5144872,
+      "compute_s": 31.080222634,
+      "delivered": true
+    },
+    {
+      "client_id": 739,
+      "sent_bytes": 5144872,
+      "compute_s": 30.816130133,
+      "delivered": true
+    },
+    {
+      "client_id": 740,
+      "sent_bytes": 5144872,
+      "compute_s": 30.974066334,
+      "delivered": true
+    },
+    {
+      "client_id": 741,
+      "sent_bytes": 5144872,
+      "compute_s": 30.982378592,
+      "delivered": true
+    },
+    {
+      "client_id": 742,
+      "sent_bytes": 5144872,
+      "compute_s": 81.366006061,
+      "delivered": true
+    },
+    {
+      "client_id": 743,
+      "sent_bytes": 5144872,
+      "compute_s": 31.104748137999998,
+      "delivered": true
+    },
+    {
+      "client_id": 744,
+      "sent_bytes": 5144872,
+      "compute_s": 31.389632288,
+      "delivered": true
+    },
+    {
+      "client_id": 745,
+      "sent_bytes": 5144872,
+      "compute_s": 91.078638572,
+      "delivered": true
+    },
+    {
+      "client_id": 746,
+      "sent_bytes": 5144872,
+      "compute_s": 89.781573155,
+      "delivered": true
+    },
+    {
+      "client_id": 747,
+      "sent_bytes": 5144872,
+      "compute_s": 31.202892173,
+      "delivered": true
+    },
+    {
+      "client_id": 748,
+      "sent_bytes": 5144872,
+      "compute_s": 96.609466062,
+      "delivered": true
+    },
+    {
+      "client_id": 749,
+      "sent_bytes": 5144872,
+      "compute_s": 124.05452902399999,
+      "delivered": true
+    },
+    {
+      "client_id": 750,
+      "sent_bytes": 5144872,
+      "compute_s": 117.44729886399999,
+      "delivered": true
+    },
+    {
+      "client_id": 751,
+      "sent_bytes": 5144872,
+      "compute_s": 30.932049909,
+      "delivered": true
+    },
+    {
+      "client_id": 752,
+      "sent_bytes": 5144872,
+      "compute_s": 31.741421953,
+      "delivered": true
+    },
+    {
+      "client_id": 753,
+      "sent_bytes": 5144872,
+      "compute_s": 31.508831757000003,
+      "delivered": true
+    },
+    {
+      "client_id": 754,
+      "sent_bytes": 5144872,
+      "compute_s": 30.78114416,
+      "delivered": true
+    },
+    {
+      "client_id": 755,
+      "sent_bytes": 5144872,
+      "compute_s": 31.090859010000003,
+      "delivered": true
+    },
+    {
+      "client_id": 756,
+      "sent_bytes": 5144872,
+      "compute_s": 31.630425729000002,
+      "delivered": true
+    },
+    {
+      "client_id": 757,
+      "sent_bytes": 5144872,
+      "compute_s": 30.976432498999998,
+      "delivered": true
+    },
+    {
+      "client_id": 758,
+      "sent_bytes": 5144872,
+      "compute_s": 31.223966907,
+      "delivered": true
+    },
+    {
+      "client_id": 759,
+      "sent_bytes": 5144872,
+      "compute_s": 30.978344677,
+      "delivered": true
+    },
+    {
+      "client_id": 760,
+      "sent_bytes": 5144872,
+      "compute_s": 30.7712832,
+      "delivered": true
+    },
+    {
+      "client_id": 761,
+      "sent_bytes": 5144872,
+      "compute_s": 31.535892462,
+      "delivered": true
+    },
+    {
+      "client_id": 762,
+      "sent_bytes": 5144872,
+      "compute_s": 31.077935252,
+      "delivered": true
+    },
+    {
+      "client_id": 763,
+      "sent_bytes": 5144872,
+      "compute_s": 31.168357004,
+      "delivered": true
+    },
+    {
+      "client_id": 764,
+      "sent_bytes": 5144872,
+      "compute_s": 30.714294437,
+      "delivered": true
+    },
+    {
+      "client_id": 765,
+      "sent_bytes": 5144872,
+      "compute_s": 31.894485391,
+      "delivered": true
+    },
+    {
+      "client_id": 766,
+      "sent_bytes": 5144872,
+      "compute_s": 30.509587328,
+      "delivered": true
+    },
+    {
+      "client_id": 767,
+      "sent_bytes": 5144872,
+      "compute_s": 31.327207312000002,
+      "delivered": true
+    },
+    {
+      "client_id": 768,
+      "sent_bytes": 5144872,
+      "compute_s": 31.031640718000002,
+      "delivered": true
+    },
+    {
+      "client_id": 769,
+      "sent_bytes": 5144872,
+      "compute_s": 31.149407803,
+      "delivered": true
+    },
+    {
+      "client_id": 770,
+      "sent_bytes": 5144872,
+      "compute_s": 31.068861139,
+      "delivered": true
+    },
+    {
+      "client_id": 771,
+      "sent_bytes": 5144872,
+      "compute_s": 31.029973073,
+      "delivered": true
+    },
+    {
+      "client_id": 772,
+      "sent_bytes": 5144872,
+      "compute_s": 30.945603537,
+      "delivered": true
+    },
+    {
+      "client_id": 773,
+      "sent_bytes": 5144872,
+      "compute_s": 31.173352173,
+      "delivered": true
+    },
+    {
+      "client_id": 774,
+      "sent_bytes": 5144872,
+      "compute_s": 32.010585981,
+      "delivered": true
+    },
+    {
+      "client_id": 775,
+      "sent_bytes": 5144872,
+      "compute_s": 30.818692956,
+      "delivered": true
+    },
+    {
+      "client_id": 776,
+      "sent_bytes": 5144872,
+      "compute_s": 31.05281679,
+      "delivered": true
+    },
+    {
+      "client_id": 777,
+      "sent_bytes": 5144872,
+      "compute_s": 31.966250575,
+      "delivered": true
+    },
+    {
+      "client_id": 778,
+      "sent_bytes": 5144872,
+      "compute_s": 30.654094192,
+      "delivered": true
+    },
+    {
+      "client_id": 779,
+      "sent_bytes": 5144872,
+      "compute_s": 31.455024059,
+      "delivered": true
+    },
+    {
+      "client_id": 780,
+      "sent_bytes": 5144872,
+      "compute_s": 30.776490807,
+      "delivered": true
+    },
+    {
+      "client_id": 781,
+      "sent_bytes": 5144872,
+      "compute_s": 31.218904709,
+      "delivered": true
+    },
+    {
+      "client_id": 782,
+      "sent_bytes": 5144872,
+      "compute_s": 31.546957110999998,
+      "delivered": true
+    },
+    {
+      "client_id": 783,
+      "sent_bytes": 5144872,
+      "compute_s": 31.445605989,
+      "delivered": true
+    },
+    {
+      "client_id": 784,
+      "sent_bytes": 5144872,
+      "compute_s": 31.787150838000002,
+      "delivered": true
+    },
+    {
+      "client_id": 785,
+      "sent_bytes": 5144872,
+      "compute_s": 30.961367141,
+      "delivered": true
+    },
+    {
+      "client_id": 786,
+      "sent_bytes": 5144872,
+      "compute_s": 31.223684683,
+      "delivered": true
+    },
+    {
+      "client_id": 787,
+      "sent_bytes": 5144872,
+      "compute_s": 30.739995232,
+      "delivered": true
+    },
+    {
+      "client_id": 788,
+      "sent_bytes": 5144872,
+      "compute_s": 30.848551557,
+      "delivered": true
+    },
+    {
+      "client_id": 789,
+      "sent_bytes": 5144872,
+      "compute_s": 31.040948904,
+      "delivered": true
+    },
+    {
+      "client_id": 790,
+      "sent_bytes": 5144872,
+      "compute_s": 31.140993426999998,
+      "delivered": true
+    },
+    {
+      "client_id": 791,
+      "sent_bytes": 5144872,
+      "compute_s": 31.637911061,
+      "delivered": true
+    },
+    {
+      "client_id": 792,
+      "sent_bytes": 5144872,
+      "compute_s": 30.950798557,
+      "delivered": true
+    },
+    {
+      "client_id": 793,
+      "sent_bytes": 5144872,
+      "compute_s": 31.274062556,
+      "delivered": true
+    },
+    {
+      "client_id": 794,
+      "sent_bytes": 5144872,
+      "compute_s": 142.15096793,
+      "delivered": true
+    },
+    {
+      "client_id": 795,
+      "sent_bytes": 5144872,
+      "compute_s": 30.603097561,
+      "delivered": true
+    },
+    {
+      "client_id": 796,
+      "sent_bytes": 5144872,
+      "compute_s": 54.525293248,
+      "delivered": true
+    },
+    {
+      "client_id": 797,
+      "sent_bytes": 5144872,
+      "compute_s": 31.344973648,
+      "delivered": true
+    },
+    {
+      "client_id": 798,
+      "sent_bytes": 5144872,
+      "compute_s": 31.135490705000002,
+      "delivered": true
+    },
+    {
+      "client_id": 799,
+      "sent_bytes": 5144872,
+      "compute_s": 30.835189878,
+      "delivered": true
+    },
+    {
+      "client_id": 800,
+      "sent_bytes": 5144872,
+      "compute_s": 31.417087286,
+      "delivered": true
+    },
+    {
+      "client_id": 801,
+      "sent_bytes": 5144872,
+      "compute_s": 31.427437729999998,
+      "delivered": false
+    },
+    {
+      "client_id": 802,
+      "sent_bytes": 5144872,
+      "compute_s": 33.139587359000004,
+      "delivered": false
+    },
+    {
+      "client_id": 803,
+      "sent_bytes": 5144872,
+      "compute_s": 30.851689775,
+      "delivered": false
+    },
+    {
+      "client_id": 804,
+      "sent_bytes": 5144872,
+      "compute_s": 145.789261418,
+      "delivered": false
+    },
+    {
+      "client_id": 805,
+      "sent_bytes": 5144872,
+      "compute_s": 30.877036809,
+      "delivered": false
+    },
+    {
+      "client_id": 806,
+      "sent_bytes": 5144872,
+      "compute_s": 31.329014627,
+      "delivered": false
+    },
+    {
+      "client_id": 807,
+      "sent_bytes": 5144872,
+      "compute_s": 31.271496404,
+      "delivered": false
+    },
+    {
+      "client_id": 808,
+      "sent_bytes": 5144872,
+      "compute_s": 84.094102895,
+      "delivered": false
+    },
+    {
+      "client_id": 809,
+      "sent_bytes": 5144872,
+      "compute_s": 92.874553567,
+      "delivered": false
+    },
+    {
+      "client_id": 810,
+      "sent_bytes": 5144872,
+      "compute_s": 66.909165747,
+      "delivered": false
+    },
+    {
+      "client_id": 811,
+      "sent_bytes": 5144872,
+      "compute_s": 72.610967553,
+      "delivered": false
+    },
+    {
+      "client_id": 812,
+      "sent_bytes": 5144872,
+      "compute_s": 64.82865795000001,
+      "delivered": false
+    },
+    {
+      "client_id": 813,
+      "sent_bytes": 5144872,
+      "compute_s": 31.145515674,
+      "delivered": false
+    },
+    {
+      "client_id": 814,
+      "sent_bytes": 5144872,
+      "compute_s": 31.304237954,
+      "delivered": false
+    },
+    {
+      "client_id": 815,
+      "sent_bytes": 5144872,
+      "compute_s": 31.26849929,
+      "delivered": false
+    },
+    {
+      "client_id": 816,
+      "sent_bytes": 5144872,
+      "compute_s": 30.897319996,
+      "delivered": false
+    },
+    {
+      "client_id": 817,
+      "sent_bytes": 5144872,
+      "compute_s": 31.373778258,
+      "delivered": false
+    },
+    {
+      "client_id": 818,
+      "sent_bytes": 5144872,
+      "compute_s": 31.110257870999998,
+      "delivered": false
+    },
+    {
+      "client_id": 819,
+      "sent_bytes": 5144872,
+      "compute_s": 30.998193295,
+      "delivered": false
+    },
+    {
+      "client_id": 820,
+      "sent_bytes": 5144872,
+      "compute_s": 30.995622282,
+      "delivered": false
+    },
+    {
+      "client_id": 821,
+      "sent_bytes": 5144872,
+      "compute_s": 30.857256261,
+      "delivered": false
+    },
+    {
+      "client_id": 822,
+      "sent_bytes": 5144872,
+      "compute_s": 31.008730774,
+      "delivered": false
+    },
+    {
+      "client_id": 823,
+      "sent_bytes": 5144872,
+      "compute_s": 31.429256147,
+      "delivered": false
+    },
+    {
+      "client_id": 824,
+      "sent_bytes": 5144872,
+      "compute_s": 30.911513974,
+      "delivered": false
+    },
+    {
+      "client_id": 825,
+      "sent_bytes": 5144872,
+      "compute_s": 31.087800283,
+      "delivered": false
+    },
+    {
+      "client_id": 826,
+      "sent_bytes": 5144872,
+      "compute_s": 30.623202275,
+      "delivered": false
+    },
+    {
+      "client_id": 827,
+      "sent_bytes": 5144872,
+      "compute_s": 31.412712319999997,
+      "delivered": false
+    },
+    {
+      "client_id": 828,
+      "sent_bytes": 5144872,
+      "compute_s": 31.400886082000003,
+      "delivered": false
+    },
+    {
+      "client_id": 829,
+      "sent_bytes": 5144872,
+      "compute_s": 30.732569783,
+      "delivered": false
+    },
+    {
+      "client_id": 830,
+      "sent_bytes": 5144872,
+      "compute_s": 30.636936155999997,
+      "delivered": false
+    },
+    {
+      "client_id": 831,
+      "sent_bytes": 5144872,
+      "compute_s": 80.244408671,
+      "delivered": false
+    },
+    {
+      "client_id": 832,
+      "sent_bytes": 5144872,
+      "compute_s": 52.58700804,
+      "delivered": false
+    },
+    {
+      "client_id": 833,
+      "sent_bytes": 5144872,
+      "compute_s": 44.141893462,
+      "delivered": false
+    },
+    {
+      "client_id": 834,
+      "sent_bytes": 5144872,
+      "compute_s": 46.178994042,
+      "delivered": false
+    },
+    {
+      "client_id": 835,
+      "sent_bytes": 5144872,
+      "compute_s": 43.322806117,
+      "delivered": false
+    },
+    {
+      "client_id": 836,
+      "sent_bytes": 5144872,
+      "compute_s": 67.211408398,
+      "delivered": false
+    },
+    {
+      "client_id": 837,
+      "sent_bytes": 5144872,
+      "compute_s": 52.171109356,
+      "delivered": false
+    },
+    {
+      "client_id": 838,
+      "sent_bytes": 5144872,
+      "compute_s": 54.303915517,
+      "delivered": false
+    },
+    {
+      "client_id": 839,
+      "sent_bytes": 5144872,
+      "compute_s": 53.039419288000005,
+      "delivered": false
+    },
+    {
+      "client_id": 840,
+      "sent_bytes": 5144872,
+      "compute_s": 31.077282877,
+      "delivered": false
+    },
+    {
+      "client_id": 841,
+      "sent_bytes": 5144872,
+      "compute_s": 22.808214152999998,
+      "delivered": false
+    },
+    {
+      "client_id": 842,
+      "sent_bytes": 5144872,
+      "compute_s": 13.671772506,
+      "delivered": false
+    },
+    {
+      "client_id": 843,
+      "sent_bytes": 5144872,
+      "compute_s": 8.002997832,
+      "delivered": false
+    },
+    {
+      "client_id": 844,
+      "sent_bytes": 5144872,
+      "compute_s": 30.998118746,
+      "delivered": false
+    },
+    {
+      "client_id": 845,
+      "sent_bytes": 5144872,
+      "compute_s": 40.48150012,
+      "delivered": false
+    },
+    {
+      "client_id": 846,
+      "sent_bytes": 5144872,
+      "compute_s": 28.731871015,
+      "delivered": false
+    },
+    {
+      "client_id": 847,
+      "sent_bytes": 5144872,
+      "compute_s": 19.043519053999997,
+      "delivered": false
+    },
+    {
+      "client_id": 848,
+      "sent_bytes": 5144872,
+      "compute_s": 25.40850514,
+      "delivered": false
+    },
+    {
+      "client_id": 849,
+      "sent_bytes": 5144872,
+      "compute_s": 27.519078611,
+      "delivered": false
+    },
+    {
+      "client_id": 850,
+      "sent_bytes": 5144872,
+      "compute_s": 27.713307554,
+      "delivered": false
+    },
+    {
+      "client_id": 851,
+      "sent_bytes": 5144872,
+      "compute_s": 23.171316,
+      "delivered": false
+    },
+    {
+      "client_id": 852,
+      "sent_bytes": 5144872,
+      "compute_s": 50.621947864,
+      "delivered": false
+    },
+    {
+      "client_id": 853,
+      "sent_bytes": 5144872,
+      "compute_s": 33.38751371,
+      "delivered": false
+    },
+    {
+      "client_id": 854,
+      "sent_bytes": 5144872,
+      "compute_s": 43.373158159,
+      "delivered": false
+    },
+    {
+      "client_id": 855,
+      "sent_bytes": 5144872,
+      "compute_s": 22.398776947,
+      "delivered": false
+    },
+    {
+      "client_id": 856,
+      "sent_bytes": 5144872,
+      "compute_s": 47.316469999999995,
+      "delivered": false
+    },
+    {
+      "client_id": 857,
+      "sent_bytes": 5144872,
+      "compute_s": 37.415982594999996,
+      "delivered": false
+    },
+    {
+      "client_id": 858,
+      "sent_bytes": 5144872,
+      "compute_s": 38.514174112000006,
+      "delivered": false
+    },
+    {
+      "client_id": 859,
+      "sent_bytes": 5144872,
+      "compute_s": 38.238987519,
+      "delivered": false
+    },
+    {
+      "client_id": 860,
+      "sent_bytes": 5144872,
+      "compute_s": 31.423031757999997,
+      "delivered": false
+    },
+    {
+      "client_id": 861,
+      "sent_bytes": 5144872,
+      "compute_s": 26.629646048999998,
+      "delivered": false
+    },
+    {
+      "client_id": 862,
+      "sent_bytes": 5144872,
+      "compute_s": 26.620466843,
+      "delivered": false
+    },
+    {
+      "client_id": 863,
+      "sent_bytes": 5144872,
+      "compute_s": 25.330204066,
+      "delivered": false
+    },
+    {
+      "client_id": 864,
+      "sent_bytes": 5144872,
+      "compute_s": 27.036850921000003,
+      "delivered": false
+    },
+    {
+      "client_id": 865,
+      "sent_bytes": 5144872,
+      "compute_s": 8.680224678,
+      "delivered": false
+    },
+    {
+      "client_id": 866,
+      "sent_bytes": 5144872,
+      "compute_s": 14.760136004,
+      "delivered": false
+    },
+    {
+      "client_id": 867,
+      "sent_bytes": 5144872,
+      "compute_s": 12.216319964,
+      "delivered": false
+    },
+    {
+      "client_id": 868,
+      "sent_bytes": 5144872,
+      "compute_s": 31.634226690000002,
+      "delivered": false
+    },
+    {
+      "client_id": 869,
+      "sent_bytes": 5144872,
+      "compute_s": 26.483310877,
+      "delivered": false
+    },
+    {
+      "client_id": 870,
+      "sent_bytes": 5144872,
+      "compute_s": 26.653027427999998,
+      "delivered": false
+    },
+    {
+      "client_id": 871,
+      "sent_bytes": 5144872,
+      "compute_s": 9.121133769,
+      "delivered": false
+    },
+    {
+      "client_id": 872,
+      "sent_bytes": 5144872,
+      "compute_s": 28.862815078,
+      "delivered": false
+    },
+    {
+      "client_id": 873,
+      "sent_bytes": 5144872,
+      "compute_s": 21.178763411,
+      "delivered": false
+    },
+    {
+      "client_id": 874,
+      "sent_bytes": 5144872,
+      "compute_s": 23.676088116,
+      "delivered": false
+    },
+    {
+      "client_id": 875,
+      "sent_bytes": 5144872,
+      "compute_s": 18.691516655,
+      "delivered": false
+    },
+    {
+      "client_id": 876,
+      "sent_bytes": 5144872,
+      "compute_s": 31.324513615,
+      "delivered": false
+    },
+    {
+      "client_id": 877,
+      "sent_bytes": 5144872,
+      "compute_s": 31.281596540000002,
+      "delivered": false
+    },
+    {
+      "client_id": 878,
+      "sent_bytes": 5144872,
+      "compute_s": 31.229153072,
+      "delivered": false
+    },
+    {
+      "client_id": 879,
+      "sent_bytes": 5144872,
+      "compute_s": 31.080008897000003,
+      "delivered": false
+    },
+    {
+      "client_id": 880,
+      "sent_bytes": 5144872,
+      "compute_s": 31.449829904,
+      "delivered": false
+    },
+    {
+      "client_id": 881,
+      "sent_bytes": 5144872,
+      "compute_s": 30.881123538,
+      "delivered": false
+    },
+    {
+      "client_id": 882,
+      "sent_bytes": 5144872,
+      "compute_s": 31.007046989,
+      "delivered": false
+    },
+    {
+      "client_id": 883,
+      "sent_bytes": 5144872,
+      "compute_s": 31.036649571999998,
+      "delivered": false
+    },
+    {
+      "client_id": 884,
+      "sent_bytes": 5144872,
+      "compute_s": 30.835774511999997,
+      "delivered": false
+    },
+    {
+      "client_id": 885,
+      "sent_bytes": 5144872,
+      "compute_s": 31.284940312,
+      "delivered": false
+    },
+    {
+      "client_id": 886,
+      "sent_bytes": 5144872,
+      "compute_s": 30.631454384,
+      "delivered": false
+    },
+    {
+      "client_id": 887,
+      "sent_bytes": 5144872,
+      "compute_s": 30.823340894999998,
+      "delivered": false
+    },
+    {
+      "client_id": 888,
+      "sent_bytes": 5144872,
+      "compute_s": 31.339761364,
+      "delivered": false
+    },
+    {
+      "client_id": 889,
+      "sent_bytes": 5144872,
+      "compute_s": 31.746194621,
+      "delivered": false
+    },
+    {
+      "client_id": 890,
+      "sent_bytes": 5144872,
+      "compute_s": 31.219459171,
+      "delivered": false
+    },
+    {
+      "client_id": 891,
+      "sent_bytes": 5144872,
+      "compute_s": 30.857951182,
+      "delivered": false
+    },
+    {
+      "client_id": 892,
+      "sent_bytes": 5144872,
+      "compute_s": 30.900255393,
+      "delivered": false
+    },
+    {
+      "client_id": 893,
+      "sent_bytes": 5144872,
+      "compute_s": 31.281102782999998,
+      "delivered": false
+    },
+    {
+      "client_id": 894,
+      "sent_bytes": 5144872,
+      "compute_s": 30.631999130999997,
+      "delivered": false
+    },
+    {
+      "client_id": 895,
+      "sent_bytes": 5144872,
+      "compute_s": 30.722657786,
+      "delivered": false
+    },
+    {
+      "client_id": 896,
+      "sent_bytes": 5144872,
+      "compute_s": 31.286019602,
+      "delivered": false
+    },
+    {
+      "client_id": 897,
+      "sent_bytes": 5144872,
+      "compute_s": 30.719857771,
+      "delivered": false
+    },
+    {
+      "client_id": 898,
+      "sent_bytes": 5144872,
+      "compute_s": 46.730799103,
+      "delivered": false
+    },
+    {
+      "client_id": 899,
+      "sent_bytes": 5144872,
+      "compute_s": 31.697637948,
+      "delivered": false
+    },
+    {
+      "client_id": 900,
+      "sent_bytes": 5144872,
+      "compute_s": 31.491495331,
+      "delivered": false
+    },
+    {
+      "client_id": 901,
+      "sent_bytes": 5144872,
+      "compute_s": 30.864987689000003,
+      "delivered": false
+    },
+    {
+      "client_id": 902,
+      "sent_bytes": 5144872,
+      "compute_s": 30.792347581,
+      "delivered": false
+    },
+    {
+      "client_id": 903,
+      "sent_bytes": 5144872,
+      "compute_s": 31.152805437999998,
+      "delivered": false
+    },
+    {
+      "client_id": 904,
+      "sent_bytes": 5144872,
+      "compute_s": 31.328346020999998,
+      "delivered": false
+    },
+    {
+      "client_id": 905,
+      "sent_bytes": 5144872,
+      "compute_s": 31.381974836,
+      "delivered": false
+    },
+    {
+      "client_id": 906,
+      "sent_bytes": 5144872,
+      "compute_s": 30.994220024,
+      "delivered": false
+    },
+    {
+      "client_id": 907,
+      "sent_bytes": 5144872,
+      "compute_s": 31.10141433,
+      "delivered": false
+    },
+    {
+      "client_id": 908,
+      "sent_bytes": 5144872,
+      "compute_s": 30.976128376000002,
+      "delivered": false
+    },
+    {
+      "client_id": 909,
+      "sent_bytes": 5144872,
+      "compute_s": 31.032111959999998,
+      "delivered": false
+    },
+    {
+      "client_id": 910,
+      "sent_bytes": 5144872,
+      "compute_s": 31.021598369,
+      "delivered": false
+    },
+    {
+      "client_id": 911,
+      "sent_bytes": 5144872,
+      "compute_s": 30.986004237,
+      "delivered": false
+    },
+    {
+      "client_id": 912,
+      "sent_bytes": 5144872,
+      "compute_s": 30.892885432,
+      "delivered": false
+    },
+    {
+      "client_id": 913,
+      "sent_bytes": 5144872,
+      "compute_s": 465.753957052,
+      "delivered": false
+    },
+    {
+      "client_id": 914,
+      "sent_bytes": 5144872,
+      "compute_s": 31.797562177,
+      "delivered": false
+    },
+    {
+      "client_id": 915,
+      "sent_bytes": 5144872,
+      "compute_s": 31.095250569999997,
+      "delivered": false
+    },
+    {
+      "client_id": 916,
+      "sent_bytes": 5144872,
+      "compute_s": 31.010671892,
+      "delivered": false
+    },
+    {
+      "client_id": 917,
+      "sent_bytes": 5144872,
+      "compute_s": 85.090715761,
+      "delivered": false
+    },
+    {
+      "client_id": 918,
+      "sent_bytes": 5144872,
+      "compute_s": 31.603005151,
+      "delivered": false
+    },
+    {
+      "client_id": 919,
+      "sent_bytes": 5144872,
+      "compute_s": 30.793872548,
+      "delivered": false
+    },
+    {
+      "client_id": 920,
+      "sent_bytes": 5144872,
+      "compute_s": 31.248921600000003,
+      "delivered": false
+    },
+    {
+      "client_id": 921,
+      "sent_bytes": 5144872,
+      "compute_s": 309.198920134,
+      "delivered": false
+    },
+    {
+      "client_id": 922,
+      "sent_bytes": 5144872,
+      "compute_s": 31.328327666,
+      "delivered": false
+    },
+    {
+      "client_id": 923,
+      "sent_bytes": 5144872,
+      "compute_s": 31.178918582999998,
+      "delivered": false
+    },
+    {
+      "client_id": 924,
+      "sent_bytes": 5144872,
+      "compute_s": 30.963647997,
+      "delivered": false
+    },
+    {
+      "client_id": 925,
+      "sent_bytes": 5144872,
+      "compute_s": 31.40435638,
+      "delivered": false
+    },
+    {
+      "client_id": 926,
+      "sent_bytes": 5144872,
+      "compute_s": 31.293106683,
+      "delivered": false
+    },
+    {
+      "client_id": 927,
+      "sent_bytes": 5144872,
+      "compute_s": 31.536418473,
+      "delivered": false
+    },
+    {
+      "client_id": 928,
+      "sent_bytes": 5144872,
+      "compute_s": 31.260863452,
+      "delivered": false
+    },
+    {
+      "client_id": 929,
+      "sent_bytes": 5144872,
+      "compute_s": 31.307235072,
+      "delivered": false
+    },
+    {
+      "client_id": 930,
+      "sent_bytes": 5144872,
+      "compute_s": 30.651609514999997,
+      "delivered": false
+    },
+    {
+      "client_id": 931,
+      "sent_bytes": 5144872,
+      "compute_s": 30.620003828,
+      "delivered": false
+    },
+    {
+      "client_id": 932,
+      "sent_bytes": 5144872,
+      "compute_s": 31.388033637,
+      "delivered": false
+    },
+    {
+      "client_id": 933,
+      "sent_bytes": 5144872,
+      "compute_s": 31.424759669,
+      "delivered": false
+    },
+    {
+      "client_id": 934,
+      "sent_bytes": 5144872,
+      "compute_s": 31.155446365,
+      "delivered": false
+    },
+    {
+      "client_id": 935,
+      "sent_bytes": 5144872,
+      "compute_s": 31.034835786,
+      "delivered": false
+    },
+    {
+      "client_id": 936,
+      "sent_bytes": 5144872,
+      "compute_s": 30.760434070000002,
+      "delivered": false
+    },
+    {
+      "client_id": 937,
+      "sent_bytes": 5144872,
+      "compute_s": 140.06405977199998,
+      "delivered": false
+    },
+    {
+      "client_id": 938,
+      "sent_bytes": 5144872,
+      "compute_s": 31.290303985,
+      "delivered": false
+    },
+    {
+      "client_id": 939,
+      "sent_bytes": 5144872,
+      "compute_s": 31.181958896,
+      "delivered": false
+    },
+    {
+      "client_id": 940,
+      "sent_bytes": 5144872,
+      "compute_s": 31.807901675,
+      "delivered": false
+    },
+    {
+      "client_id": 941,
+      "sent_bytes": 5144872,
+      "compute_s": 31.207817776000002,
+      "delivered": false
+    },
+    {
+      "client_id": 942,
+      "sent_bytes": 5144872,
+      "compute_s": 30.625682359,
+      "delivered": false
+    },
+    {
+      "client_id": 943,
+      "sent_bytes": 5144872,
+      "compute_s": 31.253799257,
+      "delivered": false
+    },
+    {
+      "client_id": 944,
+      "sent_bytes": 5144872,
+      "compute_s": 31.084669058,
+      "delivered": false
+    },
+    {
+      "client_id": 945,
+      "sent_bytes": 5144872,
+      "compute_s": 30.735913596,
+      "delivered": false
+    },
+    {
+      "client_id": 946,
+      "sent_bytes": 5144872,
+      "compute_s": 31.118661922999998,
+      "delivered": false
+    },
+    {
+      "client_id": 947,
+      "sent_bytes": 5144872,
+      "compute_s": 30.925089513,
+      "delivered": false
+    },
+    {
+      "client_id": 948,
+      "sent_bytes": 5144872,
+      "compute_s": 31.079732474,
+      "delivered": false
+    },
+    {
+      "client_id": 949,
+      "sent_bytes": 5144872,
+      "compute_s": 31.704472923,
+      "delivered": false
+    },
+    {
+      "client_id": 950,
+      "sent_bytes": 5144872,
+      "compute_s": 30.983461679,
+      "delivered": false
+    },
+    {
+      "client_id": 951,
+      "sent_bytes": 5144872,
+      "compute_s": 31.416999941,
+      "delivered": false
+    },
+    {
+      "client_id": 952,
+      "sent_bytes": 5144872,
+      "compute_s": 30.870326088,
+      "delivered": false
+    },
+    {
+      "client_id": 953,
+      "sent_bytes": 5144872,
+      "compute_s": 31.246430175999997,
+      "delivered": false
+    },
+    {
+      "client_id": 954,
+      "sent_bytes": 5144872,
+      "compute_s": 31.650878481,
+      "delivered": false
+    },
+    {
+      "client_id": 955,
+      "sent_bytes": 5144872,
+      "compute_s": 31.335482263,
+      "delivered": false
+    },
+    {
+      "client_id": 956,
+      "sent_bytes": 5144872,
+      "compute_s": 30.82551233,
+      "delivered": false
+    },
+    {
+      "client_id": 957,
+      "sent_bytes": 5144872,
+      "compute_s": 30.716895494,
+      "delivered": false
+    },
+    {
+      "client_id": 958,
+      "sent_bytes": 5144872,
+      "compute_s": 31.546191162,
+      "delivered": false
+    },
+    {
+      "client_id": 959,
+      "sent_bytes": 5144872,
+      "compute_s": 114.112852229,
+      "delivered": false
+    },
+    {
+      "client_id": 960,
+      "sent_bytes": 5144872,
+      "compute_s": 30.573611765,
+      "delivered": false
+    },
+    {
+      "client_id": 961,
+      "sent_bytes": 5144872,
+      "compute_s": 30.687985955,
+      "delivered": false
+    },
+    {
+      "client_id": 962,
+      "sent_bytes": 5144872,
+      "compute_s": 31.411622946999998,
+      "delivered": false
+    },
+    {
+      "client_id": 963,
+      "sent_bytes": 5144872,
+      "compute_s": 31.147965646,
+      "delivered": false
+    },
+    {
+      "client_id": 964,
+      "sent_bytes": 5144872,
+      "compute_s": 185.39159600399998,
+      "delivered": false
+    },
+    {
+      "client_id": 965,
+      "sent_bytes": 5144872,
+      "compute_s": 31.050287375,
+      "delivered": false
+    },
+    {
+      "client_id": 966,
+      "sent_bytes": 5144872,
+      "compute_s": 31.219729747,
+      "delivered": false
+    },
+    {
+      "client_id": 967,
+      "sent_bytes": 5144872,
+      "compute_s": 30.770851517,
+      "delivered": false
+    },
+    {
+      "client_id": 968,
+      "sent_bytes": 5144872,
+      "compute_s": 31.116974015,
+      "delivered": false
+    },
+    {
+      "client_id": 969,
+      "sent_bytes": 5144872,
+      "compute_s": 30.735701368,
+      "delivered": false
+    },
+    {
+      "client_id": 970,
+      "sent_bytes": 5144872,
+      "compute_s": 30.436266812,
+      "delivered": false
+    },
+    {
+      "client_id": 971,
+      "sent_bytes": 5144872,
+      "compute_s": 31.401912791,
+      "delivered": false
+    },
+    {
+      "client_id": 972,
+      "sent_bytes": 5144872,
+      "compute_s": 30.890544369,
+      "delivered": false
+    },
+    {
+      "client_id": 973,
+      "sent_bytes": 5144872,
+      "compute_s": 31.045637407,
+      "delivered": false
+    },
+    {
+      "client_id": 974,
+      "sent_bytes": 5144872,
+      "compute_s": 31.26694629,
+      "delivered": false
+    },
+    {
+      "client_id": 975,
+      "sent_bytes": 5144872,
+      "compute_s": 30.837183913999997,
+      "delivered": false
+    },
+    {
+      "client_id": 976,
+      "sent_bytes": 5144872,
+      "compute_s": 30.956276153,
+      "delivered": false
+    },
+    {
+      "client_id": 977,
+      "sent_bytes": 5144872,
+      "compute_s": 31.230291356,
+      "delivered": false
+    },
+    {
+      "client_id": 978,
+      "sent_bytes": 5144872,
+      "compute_s": 31.36915655,
+      "delivered": false
+    },
+    {
+      "client_id": 979,
+      "sent_bytes": 5144872,
+      "compute_s": 30.825674583999998,
+      "delivered": false
+    },
+    {
+      "client_id": 980,
+      "sent_bytes": 5144872,
+      "compute_s": 30.953801446,
+      "delivered": false
+    },
+    {
+      "client_id": 981,
+      "sent_bytes": 5144872,
+      "compute_s": 31.301317184,
+      "delivered": false
+    },
+    {
+      "client_id": 982,
+      "sent_bytes": 5144872,
+      "compute_s": 94.51722710899999,
+      "delivered": false
+    },
+    {
+      "client_id": 983,
+      "sent_bytes": 5144872,
+      "compute_s": 49.224186669,
+      "delivered": false
+    },
+    {
+      "client_id": 984,
+      "sent_bytes": 5144872,
+      "compute_s": 50.860204595000006,
+      "delivered": false
+    },
+    {
+      "client_id": 985,
+      "sent_bytes": 5144872,
+      "compute_s": 31.215879063000003,
+      "delivered": false
+    },
+    {
+      "client_id": 986,
+      "sent_bytes": 5144872,
+      "compute_s": 31.733801713,
+      "delivered": false
+    },
+    {
+      "client_id": 987,
+      "sent_bytes": 5144872,
+      "compute_s": 31.607314003,
+      "delivered": false
+    },
+    {
+      "client_id": 988,
+      "sent_bytes": 5144872,
+      "compute_s": 38.449545276,
+      "delivered": false
+    },
+    {
+      "client_id": 989,
+      "sent_bytes": 5144872,
+      "compute_s": 31.123871709,
+      "delivered": false
+    },
+    {
+      "client_id": 990,
+      "sent_bytes": 5144872,
+      "compute_s": 27.131950222,
+      "delivered": false
+    },
+    {
+      "client_id": 991,
+      "sent_bytes": 5144872,
+      "compute_s": 100.723799188,
+      "delivered": false
+    },
+    {
+      "client_id": 992,
+      "sent_bytes": 5144872,
+      "compute_s": 31.485360475,
+      "delivered": false
+    },
+    {
+      "client_id": 993,
+      "sent_bytes": 5144872,
+      "compute_s": 31.218785454000002,
+      "delivered": false
+    },
+    {
+      "client_id": 994,
+      "sent_bytes": 5144872,
+      "compute_s": 31.152987540999998,
+      "delivered": false
+    },
+    {
+      "client_id": 995,
+      "sent_bytes": 5144872,
+      "compute_s": 30.923419795999997,
+      "delivered": false
+    },
+    {
+      "client_id": 996,
+      "sent_bytes": 5144872,
+      "compute_s": 46.605488729,
+      "delivered": false
+    },
+    {
+      "client_id": 997,
+      "sent_bytes": 5144872,
+      "compute_s": 31.311041838,
+      "delivered": false
+    },
+    {
+      "client_id": 998,
+      "sent_bytes": 5144872,
+      "compute_s": 58.338419741,
+      "delivered": false
+    },
+    {
+      "client_id": 999,
+      "sent_bytes": 5144872,
+      "compute_s": 31.290516071,
+      "delivered": false
+    },
+    {
+      "client_id": 1000,
+      "sent_bytes": 5144872,
+      "compute_s": 31.10136995,
+      "delivered": false
+    }
+  ],
+  "committee_request_bytes": [
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312,
+    4719312
+  ],
+  "committee_reply_bytes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328,
+    328
+  ],
+  "client_sample_times_s": [
+    25.571070987,
+    23.626141763,
+    23.418313809,
+    23.453656705,
+    23.295531054,
+    23.785677144,
+    24.047441573,
+    23.673800675,
+    24.33669623,
+    24.247165332,
+    23.321521822,
+    24.470764499,
+    23.251061786,
+    22.817492043,
+    23.184710721,
+    23.972957588,
+    24.136837329,
+    24.201933956,
+    24.524632185,
+    24.756295268
+  ],
+  "kahe_client_sample_times_s": [
+    0.08945437,
+    0.090243155,
+    0.089109292,
+    0.088570543,
+    0.088756073,
+    0.089634897,
+    0.08940443,
+    0.088676265,
+    0.089303315,
+    0.088416507,
+    0.088860054,
+    0.088413054,
+    0.08927942,
+    0.088538744,
+    0.090162101,
+    0.092005577,
+    0.089398418,
+    0.089341974,
+    0.091490148,
+    0.090983629
+  ],
+  "end_to_end_s": 1519.5177245140076
+}

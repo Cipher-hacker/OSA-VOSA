@@ -1,0 +1,26 @@
+{
+  "command": [
+    "/root/autodl-tmp/OSA_Updated_Code_20261101/.work/OSA_Paper_Experiments_CPU_20261008/bin/opa"
+  ],
+  "cwd": "/root/autodl-tmp/OSA_Updated_Code_20261101/.work/OSA_Paper_Experiments_CPU_20261008",
+  "job": {
+    "protocol": "opa",
+    "n": 1000,
+    "active": 800,
+    "m": 50,
+    "length": 40000,
+    "repeat": 2
+  },
+  "utc_started": "2026-11-04T09:06:13.728030+00:00",
+  "controlled_env": {
+    "BENCH_ROUND_AUDIT": "/root/autodl-tmp/OSA_Updated_Code_20261101/.work/OSA_Paper_Experiments_CPU_20261008/runs/paper_aligned_20261104T041553_351260Z/raw/opa_N1000_A800_M50_L40000_R2_T40/attempt_aligned_20261104T090613_726686Z/round_audit.json",
+    "BENCH_CLIENT_WARMUP": "3",
+    "BENCH_CLIENT_SAMPLES": "20",
+    "BENCH_N_CLIENTS": "1000",
+    "BENCH_ACTIVE_CLIENTS": "800",
+    "BENCH_VECTOR_LEN": "40000",
+    "BENCH_COMMITTEE_SIZE": "50",
+    "BENCH_THRESHOLD": "40",
+    "BENCH_THREADS": "32"
+  }
+}

@@ -1,0 +1,12 @@
+[source.crates-io]
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/microgravitas/hopcroft-karp"]
+git = "https://github.com/microgravitas/hopcroft-karp"
+replace-with = "vendored-sources"
+
+[source.vendored-sources]
+directory = "vendor"
+
+[net]
+offline = true

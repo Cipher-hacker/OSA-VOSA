@@ -1,0 +1,27 @@
+{
+  "args": {
+    "mode": "formal",
+    "threads": 32,
+    "implementation": "fig7-batched-v2",
+    "n_clients": 1000,
+    "active_clients": 800,
+    "committee_size": 50,
+    "threshold": 40,
+    "vector_len": 20000,
+    "slots": 1,
+    "repeats": 1,
+    "output_root": "/root/autodl-tmp/OSA_Updated_Code_20261101/.work/OSA_Paper_Experiments_CPU_20261008/runs/paper_20261101T020252_461942Z/raw/tacita_N1000_A800_M50_L20000_R1/attempt_20261101T183129_991822Z/ste",
+    "kahe_bridge": "/root/autodl-tmp/OSA_Updated_Code_20261101/.work/OSA_Paper_Experiments_CPU_20261008/tacita/bin/kahe_stage_fig7_v2",
+    "keep_fixtures": false
+  },
+  "hostname": "autodl-container-543e4aa3a7-6b0e1c80",
+  "platform": "Linux-5.15.0-94-generic-x86_64-with-glibc2.35",
+  "cpu_count": 128,
+  "binary_sha256": "54d8f82c8a47a8c7946635269c85a75f09cba1a0ee578663f9c6e9fd293854e5",
+  "bridge_sha256": "b92b79037c75fc1004bf2347582b443f293d930ba92cdb1776cce49c0c020ca8",
+  "upstream_commit": "c1a82f02a9fa2faeffa6589628c67e6e85a27ce9",
+  "mklhts_enabled": false,
+  "input_soundness": false,
+  "traffic_contract": "canonical compressed cryptographic payload bytes; excludes transport framing, IDs of input clients, and setup distribution",
+  "security_profile": "honest-client research ablation; setup dealer and key hints trusted"
+}

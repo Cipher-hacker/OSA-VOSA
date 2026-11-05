@@ -1,0 +1,4 @@
+[n200_a160_m50_t40_r1] started 2026-11-01T05:15:07.745793+00:00
+running: /root/autodl-tmp/OSA_Updated_Code_20261101/.work/OSA_Paper_Experiments_CPU_20261008/tacita/target/release/tacita-ste-comparison seeds --clients 200 --fig7 --output /root/autodl-tmp/OSA_Updated_Code_20261101/.work/OSA_Paper_Experiments_CPU_20261008/runs/paper_20261101T020252_461942Z/raw/tacita_N200_A160_M50_L10000_R3/attempt_20261101T051507_626284Z/ste/formal_20261101T051507_729438Z/n200_a160_m50_t40_r1/seeds.json
+[n200_a160_m50_t40_r1] correctness=pass online_s=324.518
+results=/root/autodl-tmp/OSA_Updated_Code_20261101/.work/OSA_Paper_Experiments_CPU_20261008/runs/paper_20261101T020252_461942Z/raw/tacita_N200_A160_M50_L10000_R3/attempt_20261101T051507_626284Z/ste/formal_20261101T051507_729438Z
