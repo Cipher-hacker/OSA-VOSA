@@ -20,6 +20,28 @@ class FinalPlanTests(unittest.TestCase):
         self.config = align.read(artifact.BENCH / "config.json")
         self.full, self.missing = osa_grid.plans(self.suite, self.config)
 
+    def test_continue_export_matches_original_measurements(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            export, runs = root / "outputs/earlier", root / "runs"
+            comparison = runs / "paper_aligned/combined_a"
+            verification = runs / "paper_verification"
+            rows = []
+            for name, folder, count in (("comparison", comparison, 216), ("verification", verification, 90)):
+                records = [dict(job_id=f"{name}-{i}", seconds=float(i)) for i in range(count)]
+                rows.extend(records)
+                publication.write_csv(folder / "measurements.csv", records)
+                publication.write_csv(export / f"{name}-runs.csv", records)
+                if name == "comparison":
+                    newer = runs / "paper_z/combined_z/measurements.csv"
+                    publication.write_csv(newer, [dict(r, seconds=0.0) for r in records])
+            with patch.object(artifact, "load_measurements", return_value=rows) as verify:
+                self.assertEqual(artifact.previous_paper_runs(export, runs), (comparison, verification))
+                verify.assert_called_once_with(comparison, verification, archived=False)
+                (verification / "measurements.csv").unlink()
+                with self.assertRaisesRegex(ValueError, "No original run"):
+                    artifact.previous_paper_runs(export, runs)
+
     def test_coverage_and_final_thresholds(self):
         comparison = self.suite.plan(self.config, "comparison")
         verification = self.suite.plan(self.config, "verification")
@@ -60,6 +82,25 @@ class FinalPlanTests(unittest.TestCase):
         for modified in (dict(host, host="unrelated"), dict(host, binary_sha256={"osa":"changed"})):
             with self.assertRaises(ValueError):
                 osa_grid.check_host(self.suite, host, modified)
+
+    def test_adopted_workflow_only_launches_missing_stages(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.suite.Lock = lambda path: nullcontext()
+            with patch.object(align, "load", return_value=self.suite), \
+                 patch.object(artifact, "previous_paper_runs", return_value=(root/"combined",root/"verified")) as lookup, \
+                 patch.object(artifact, "run_comparison") as comparison, \
+                 patch.object(artifact, "run_verification") as verification, \
+                 patch.object(artifact, "tagged", return_value=root/"grid") as grid, \
+                 patch.object(artifact, "generate") as figures, patch.object(artifact, "train") as training:
+                for _ in range(2):
+                    artifact.whole_experiment("all",root/"output",False,from_paper=root/"earlier")
+                lookup.assert_called_once()
+                comparison.assert_not_called()
+                verification.assert_not_called()
+                grid.assert_called_once()
+                figures.assert_called_once()
+                training.assert_called_once()
 
     def test_grid_uses_the_aligned_native_osa_command(self):
         context = align.context(artifact.BENCH)

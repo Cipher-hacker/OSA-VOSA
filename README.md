@@ -71,6 +71,14 @@ python3 -u artifact.py all
 
 ## 3. Modular Stage Execution & Resuming
 
+For a completed earlier `paper` run that exported 66 figures, pass its figure directory to continue with the grid and training:
+
+```bash
+python3 -u artifact.py all --from-paper /absolute/path/to/outputs/paper_TIMESTAMP
+```
+
+This matches both exported tables to their original run directories, verifies the 216 comparison and 90 verification measurements, then records the adopted stages in the new workflow. Repeat the same command after an interruption. The `paper --from-paper` variant completes the protocol grid and figures alone.
+
 Individual stages can be executed or resumed independently:
 
 ```bash

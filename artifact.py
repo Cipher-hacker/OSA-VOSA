@@ -10,7 +10,7 @@ import subprocess
 import sys
 
 from experiments import align, datasets, osa_grid
-from experiments.publication import BENCH, ROOT, generate, load_comparison
+from experiments.publication import BENCH, ROOT, compare_export, generate, load_comparison, load_measurements, read_csv
 
 ALIGN = ROOT / "experiments/align.py"
 SUITE = BENCH / "scripts/suite.py"
@@ -125,14 +125,48 @@ def train(output, resume=False):
     print(f"TRAINING_PASS models=2 protocols=2 rounds_per_run=300 output={output}", flush=True)
 
 
-def whole_experiment(mode, dest, resume):
+def previous_paper_runs(export, runs):
+    """Locate and verify the two native runs used to produce an earlier paper export."""
+    def match(name, pattern, count):
+        recorded = read_csv(export / name)
+        if len(recorded) != count:
+            raise ValueError(f"Expected {count} rows in {export / name}")
+        for directory in sorted(runs.glob(pattern), reverse=True):
+            csv_file = directory / "measurements.csv"
+            if not csv_file.is_file():
+                continue
+            try:
+                compare_export(recorded, csv_file)
+            except (KeyError, ValueError):
+                continue
+            return directory
+        raise ValueError(f"No original run under {runs} matches {export / name}")
+
+    comparison = match("comparison-runs.csv", "*/combined_*", 216)
+    verification = match("verification-runs.csv", "paper_*", 90)
+    rows = load_measurements(comparison, verification, archived=False)
+    compare_export(rows[:216], export / "comparison-runs.csv")
+    compare_export(rows[216:], export / "verification-runs.csv")
+    return comparison, verification
+
+
+def whole_experiment(mode, dest, resume, from_paper=None):
     """Checkpoint the native result directories before a long stage can be interrupted."""
     suite = align.load(SUITE, "workflow")
-    dest.mkdir(parents=True, exist_ok=resume)
+    dest.mkdir(parents=True, exist_ok=resume or from_paper is not None)
     state_file = dest / "workflow.json"
     with suite.Lock(dest / ".workflow.lock"):
-        state = align.read(state_file) if resume else {"mode": mode}
+        state = align.read(state_file) if resume or state_file.exists() else {"mode": mode}
         suite.require(state["mode"], mode, "resume action")
+        if from_paper is not None:
+            if "from_paper" in state:
+                suite.require(state["from_paper"], str(from_paper), "previous paper export")
+            else:
+                suite.require(state, {"mode": mode}, "new continuation workflow")
+                comparison, verification = previous_paper_runs(from_paper, BENCH / "runs")
+                state.update(from_paper=str(from_paper), comparison=str(comparison), verification=str(verification))
+                print(f"REUSE_PASS comparison=216 verification=90\nCOMBINED={comparison}\nVERIFICATION={verification}",
+                      flush=True)
         def save(key, value):
             state[key] = str(value)
             suite.write_json(state_file, state)
@@ -179,6 +213,7 @@ def main():
         dest_args.add_argument("--output", type=Path)
         if name in ("all", "paper"):
             dest_args.add_argument("--resume", type=Path)
+            dest_args.add_argument("--from-paper", type=Path, help="continue from a completed 66-figure paper export")
         if name == "figures":
             p.add_argument("--comparison", required=True, type=Path, help="COMBINED directory")
             p.add_argument("--verification", required=True, type=Path, help="formal verification RESULTS directory")
@@ -240,8 +275,12 @@ def main():
         elif mode in ("paper", "all"):
             if mode == "all" and not FL_PY.is_file():
                 parser.error("Run setup-training first")
-            output = (args.resume or args.output or new_output(mode)).resolve()
-            whole_experiment(mode, output, resume=bool(args.resume))
+            previous = args.from_paper.resolve() if args.from_paper else None
+            if previous:
+                output = ROOT / "outputs" / f"{mode}_from_{previous.name}"
+            else:
+                output = (args.resume or args.output or new_output(mode)).resolve()
+            whole_experiment(mode, output, resume=bool(args.resume), from_paper=previous)
 
 
 if __name__ == "__main__":
