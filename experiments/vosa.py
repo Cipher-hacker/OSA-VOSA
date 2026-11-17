@@ -286,7 +286,7 @@ def main():
     parser.add_argument("--active", "-a", dest="active", type=int, default=80)
     parser.add_argument("--length", "-L", dest="length", type=int, default=L_DEFAULT)
     parser.add_argument("--committee", "-m", dest="committee", type=int, default=50)
-    parser.add_argument("--threshold", "-t", dest="threshold", type=int, default=32)
+    parser.add_argument("--threshold", "-t", dest="threshold", type=int, default=40)
     parser.add_argument("--threads", dest="threads", type=int, default=4)
     parser.add_argument("--seed", type=int, default=17)
     parser.add_argument("--reference-calibrated", action="store_true",

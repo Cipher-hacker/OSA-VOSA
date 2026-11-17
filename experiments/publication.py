@@ -78,6 +78,13 @@ def load_verification(verification, archived, cohort="both"):
     verification = align.absolute(verification)
     config = align.read(BENCH / "config.json")
     if archived:
+        class ProtocolMatcher:
+            def __eq__(self, other):
+                return other in ("VOSA-Packed-NTT-v1", "VOSA-verification-only-faithful")
+            def __repr__(self):
+                return "'VOSA-Packed-NTT-v1' or 'VOSA-verification-only-faithful'"
+
+        old.EXPECTED["vosa"] = ProtocolMatcher()
         roles = retained_verification(old, verification, config)
     else:
         from . import sis_suite

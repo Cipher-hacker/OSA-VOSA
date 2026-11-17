@@ -512,16 +512,13 @@ class Lock:
         self.path = path
 
     def __enter__(self):
+        import fcntl
+        self.file = self.path.open("a+")
         try:
-            import fcntl
-            self.file = self.path.open("a+")
-            try:
-                fcntl.flock(self.file, fcntl.LOCK_EX | fcntl.LOCK_NB)
-            except BlockingIOError:
-                self.file.close()
-                raise RuntimeError("Another suite is running in this package; do not run timing jobs concurrently")
-        except ImportError:
-            self.file = self.path.open("a+")
+            fcntl.flock(self.file, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError:
+            self.file.close()
+            raise RuntimeError("Another suite is running in this package; do not run timing jobs concurrently")
         return self
 
     def __exit__(self, *args):
