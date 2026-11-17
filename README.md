@@ -89,6 +89,8 @@ python3 -u artifact.py comparison
 python3 -u artifact.py grid --comparison /absolute/path/to/combined_RUN
 
 # 3. Verification benchmark (VOSA vs. mPVAS)
+python3 artifact.py vosa-check
+python3 -u artifact.py verification --smoke
 python3 -u artifact.py verification
 
 # 4. Export publication figures
@@ -100,6 +102,49 @@ python3 artifact.py figures \
 
 - If an individual stage is interrupted, pass `--resume /absolute/path/to/raw_RESULTS` to the corresponding command.
 - The `grid` stage automatically verifies host specifications, baseline source fingerprints, and the compiled OSA binary hash.
+
+### Revised VOSA commitment (conference_101719, Section VI: Packed NTT Cyclotomic Polynomial Ring MSIS)
+
+New verification runs use `experiments/vosa.py` (or `experiments/vosa_sis.py`) through `experiments/sis_suite.py`.
+The log identifier is `VOSA-Packed-NTT-v1`. The scheme implements the polynomial ring MSIS commitment
+over $R_q = \mathbb{Z}_q[X]/(X^D+1)$ with parameters:
+- Degree $D = 8192, K = 4, \ell = 4, \ell' = 2, L = 10000$
+- Modulus $q = 2^{192} - 237$, randomness bound $\theta = 2^{20}$, input bound $\eta = 2^{20}$
+- High-speed AVX2/AVX512/scalar NTT polynomial multiplication in `experiments/packed_ntt.cpp` and `experiments/packed.py`
+- Simultaneous measurement of computation times (client commitment, server add, verifier check) and wire communication serialization (`client_to_server_bytes`, `client_to_verifier_bytes`, `server_to_verifier_bytes`, `total_bytes`)
+
+The portable `vosa-check` command can be run anytime via:
+```bash
+python3 artifact.py vosa-check
+# or directly:
+python3 experiments/vosa.py --check
+```
+
+To replace only the VOSA measurements, run `python3 run_vosa.py run` (18 repeats
+across six client populations at 20% dropout) or `python3 run_vosa.py run --include-grid`
+(all 72 VOSA measurements). Use `run --resume RUN` to reuse completed
+jobs in the same run. For a fast orchestration smoke test use
+`python3 run_vosa.py run --smoke`. Formal execution uses the paper configuration.
+Plot computation with `python3 artifact.py verification-figures --verification RUN --mpvas-baseline reference/verification`
+or supply the actual earlier formal verification run directory. The plot export records
+both sources and hostnames. Use controlled matching hardware for timing comparisons.
+
+The client commits to the message vector coordinates using the polynomial ring MSIS commitment:
+$$c_i = A_1 r_i + A_2 x_i \pmod q$$
+where:
+- Public matrices $A_1 \in R_q^{K \times \ell}$ and $A_2 \in R_q^{K \times \ell'}$ are generated over $R_q = \mathbb{Z}_q[X]/(X^D+1)$ with $D=8192, K=4, \ell=4, \ell'=2, q=2^{192}-237$.
+- Private randomness $r_i \in R_q^\ell$ has independent bounded coefficients in $[-\theta, \theta]$ ($\theta = 2^{20}$).
+- Model update vector $x_i \in [-\eta, \eta]^L$ ($L=10000, \eta = 2^{20}$) is embedded into the cyclotomic ring coefficients without wraparound.
+- Fast matrix-vector evaluation utilizes the multi-lane number-theoretic transform (NTT) in `experiments/packed_ntt.cpp`.
+
+During aggregation and opening:
+- The server aggregates commitments $C = \sum_{i \in \mathcal{U}_{active}} c_i \pmod q$, randomness $R = \sum_{i \in \mathcal{U}_{active}} r_i$, and vector $X = \sum_{i \in \mathcal{U}_{active}} x_i$.
+- The verifier validates $C \stackrel{?}{=} A_1 R + A_2 X \pmod q$, and verifies coordinate bounds $\|R\|_\infty \le |\mathcal{U}_{active}| \cdot \theta$ and $\|X\|_\infty \le |\mathcal{U}_{active}| \cdot \eta$.
+- Wire communications: each active client transmits $90,121$ bytes to the server ($r_i$ offset-packed) and $786,441$ bytes to the verifier ($c_i$ canonical representation), totaling $876,562$ bytes ($876.562$ KB) per client. The server transmits an opening frame of $\sim 150$ KB (containing active membership bitmap, packed aggregate $R$, and packed aggregate $X$) to the verifier.
+
+Client time covers packing, fresh randomness sampling, commitment evaluation, and message serialization.
+Server time covers reading opening contributions, summing them, and encoding the opening frame.
+Verifier time covers opening validation, commitment aggregation, and algebraic identity verification.
 
 ---
 
@@ -180,8 +225,13 @@ OSA-Paper-Artifact/
 │   ├── datasets.py                  # Dataset integrity verification routines
 │   ├── figures.json                 # Precise publication figure specifications & coordinates
 │   ├── osa_grid.py                  # OSA parameter grid execution and slice plot definitions
+│   ├── packed.py                    # Multi-lane NTT polynomial ring matrix arithmetic
+│   ├── packed_ntt.cpp               # C++ high-speed NTT kernel (AVX2/AVX512/scalar)
 │   ├── publication.py               # Publication figure renderer (PNG, PDF, CSV)
 │   ├── setup_training.sh            # FL C++ aggregation bridge build script
+│   ├── sis_suite.py                 # VOSA verification benchmark suite driver
+│   ├── vosa.py                      # Revised VOSA protocol with live compute & wire communication measurement
+│   ├── vosa_sis.py                  # Backward-compatible VOSA entry point
 │   └── tests/                       # Test suites for full plan, alignment, and figure generation
 ├── reference/                       # Archived formal reference measurements & figure datasets
 │   ├── comparison/                  # 216 four-protocol comparison runs and manifest

@@ -73,14 +73,16 @@ def load_comparison(comparison):
     return agg
 
 
-def load_measurements(comparison, verification, archived):
+def load_verification(verification, archived, cohort="both"):
     old = align.load(BENCH / "scripts/suite.py", "verification")
     verification = align.absolute(verification)
-    agg = load_comparison(comparison)
     config = align.read(BENCH / "config.json")
     if archived:
         roles = retained_verification(old, verification, config)
     else:
+        from . import sis_suite
+        if sis_suite.is_current(verification):
+            old = sis_suite.load(cohort)
         roles, manifest = old.verify_run(verification)
         contract = manifest["contract"]
         old.require(contract["scope"], "verification", "separate verification run required")
@@ -95,8 +97,12 @@ def load_measurements(comparison, verification, archived):
             clients = (r["active_clients"] * float(raw["active_client_compute_mean_s"])
                        + (r["n_clients"] - r["active_clients"]) * float(raw["dropout_client_compute_mean_s"]))
         r["total_computation_measured_s"] = clients + r["server_compute_s"] + r["verifier_compute_s"]
-    old.require((len(agg),len(roles)), (216,90), "formal job count")
-    return agg + roles
+    old.require(len(roles), len(old.plan(config, "verification")), "formal verification job count")
+    return roles
+
+
+def load_measurements(comparison, verification, archived):
+    return load_comparison(comparison) + load_verification(verification, archived)
 
 
 def job_key(name):
@@ -120,6 +126,53 @@ def points_for(spec, lookup):
     return points
 
 
+def verification_figure(spec):
+    return any(j.startswith("vosa_") for group in spec["points"] for j in group["jobs"])
+
+
+def computation_figure(spec):
+    return spec["metric"].endswith("_s")
+
+
+def generate_verification(verification, output, mpvas_baseline=None):
+    from . import sis_suite
+    if not sis_suite.is_current(verification):
+        raise ValueError("Expected a completed two-matrix VOSA verification run")
+    host = align.read(Path(verification) / "manifest.json")["contract"]["host"]
+    cohort = host.get("verification_cohort", "both")
+    if (cohort != "both") != bool(mpvas_baseline):
+        raise ValueError("Use --mpvas-baseline with a VOSA-only run; a paired run already contains mPVAS")
+    rows = load_verification(verification, archived=False, cohort=cohort)
+    provenance = {"vosa_run": str(Path(verification).resolve()), "cohort": cohort,
+                  "vosa_host": host["host"], "vosa_cpu": host["cpu_model"]}
+    if mpvas_baseline:
+        baseline = Path(mpvas_baseline).resolve()
+        historical = load_verification(baseline, archived=not (baseline / "manifest.json").exists())
+        mpvas = [r for r in historical if r["protocol"] == "mpvas"]
+        if len(mpvas) != 18:
+            raise ValueError("Expected 18 verified mPVAS measurements")
+        hosts = sorted({r["host"] for r in mpvas})
+        provenance.update(mpvas_run=str(baseline), mpvas_hosts=hosts,
+                          matching_recorded_hostname=hosts == [host["host"]])
+        if hosts != [host["host"]]:
+            print("Timing comparison uses different recorded hostnames. Check hardware before reporting speedups.")
+        rows.extend(mpvas)
+    lookup = {r["job_id"]: r for r in rows}
+    specs = [s for s in align.read(ROOT / "experiments/figures.json")
+             if verification_figure(s) and computation_figure(s)
+             and (cohort != "vosa-matched" or any(j.startswith("mpvas_") for g in s["points"] for j in g["jobs"]))]
+    renderer = align.load(BENCH / "scripts/renderer.py", "verification_renderer")
+    output.mkdir(parents=True, exist_ok=False)
+    for spec in specs:
+        points = points_for(spec, lookup)
+        folder = output / spec["category"]
+        write_csv(folder / "data" / (spec["stem"] + ".csv"), points)
+        renderer.draw(points, spec, folder / "figures" / spec["stem"])
+    write_csv(output / "verification-runs.csv", rows)
+    (output / "sources.json").write_text(json.dumps(provenance, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"FIGURES={output} PNG={len(specs)} PDF={len(specs)}")
+
+
 def generate(comparison, verification, output=None, archived=False, grid=None):
     rows = load_measurements(comparison, verification, archived)
     specs = align.read(ROOT / "experiments/figures.json")
@@ -130,6 +183,14 @@ def generate(comparison, verification, output=None, archived=False, grid=None):
         compare_export(extra, grid / "measurements.csv")
         rows.extend(extra)
         specs.extend(osa_grid.specifications(full, config))
+    # Historical replays retain their original figure contract. The new VOSA
+    # comparison publishes compute measurements only.
+    removed = []
+    if not archived:
+        from . import sis_suite
+        if sis_suite.is_current(verification):
+            removed = [s for s in specs if verification_figure(s) and not computation_figure(s)]
+            specs = [s for s in specs if s not in removed]
     lookup = {job_key(r["job_id"]): r for r in rows}
     if len(lookup) != len(rows):
         raise ValueError("Duplicate run identities")
@@ -160,6 +221,8 @@ def generate(comparison, verification, output=None, archived=False, grid=None):
                               pdf=stem.with_suffix(".pdf").as_posix(), data=data.as_posix(), **info))
         count += len(points)
     expected_points, expected_figures = (1282, 82) if grid is not None else (1058, 66)
+    expected_points -= sum(len(s["points"]) for s in removed)
+    expected_figures -= len(removed)
     if expected or count != expected_points or len(specs) != expected_figures:
         raise ValueError("Incomplete publication figure coverage")
     if output is not None:

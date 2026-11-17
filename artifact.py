@@ -10,10 +10,12 @@ import subprocess
 import sys
 
 from experiments import align, datasets, osa_grid
-from experiments.publication import BENCH, ROOT, compare_export, generate, load_comparison, load_measurements, read_csv
+from experiments.publication import (BENCH, ROOT, compare_export, generate, generate_verification,
+                                    load_comparison, load_measurements, read_csv)
 
 ALIGN = ROOT / "experiments/align.py"
 SUITE = BENCH / "scripts/suite.py"
+SIS_SUITE = ROOT / "experiments/sis_suite.py"
 PY = BENCH / ".runtime/python/bin/python"
 FL_PY = BENCH / ".runtime/fl-python/bin/python"
 
@@ -48,9 +50,10 @@ def run_comparison(resume=None, on_run=None):
     return tagged([PY, "-u", ALIGN, "run", "--project", BENCH, *args], "COMBINED", on_run)
 
 
-def run_verification(resume=None, on_run=None):
+def run_verification(resume=None, on_run=None, smoke=False):
     args = ["--resume", resume.resolve()] if resume else []
-    return tagged([PY, "-u", SUITE, "run", "--scope", "verification", *args], "RESULTS", on_run)
+    return tagged([PY, "-u", SIS_SUITE, "run", "--scope", "verification",
+                   *(["--smoke"] if smoke else []), *args], "RESULTS", on_run)
 
 
 def validation():
@@ -87,8 +90,9 @@ def smoke():
     aligned.plan = smoke_plan
     run = aligned.execute(cfg, "comparison", True, None, BENCH)
     aligned.verify_run(run)
-    verification = tagged([PY, "-u", SUITE, "run", "--scope", "verification", "--smoke"], "RESULTS")
-    old.verify_run(verification)
+    from experiments import sis_suite
+    verification = run_verification(smoke=True)
+    sis_suite.load().verify_run(verification)
     print("NATIVE_SMOKE_PASS protocols=6")
 
 
@@ -164,9 +168,13 @@ def whole_experiment(mode, dest, resume, from_paper=None):
             else:
                 suite.require(state, {"mode": mode}, "new continuation workflow")
                 comparison, verification = previous_paper_runs(from_paper, BENCH / "runs")
-                state.update(from_paper=str(from_paper), comparison=str(comparison), verification=str(verification))
-                print(f"REUSE_PASS comparison=216 verification=90\nCOMBINED={comparison}\nVERIFICATION={verification}",
-                      flush=True)
+                from experiments import sis_suite
+                state.update(from_paper=str(from_paper), comparison=str(comparison))
+                if (verification / "manifest.json").is_file() and not sis_suite.is_current(verification):
+                    print("Reusing four-protocol comparison; measuring the revised VOSA verification stage.")
+                else:
+                    state["verification"] = str(verification)
+                print(f"COMBINED={comparison}", flush=True)
         def save(key, value):
             state[key] = str(value)
             suite.write_json(state_file, state)
@@ -177,6 +185,10 @@ def whole_experiment(mode, dest, resume, from_paper=None):
                 save(name, result)
             return Path(state[name])
         suite.write_json(state_file, state)
+        if "verification" in state and (Path(state["verification"]) / "manifest.json").is_file():
+            from experiments import sis_suite
+            if not sis_suite.is_current(state["verification"]):
+                raise ValueError("Legacy verification in workflow; start a new workflow or use --from-paper.")
         print(f"WORKFLOW={dest}", flush=True)
         comparison = stage("comparison", run_comparison)
         def supplement(raw, record):
@@ -202,8 +214,16 @@ def main():
     for name in ("plan", "verify", "test", "build", "smoke", "setup-training"):
         sub.add_parser(name)
     sub.add_parser("setup").add_argument("--install-system", action="store_true")
-    for name in ("comparison", "verification", "training"):
+    for name in ("comparison", "training"):
         sub.add_parser(name).add_argument("--resume", type=Path)
+    verification = sub.add_parser("verification")
+    verification.add_argument("--resume", type=Path)
+    verification.add_argument("--smoke", action="store_true")
+    sub.add_parser("vosa-check", help="portable end-to-end smoke test of the two-matrix SIS commitment")
+    verification_figures = sub.add_parser("verification-figures", help="plot only the revised verification stage")
+    verification_figures.add_argument("--verification", required=True, type=Path)
+    verification_figures.add_argument("--mpvas-baseline", type=Path, help="reuse the mPVAS rows from a verified earlier run")
+    verification_figures.add_argument("--output", type=Path)
     grid_parser = sub.add_parser("grid")
     grid_parser.add_argument("--comparison", required=True, type=Path)
     grid_parser.add_argument("--resume", type=Path)
@@ -220,9 +240,13 @@ def main():
             p.add_argument("--grid", type=Path, help="OSA-only 48-run supplement for the extended figures")
     args = parser.parse_args()
     mode = args.action
-    if mode == "plan":
+    if mode == "vosa-check":
+        call([sys.executable, ROOT / "experiments/vosa_sis.py"])
+    elif mode == "verification-figures":
+        generate_verification(args.verification, (args.output or new_output(mode)).resolve(), args.mpvas_baseline)
+    elif mode == "plan":
         call([sys.executable, ALIGN, "plan", "--project", BENCH, "--fresh-all"])
-        call([sys.executable, SUITE, "plan", "--scope", "verification"])
+        call([sys.executable, SIS_SUITE, "plan", "--scope", "verification"])
         suite = align.load(SUITE, "plan")
         config = align.read(BENCH / "config.json")
         full, missing = osa_grid.plans(suite, config)
@@ -267,7 +291,7 @@ def main():
         elif mode == "comparison":
             run_comparison(args.resume)
         elif mode == "verification":
-            run_verification(args.resume)
+            run_verification(args.resume, smoke=args.smoke)
         elif mode == "grid":
             directory = align.absolute(args.comparison)
             load_comparison(directory)
